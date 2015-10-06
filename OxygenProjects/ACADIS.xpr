@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="16.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized version="16.1" xml:space="preserve">
+                <map>
+                    <entry>
+                        <String>validation.scenarios</String>
+                        <validationScenario-array/>
+                    </entry>
+                </map>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="ACADIS.xpr">
+        <folder name="EOL">
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/BEST/ISO19115/XML/102.001_HLY-07-01_Aloftcon_Camera_Images_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/ARCSS/ISO19115/XML/106.200_Snow_on_the_Alaska_North_Slope_Grids_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/SHEBA/ISO19115/XML/13.101_Tower_20m_flux_multi-level_msmts_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/AMTS/ISO19115/XML/215.001_AMTS_NCAR-NSF_C-130_Low_Rate_Navigation_State_Parameter_and_Microphysics_Flight-Level_Data_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/BASE/ISO19115/XML/230.001_Low_Rate_Navigation_State_Parameter_and_Microphysics_Flight-Level_Data_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/BOREAS/ISO19115/XML/234.001_Low_Rate_Navigation_State_Parameter_and_Microphysics_Flight-Level_Data_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/BSIERP/ISO19115/XML/245.B52-001_Long-term_observations_on_the_Bering_Sea_shelf_ADCP_data_from_mooring_site_2_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/PacMARS/ISO19115/XML/255.005_Macrobenthic_data_from_the_Chukchi_Sea_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/ATLAS/ISO19115/XML/46.100_East_Siberian_Transect-Air_Ground_Temperature_and_Snow_Depth_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/ITEX/ISO19115/XML/56.101_Seward_Peninsula-SoilAirand_Ground_Surface_Daily_Average_Temps_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/ARC-MIP/ISO19115/XML/61.001_ARCMIP_Atmospheric_Initial_and_Boundary_Conditions_ISO.xml"/>
+            <file name="../../Dropbox/BEMI/data/collections/NCAR/EOL/SBI/ISO19115/XML/62.001_Western_Arctic_Biomass_Data_ISO.xml"/>
+        </folder>
+    </projectTree>
+</project>

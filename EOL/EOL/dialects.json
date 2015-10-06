@@ -1,0 +1,49 @@
+{ "dialects": [ {"title": "netCDF (NcML)",
+      "code": "netCDF"},
+   
+
+      {"title": "THREDDS",
+      "code": "THREDDS"},
+   
+ 
+      {"title": "ISO 19115 and ISO 19115-2 / ISO 19139 and ISO 19139-2",
+      "code": "ISO"},
+   
+
+      {"title": "ISO 19115-1 / ISO 19115-3",
+      "code": "ISO-1"},
+ 
+      {"title": "ECHO",
+      "code": "ECHO"},
+
+      {"title": "EOS Core System",
+      "code": "ECS"},
+   
+
+      {"title": "Directory Interchange Format",
+      "code": "DIF"},
+   
+
+     
+      {"title": "NASA Unified Metadata Model",
+      "code": "UMM"},
+
+      {"title": "Data Catalog Vocabulary",
+      "code": "DCAT"},
+
+
+
+      {"title": "Web Service Description Language",
+      "code": "WSDL"},
+
+    
+ 
+      {"title": "DataCite 3.1",
+      "code": "DCITE"},
+
+      {"title": "FGDC Content Standard for Digital Geospatial Metadata (CSDGM)",
+      "code": "FGDC"},
+      {"title": "NCAR Earth Observing Laboratory",
+      "code": "EOL"},
+   ]
+}
