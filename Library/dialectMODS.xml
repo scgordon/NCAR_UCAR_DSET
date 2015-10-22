@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cw:crosswalk xmlns:cw="http://www.hdfgroup.org/metadata/published/xsd">
+                <cw:dialect order="47">
+                                <cw:title>Metadata Object Description Schema</cw:title>
+                                <cw:code>MODS</cw:code>
+                </cw:dialect>
+                <cw:spiral>
+                                <cw:item name="Abstract">/mods:mods/mods:abstract</cw:item>
+                                <cw:item name="Resource Identifier">/mods:mods/@packageId</cw:item>
+                                <cw:item name="Resource Title">/mods:mods/mods:dataset/mods:title</cw:item>
+                                <cw:item name="Author / Originator">/mods:mods/mods:dataset/mods:creator</cw:item>
+                                <cw:item name="Metadata Contact">/mods:mods/mods:dataset/mods:metadataProvider</cw:item>
+                                <cw:item name="Contributor Name">/mods:mods/mods:dataset/mods:associatedParty</cw:item>
+                                <cw:item name="Publisher">/mods:mods/mods:dataset/mods:publisher</cw:item>
+                                <cw:item name="Publication Date">/mods:mods/mods:dataset/mods:pubDate</cw:item>
+                                <cw:item name="Resource Contact">/mods:mods/mods:dataset/mods:contact</cw:item>
+                                <cw:item name="Abstract">/mods:mods/mods:dataset/mods:abstract</cw:item>
+                                <cw:item name="Theme Keyword">/mods:mods/mods:dataset/mods:keywordSet/mods:keyword</cw:item>
+                                <cw:item name="Resource Distribution">//mods:distribution</cw:item>
+                                <cw:item name="Spatial Extent">/mods:mods/mods:dataset/mods:coverage/mods:geographicCoverage</cw:item>
+                                <cw:item name="Taxonomic Extent">/mods:mods/mods:dataset/mods:coverage/mods:taxonomicCoverage</cw:item>
+                                <cw:item name="Temporal Extent">/mods:mods/mods:dataset/mods:coverage/mods:temporalCoverage</cw:item>
+                                <cw:item name="Maintenance">/mods:mods/mods:dataset/mods:maintenance</cw:item>
+                                <cw:item name="Resource Use Constraints">/mods:mods/mods:dataset/mods:intellectualRights</cw:item>
+                                <cw:item name="Process Step">/mods:mods/mods:dataset/mods:methods</cw:item>
+                                <cw:item name="Project Description">/mods:mods/mods:dataset/mods:project</cw:item>
+                                <cw:item name="Entity Type Definition">/mods:mods/mods:dataset/mods:dataTable/mods:entityDescription</cw:item>
+                                <cw:item name="Attribute Definition">/mods:mods/mods:dataset/mods:dataTable/mods:attributeList/mods:attribute</cw:item>
+                                <cw:item name="Resource Access Constraints">/mods:mods/mods:access</cw:item>
+                                <cw:item name="Resource Format">/mods:mods/dataset/mods:dataTable/mods:physical</cw:item>
+                                <cw:item name="Attribute List">/mods:mods/mods:dataset/mods:dataTable/mods:attributeList</cw:item>
+                                <cw:item name="Attribute Constraints">/mods:mods/mods:dataset/mods:dataTable/mods:constraint</cw:item>
+                                <cw:item name="Resource Quality Description">//mods:methods/mods:qualityControl</cw:item>
+                </cw:spiral>
+</cw:crosswalk>
