@@ -1,32 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
-                 xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
-                 xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
-                 xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
-                 xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
-                 xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
-                 xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
-                 xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
-                 xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
-                 xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0"
-                 xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
-                 xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0"
-                 xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0"
-                 xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
-                 xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
-                 xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0"
-                 xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0"
-                 xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
-                 xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
-                 xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0"
-                 xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0"
-                 xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0"
-                 xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
-                 xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0"
-                 xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
-                 xmlns:gml="http://www.opengis.net/gml/3.2"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+   xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+   xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+   xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
    <mdb:metadataIdentifier>
       <mcc:MD_Identifier>
          <mcc:code>
@@ -164,8 +140,7 @@
             <gco:CharacterString>dataset.summary</gco:CharacterString>
          </mri:abstract>
          <mri:status>
-            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode"
-                                 codeListValue="dataset.progress">dataset.progress</mcc:MD_ProgressCode>
+            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="dataset.progress">dataset.progress</mcc:MD_ProgressCode>
          </mri:status>
          <mri:pointOfContact>
             <cit:CI_Responsibility>
@@ -200,8 +175,7 @@
             </cit:CI_Responsibility>
          </mri:pointOfContact>
          <mri:spatialRepresentationType>
-            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode"
-                                                  codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_dataset.spatial_type">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_dataset.spatial_type</mcc:MD_SpatialRepresentationTypeCode>
+            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_dataset.spatial_type">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_dataset.spatial_type</mcc:MD_SpatialRepresentationTypeCode>
          </mri:spatialRepresentationType>
          <mri:topicCategory>
             <mri:MD_TopicCategoryCode>dataset_iso_topic_category.iso_topic_category</mri:MD_TopicCategoryCode>
@@ -242,8 +216,7 @@
                   <gco:CharacterString>platform.name</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="platform">platform</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</mri:MD_KeywordTypeCode>
                </mri:type>
             </mri:MD_Keywords>
          </mri:descriptiveKeywords>
@@ -253,8 +226,7 @@
                   <gco:CharacterString>instrument.name </gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="instrument">instrument</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="instrument">instrument</mri:MD_KeywordTypeCode>
                </mri:type>
             </mri:MD_Keywords>
          </mri:descriptiveKeywords>
@@ -271,8 +243,7 @@
                   <gco:CharacterString>gcmd_science_keyword.category&amp;gcmd_science_keyword.topic&amp;gcmd_science_keyword.variable_level_1&amp;gcmd_science_keyword.variable_level_2&amp;variable_level_3&amp;gcmd_science_keyword.detailed_variable</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -300,8 +271,7 @@
                   <gco:CharacterString>gcmd_location.geographicRegion.foo</gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="place">place</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place">place</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -328,8 +298,7 @@
                         </gco:CharacterString>
                </mri:keyword>
                <mri:type>
-                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode"
-                                          codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
                </mri:type>
                <mri:thesaurusName>
                   <cit:CI_Citation>
@@ -373,12 +342,10 @@
                   </cit:CI_Citation>
                </mri:name>
                <mri:associationType>
-                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode"
-                                              codeListValue="largerWorkCitation">largerWorkCitation</mri:DS_AssociationTypeCode>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</mri:DS_AssociationTypeCode>
                </mri:associationType>
                <mri:initiativeType>
-                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode"
-                                             codeListValue="project">project</mri:DS_InitiativeTypeCode>
+                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode" codeListValue="project">project</mri:DS_InitiativeTypeCode>
                </mri:initiativeType>
             </mri:MD_AssociatedResource>
          </mri:associatedResource>
