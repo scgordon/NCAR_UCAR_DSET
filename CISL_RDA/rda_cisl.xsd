@@ -1,0 +1,657 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:include schemaLocation="http://rda.ucar.edu/schemas/common.xsd"/>
+<xsd:include schemaLocation="http://rda.ucar.edu/schemas/dscommon.xsd"/>
+<!--  dsOverview element; root element  -->
+<xsd:element name="dsOverview">
+<xsd:complexType>
+<xsd:sequence>
+<!--
+ dsOverview/timeStamp element; must occur exactly once 
+-->
+<xsd:element name="timeStamp" type="timeStampType"/>
+<!--
+ dsOverview/continuingUpdate element; must occur exactly once 
+-->
+<xsd:element ref="continuingUpdate"/>
+<!--  dsOverview/access element; must occur exactly once  -->
+<!--  deprecated  -->
+<xsd:element ref="access" minOccurs="0"/>
+<!--  dsOverview/logo element; may occur once  -->
+<xsd:element name="logo" type="xsd:string" minOccurs="0"/>
+<!--  dsOverview/title element; must occur exactly once  -->
+<xsd:element name="title" type="xsd:string"/>
+<!--
+ dsOverview/summary element; must occur exactly once 
+-->
+<xsd:element name="summary" type="textType"/>
+<!--
+ dsOverview/creator element; must occur exactly once 
+-->
+<xsd:element name="creator" type="sourceType"/>
+<!--
+ dsOverview/contributor element; may occur one or more times 
+-->
+<xsd:element name="contributor" type="sourceType" maxOccurs="unbounded"/>
+<!--
+ dsOverview/author element, may occur as many times as needed 
+-->
+<xsd:element name="author" type="authorType" minOccurs="0" maxOccurs="unbounded"/>
+<!--  dsOverview/restrictions element; may occur once  -->
+<xsd:element name="restrictions" minOccurs="0">
+<xsd:complexType>
+<xsd:choice>
+<xsd:sequence>
+<xsd:element name="access" type="textType"/>
+<xsd:element name="usage" type="textType" minOccurs="0"/>
+</xsd:sequence>
+<xsd:sequence>
+<xsd:element name="usage" type="textType"/>
+</xsd:sequence>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+<!--  dsOverview/accessCode element; may occur once  -->
+<xsd:element name="accessCode" type="xsd:string" minOccurs="0"/>
+<!--
+ dsOverview/accessOption element; may occur as many times as needed 
+-->
+<!--  deprecated  -->
+<xsd:element ref="accessOption" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/variable element; must occur one or more times 
+-->
+<xsd:element name="variable" type="controlledKeywordType" maxOccurs="unbounded"/>
+<!--
+ dsOverview/contact element; must occur one or more times 
+-->
+<xsd:element ref="contact" maxOccurs="unbounded"/>
+<!--
+ dsOverview/platform element; must occur one or more times 
+-->
+<xsd:element name="platform" type="controlledKeywordType" maxOccurs="unbounded"/>
+<!--
+ dsOverview/instrument element; may occur as many times as needed 
+-->
+<xsd:element name="instrument" type="controlledKeywordType" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/project element; may occur as many times as needed 
+-->
+<xsd:element name="project" type="controlledKeywordType" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/supportsProject element; may occur as many times as needed 
+-->
+<xsd:element name="supportsProject" type="controlledKeywordType" minOccurs="0" maxOccurs="unbounded"/>
+<!--  dsOverview/topic element; must occur exactly once  -->
+<xsd:element name="topic" type="controlledKeywordType"/>
+<!--
+ dsOverview/keyword element; may occur as many times as needed 
+-->
+<xsd:element name="keyword" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/reference element; may occur as many times as needed 
+-->
+<xsd:element ref="reference" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/referenceURL element; may occur as many times as needed 
+-->
+<xsd:element name="referenceURL" type="URLType" minOccurs="0" maxOccurs="unbounded"/>
+<!--  dsOverview/acknowledgement element; may occur once  -->
+<xsd:element name="acknowledgement" type="textType" minOccurs="0"/>
+<!--
+ dsOverview/relatedResource element; may occur as many times as needed 
+-->
+<xsd:element name="relatedResource" type="URLType" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/relatedDOI element; may occur as many times as needed 
+-->
+<xsd:element ref="relatedDOI" minOccurs="0" maxOccurs="unbounded"/>
+<!--
+ dsOverview/relatedDataset element; may occur as many times as needed 
+-->
+<xsd:element name="relatedDataset" type="datasetIDType" minOccurs="0" maxOccurs="unbounded"/>
+<!--  dsOverview/publicationDate element; may occur once  -->
+<xsd:element name="publicationDate" type="dateType" minOccurs="0"/>
+<!--  dsOverview/contentMetadata element; may occur once  -->
+<xsd:element ref="contentMetadata" minOccurs="0"/>
+</xsd:sequence>
+<!--  dsOverview@ID attribute; required  -->
+<xsd:attribute name="ID" type="datasetID" use="required"/>
+<!--  dsOverview@type attribute; required  -->
+<xsd:attribute name="type" type="datasetType" use="required"/>
+</xsd:complexType>
+</xsd:element>
+<!--  accessOption element  -->
+<xsd:element name="accessOption">
+<xsd:complexType>
+<xsd:attribute name="type" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="inet"/>
+<xsd:enumeration value="submitRequest"/>
+<xsd:enumeration value="cdp"/>
+<xsd:enumeration value="digitalMedia"/>
+<xsd:enumeration value="requestForm"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="show" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="on"/>
+<xsd:enumeration value="off"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="url" type="hrefType"/>
+<xsd:attribute name="webhome" type="xsd:string"/>
+<xsd:attribute name="description" type="xsd:string"/>
+</xsd:complexType>
+</xsd:element>
+<!--  contact element  -->
+<xsd:element name="contact">
+<xsd:simpleType>
+<!--  restrict contact contents to enumeration list  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="Bob Dattore"/>
+<xsd:enumeration value="Chi-Fan Shih"/>
+<xsd:enumeration value="Dave Stepaniak"/>
+<xsd:enumeration value="Doug Schuster"/>
+<xsd:enumeration value="Grace Peng"/>
+<xsd:enumeration value="Steven Worley"/>
+<xsd:enumeration value="Thomas Cram"/>
+<xsd:enumeration value="Zaihua Ji"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+<!--  reference element  -->
+<xsd:element name="reference">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:group ref="refHead"/>
+<!--
+ choice of publisher, periodical, organization, conference, or book elements; one must occur exactly once 
+-->
+<xsd:choice>
+<!--  publisher element  -->
+<xsd:element name="publisher">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="place" type="xsd:string" use="required"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<!--  periodical element  -->
+<xsd:element name="periodical">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="number" type="xsd:string" use="required"/>
+<xsd:attribute name="pages" type="xsd:string" use="required"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<!--  organization element  -->
+<xsd:element name="organization">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="reportID" type="xsd:string" use="required"/>
+<xsd:attribute name="pages" type="xsd:int" use="required"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<!--  conference element  -->
+<xsd:element name="conference">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="host" type="xsd:string" use="required"/>
+<xsd:attribute name="location" type="xsd:string" use="required"/>
+<xsd:attribute name="pages" type="xsd:string" use="required"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<!--  book element, for referencing a chapter in a book  -->
+<xsd:element name="book">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="editor" type="xsd:string" use="required"/>
+<xsd:attribute name="publisher" type="xsd:string" use="required"/>
+<xsd:attribute name="pages" type="xsd:string" use="required"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+<!--  doi element, may occur once  -->
+<xsd:element ref="doi" minOccurs="0"/>
+<!--  url element, may occur once  -->
+<xsd:element name="url" type="hrefType" minOccurs="0"/>
+<!--  annotation element, may occur once  -->
+<xsd:element name="annotation" type="xsd:string" minOccurs="0"/>
+</xsd:sequence>
+<xsd:attribute name="type" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="book"/>
+<xsd:enumeration value="book_chapter"/>
+<xsd:enumeration value="journal"/>
+<xsd:enumeration value="preprint"/>
+<xsd:enumeration value="technical_report"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<!--  relatedDOI element  -->
+<xsd:element name="relatedDOI">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<!--  relationType attribute; required  -->
+<xsd:attribute name="relationType" use="required">
+<xsd:simpleType>
+<!--  restrict relationType to the following enumeration  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="IsVariantFormOf"/>
+<xsd:enumeration value="IsDerivedFrom"/>
+<xsd:enumeration value="IsSourceOf"/>
+<xsd:enumeration value="IsNewVersionOf"/>
+<xsd:enumeration value="IsPreviousVersionOf"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<!--  contentMetadata element  -->
+<xsd:element name="contentMetadata">
+<xsd:complexType>
+<xsd:choice>
+<xsd:sequence>
+<!--
+ contentMetadata/temporal element, must occur one or more times 
+-->
+<xsd:element name="temporal" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:attribute name="start" type="dateTimeType" use="required"/>
+<xsd:attribute name="end" type="dateTimeType" use="required"/>
+<xsd:attribute name="groupID" type="xsd:string" use="required"/>
+</xsd:complexType>
+</xsd:element>
+<!--
+ contentMetadata/temporalFrequency element, may occur as many time as needed 
+-->
+<xsd:element name="temporalFrequency" minOccurs="0" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:attribute name="type" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="irregular"/>
+<xsd:enumeration value="regular"/>
+<xsd:enumeration value="climatology"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="number" type="xsd:int"/>
+<xsd:attribute name="unit" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="second"/>
+<xsd:enumeration value="minute"/>
+<xsd:enumeration value="hour"/>
+<xsd:enumeration value="day"/>
+<xsd:enumeration value="week"/>
+<xsd:enumeration value="month"/>
+<xsd:enumeration value="season"/>
+<xsd:enumeration value="winter"/>
+<xsd:enumeration value="spring"/>
+<xsd:enumeration value="summer"/>
+<xsd:enumeration value="autumn"/>
+<xsd:enumeration value="year"/>
+<xsd:enumeration value="decade"/>
+<xsd:enumeration value="30-year"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="statistics">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="accumulation"/>
+<xsd:enumeration value="anomaly"/>
+<xsd:enumeration value="covariance"/>
+<xsd:enumeration value="difference"/>
+<xsd:enumeration value="maximum"/>
+<xsd:enumeration value="mean"/>
+<xsd:enumeration value="minimum"/>
+<xsd:enumeration value="variance"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<!--
+ contentMetadata/dataType element, must occur one or more times 
+-->
+<xsd:element name="dataType" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:restriction base="dataTypeType">
+<xsd:enumeration value="climate_proxy"/>
+<xsd:enumeration value="cyclone_fix"/>
+<xsd:enumeration value="grid"/>
+<xsd:enumeration value="location"/>
+<xsd:enumeration value="log_entry"/>
+<xsd:enumeration value="platform_observation"/>
+<xsd:enumeration value="radar"/>
+<xsd:enumeration value="satellite"/>
+</xsd:restriction>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<!--
+ contentMetadata/format element, must occur one or more times 
+-->
+<xsd:element name="format" type="formatType" maxOccurs="unbounded"/>
+<!--
+ contentMetadata/detailedVariables element, may occur once 
+-->
+<xsd:element name="detailedVariables" minOccurs="0">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="detailedVariable" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="units"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<!--  contentMetadata/varlistURL element, may occur once  -->
+<xsd:element name="varlistURL" type="hrefType" minOccurs="0"/>
+<!--  contentMetadata/levels element, may occur once  -->
+<xsd:element name="levels" minOccurs="0">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="level" minOccurs="0" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:attribute name="type" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="Ground or water surface"/>
+<xsd:enumeration value="Isobaric level"/>
+<xsd:enumeration value="Mean sea level"/>
+<xsd:enumeration value="Potential temperature level"/>
+<xsd:enumeration value="Sigma level"/>
+<xsd:enumeration value="Specified height above ground or water surface"/>
+<xsd:enumeration value="Specified height below ground or water surface"/>
+<xsd:enumeration value="Stratopause level"/>
+<xsd:enumeration value="Top of atmosphere"/>
+<xsd:enumeration value="Tropopause level"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="value" type="xsd:string" use="required"/>
+<xsd:attribute name="units" type="xsd:string"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="layer" minOccurs="0" maxOccurs="unbounded">
+<xsd:complexType>
+<xsd:attribute name="type" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="Entire Atmosphere"/>
+<xsd:enumeration value="Entire Ocean"/>
+<xsd:enumeration value="Isobaric layer"/>
+<xsd:enumeration value="Isopycnal layer"/>
+<xsd:enumeration value="Ocean mixed layer"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="top" type="xsd:string" use="required"/>
+<xsd:attribute name="bottom" type="xsd:string" use="required"/>
+<xsd:attribute name="units" type="xsd:string"/>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+</xsd:complexType>
+</xsd:element>
+<!--
+ contentMetadata/geospatialCoverage element, may occur once 
+-->
+<xsd:element name="geospatialCoverage" minOccurs="0">
+<xsd:complexType>
+<xsd:choice>
+<xsd:sequence>
+<xsd:element name="grid" maxOccurs="unbounded">
+<xsd:complexType>
+<!--  grid@definition attribute; required  -->
+<xsd:attribute name="definition" type="gridDefinition" use="required"/>
+<xsd:attributeGroup ref="gridDefinitionParameters"/>
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="location" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+</xsd:sequence>
+<xsd:sequence>
+<xsd:element name="location" type="xsd:string" maxOccurs="unbounded"/>
+</xsd:sequence>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:sequence>
+<xsd:sequence>
+<!--
+ contentMetadata/infoMSSFilesURL element, required in this instance 
+-->
+<xsd:element name="infoMSSFilesURL" type="hrefType"/>
+<!--
+ contentMetadata/infoWebFilesURL element, may occur once in this instance
+-->
+<xsd:element name="infoWebFilesURL" type="hrefType" minOccurs="0"/>
+</xsd:sequence>
+<xsd:sequence>
+<!--
+ contentMetadata/infoWebFilesURL element, required in this instance 
+-->
+<xsd:element name="infoWebFilesURL" type="hrefType"/>
+</xsd:sequence>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+<!--  continuingUpdate element  -->
+<xsd:element name="continuingUpdate">
+<xsd:complexType>
+<xsd:attribute name="value" use="required">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="yes"/>
+<xsd:enumeration value="no"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="frequency">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="daily"/>
+<xsd:enumeration value="weekly"/>
+<xsd:enumeration value="monthly"/>
+<xsd:enumeration value="bi-monthly"/>
+<xsd:enumeration value="quarterly"/>
+<xsd:enumeration value="half-yearly"/>
+<xsd:enumeration value="yearly"/>
+<xsd:enumeration value="irregularly"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:complexType>
+</xsd:element>
+<!--  access element  -->
+<xsd:element name="access">
+<xsd:complexType>
+<xsd:simpleContent>
+<xsd:extension base="accessType">
+<!--  rate attribute; optional  -->
+<xsd:attribute name="pricingRate">
+<xsd:simpleType>
+<!--  restrict rate to the following enumeration  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="standard"/>
+<xsd:enumeration value="half_direct_copy"/>
+<xsd:enumeration value="direct_copy"/>
+<xsd:enumeration value="twice_direct_copy"/>
+<xsd:enumeration value="cd-rom"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+</xsd:element>
+<xsd:simpleType name="accessType">
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="all_free"/>
+<xsd:enumeration value="part_free"/>
+<xsd:enumeration value="none_free"/>
+</xsd:restriction>
+</xsd:simpleType>
+<!--  datasetType type definition  -->
+<xsd:simpleType name="datasetType">
+<!--  restrict type contents to enumeration  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="work-in-progress">
+<xsd:annotation>
+<xsd:documentation>Work-in-Progress - dataset is not published yet</xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="primary">
+<xsd:annotation>
+<xsd:documentation>
+Primary - data are relevant to current research by our user community
+</xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="historical">
+<xsd:annotation>
+<xsd:documentation>
+Historical - data are superseded but may still be useful for specific research applications
+</xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="internal">
+<xsd:annotation>
+<xsd:documentation>
+Internal - dataset description is removed completely from the public view
+</xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+<xsd:enumeration value="dead">
+<xsd:annotation>
+<xsd:documentation>
+Dead - data are no longer available; only the abstract will be displayed to users
+</xsd:documentation>
+</xsd:annotation>
+</xsd:enumeration>
+</xsd:restriction>
+</xsd:simpleType>
+<!--  sourceType definition  -->
+<xsd:complexType name="sourceType">
+<!--  vocabulary attribute; required  -->
+<xsd:attribute name="vocabulary" use="required">
+<xsd:simpleType>
+<!--  restrict vocabulary to the following enumeration  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="GCMD"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+<xsd:attribute name="name" type="xsd:string" use="required"/>
+<xsd:attribute name="formerName" type="xsd:string"/>
+<xsd:attribute name="url" type="xsd:string"/>
+<xsd:attribute name="contact" type="xsd:string"/>
+<xsd:attribute name="citable">
+<xsd:simpleType>
+<!--  restrict citable to a yes|no enumeration  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="yes"/>
+<xsd:enumeration value="no"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:complexType>
+<!--  authorType definition  -->
+<xsd:complexType name="authorType">
+<xsd:attribute name="fname" type="xsd:string" use="required"/>
+<xsd:attribute name="mname" type="xsd:string" use="required"/>
+<xsd:attribute name="lname" type="xsd:string" use="required"/>
+</xsd:complexType>
+<!--  controlledKeywordType definition  -->
+<xsd:complexType name="controlledKeywordType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<!--  vocabulary attribute; required  -->
+<xsd:attribute name="vocabulary" use="required">
+<xsd:simpleType>
+<!--  restrict vocabulary to the following enumeration  -->
+<xsd:restriction base="xsd:string">
+<xsd:enumeration value="GCMD"/>
+<xsd:enumeration value="ISO"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+<!--  URLType definition  -->
+<xsd:complexType name="URLType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="url" type="hrefType"/>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+<!--  dataTypeType definition  -->
+<xsd:complexType name="dataTypeType">
+<xsd:simpleContent>
+<xsd:extension base="xsd:string">
+<xsd:attribute name="process">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:pattern value="(analysis)|(\d{1,4}-hour forecast)"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:attribute>
+</xsd:extension>
+</xsd:simpleContent>
+</xsd:complexType>
+<!--  refHead definition  -->
+<xsd:group name="refHead">
+<xsd:sequence>
+<!--  authorList element; must occur exactly once  -->
+<xsd:element name="authorList" type="xsd:string"/>
+<!--  year element; must occur exactly once  -->
+<xsd:element name="year" type="xsd:int"/>
+<!--  title element; must occur exactly once  -->
+<xsd:element name="title" type="xsd:string"/>
+</xsd:sequence>
+</xsd:group>
+<!--  doi element  -->
+<xsd:element name="doi">
+<xsd:simpleType>
+<xsd:restriction base="xsd:string">
+<xsd:pattern value="10\..{4,}/.{1,}"/>
+</xsd:restriction>
+</xsd:simpleType>
+</xsd:element>
+</xsd:schema>
