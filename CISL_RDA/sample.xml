@@ -5,29 +5,13 @@
         NCEP Version 2.0 OI Global SST and NCDC Version 4.0 Extended Reconstructed SST Analyses
     </title>
     <summary>
-        <p>
-            The NCEP OI is a weekly and monthly 1 degree global analysis dataset that is available for November 1981 through a current date. The analyses are determined by blending marine surface observations (ICOADS and others) and satellite AVHRR data using an OI method.
+        <p> The NCEP OI is a weekly and monthly 1 degree global analysis dataset that is available for November 1981 through a current date. The analyses are determined by blending marine surface observations (ICOADS and others) and satellite AVHRR data using an OI method. </p>
+        <p> The <a href="http://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v4/">NCDC ERSST Version 4</a> is a monthly 2 degree global analysis for 1854 through a current date. EOF methods are used to create these grids using marine surface data (ICOADS). </p>
+        <p> Various climate indexes (e.g. SOI) are available from the <a href="http://www.cpc.ncep.noaa.gov/data/indices/">Climate Prediction Center</a>
         </p>
-        <p>
-            The
-            <a href="http://www1.ncdc.noaa.gov/pub/data/cmb/ersst/v4/">NCDC ERSST Version 4</a>
-            is a monthly 2 degree global analysis for 1854 through a current date. EOF methods are used to create these grids using marine surface data (ICOADS).
+        <p> Recent weekly OI SST plots and other products are available at <a href="http://www.emc.ncep.noaa.gov/research/cmb/sst_analysis/">NOAA OI SST Analysis page</a>
         </p>
-        <p>
-            Various climate indexes (e.g. SOI) are available from the
-            <a href="http://www.cpc.ncep.noaa.gov/data/indices/">Climate Prediction Center</a>
-        </p>
-        <p>
-            Recent weekly OI SST plots and other products are available at
-            <a href="http://www.emc.ncep.noaa.gov/research/cmb/sst_analysis/">NOAA OI SST Analysis page</a>
-        </p>
-        <p>
-            Go to
-            <a href="http://cdp.ucar.edu/MergedHadleyOI">
-                Merged Hadley - OI V2 SST and Sea Ice Concentration dataset
-            </a>
-            for a new surface boundary dataset for uncoupled simulations with the Community Atmosphere Model (CAM).
-        </p>
+        <p> Go to <a href="http://cdp.ucar.edu/MergedHadleyOI"> Merged Hadley - OI V2 SST and Sea Ice Concentration dataset </a> for a new surface boundary dataset for uncoupled simulations with the Community Atmosphere Model (CAM). </p>
     </summary>
     <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
     <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP > National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" contact="Diane Stokes" citable="no"/>
@@ -114,8 +98,6 @@
         <geospatialCoverage>
             <grid definition="latLon" numX="360" numY="180" startLon="0.5E" startLat="89.5N" endLon="359.5E" endLat="89.5S" xRes="1" yRes="1"/>
         </geospatialCoverage>
-        <geospatialCoverage>
-            <grid definition="latLon" numX="180" numY="89" startLon="0E" startLat="88S" endLon="358E" endLat="88N" xRes="2" yRes="2"/>
-        </geospatialCoverage>
+        
     </contentMetadata>
 </dsOverview>
