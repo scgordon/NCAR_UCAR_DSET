@@ -4,7 +4,7 @@
                                 <cw:title>RDA-CISL Markup Language</cw:title>
                                 <cw:code>RDA-CISL</cw:code>
                 </cw:dialect>
-                <cw:spiral>                           
+                <cw:spiral>
                                 <cw:item name="Resource Identifier">rda:dsOverview/@ID</cw:item>
                                 <cw:item name="Resource Title">rda:dsOverview/rda:title</cw:item>
                                 <cw:item name="Author / Originator">rda:dsOverview/rda:author</cw:item>
@@ -12,13 +12,14 @@
                                 <cw:item name="Contributor Name">rda:dsOverview/rda:contributor</cw:item>
                                 <cw:item name="Publisher">rda:dsOverview/rda:creator</cw:item>
                                 <cw:item name="Publication Date">/rda:dsOverview/rda:publicationDate</cw:item>
-                                <cw:item name="Resource Contact"></cw:item>
+                                <cw:item name="Resource Contact"/>
                                 <cw:item name="Abstract">rda:dsOverview/rda:summary</cw:item>
                                 <cw:item name="Theme Keyword">rda:dsOverview/rda:variable</cw:item>
                                 <cw:item name="Theme Keyword">rda:dsOverview/rda:keyword</cw:item>
-                                <cw:item name="Bounding Box">/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage</cw:item></cw:spiral>
+                                <cw:item name="Bounding Box">/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage</cw:item>
+
                                 <cw:item name="Resource Creation/Revision Date">/rda:dsOverview/rda:contentMetadata/rda:temporal</cw:item>
                                 <cw:item name="Resource Format">/eml:eml/dataset/eml:dataTable/eml:physical</cw:item>
                                 <cw:item name="Keyword Vocabulary">rda:dsOverview/rda:variable/@vocabulary</cw:item>
-                
+                </cw:spiral>
 </cw:crosswalk>
