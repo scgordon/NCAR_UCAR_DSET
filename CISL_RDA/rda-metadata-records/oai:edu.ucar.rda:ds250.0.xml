@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:41Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds250.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds250.0</identifier>
+        <datestamp>2013-04-11T21:46:09Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="250.0" type="primary">
+          <timeStamp value="2013-04-11 15:46:07 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>Pacific Sea Level Height Station Observations, daily and hourly, by Wyrtki</title>
+          <summary>
+              <p>Analyzed at the TOGA Sea Level Data Center.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="UHI/SOEST/METEO > Meteorology Department, School of Ocean and Earth Science and Technology, University of Hawaii" contact="Klaus Wyrtki" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Coastal Processes > Sea Level Rise</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Tides > Tidal Height</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">COASTAL STATIONS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <reference type="technical_report">
+              <authorList>Caldwell, P., K. Wyrtki, and S. Nakahara</authorList>
+              <year>1989</year>
+              <title>TOGA Sea Level Center: Data from the Pacific</title>
+              <organization reportID="JIMAR Contribution 89-202, Joint Archive for Sea Level Data Report 6" pages="34">Joint Institute for Marine and Atmospheric Research, University of Hawaii</organization>
+            
+          </reference>
+          <publicationDate>1986-10-22</publicationDate>
+          <contentMetadata>
+              <temporal start="1901" end="1987" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>NODC_F184</format>
+              <format>NODC_F185</format>
+              <format>NODC_F186</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

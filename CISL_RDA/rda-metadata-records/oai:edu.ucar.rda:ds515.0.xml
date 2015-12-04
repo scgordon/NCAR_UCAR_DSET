@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds515.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds515.0</identifier>
+        <datestamp>2007-05-11T21:41:01Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="515.0" type="primary">
+          <timeStamp value="2007-05-11 15:41:01 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">all_free</access>
+          <title>GATE ASECNA African Daily Precipitation for 1974</title>
+          <summary>
+              <p>This dataset contains daily precipitation data for 1974 for
+              stations in several African countries.  These data were provided
+              by ASECNA (Agency for Air Traffic Safety in Africa and
+              Madagascar) as part of the GATE experiment.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="MG/ASECNA > Agence pour la Securite de la Navigation Aerienne en Afrique et a Madagascar" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <project vocabulary="GCMD">GATE > GARP Atlantic Tropical Experiment</project>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1980-03-21</publicationDate>
+          <contentMetadata>
+              <temporal start="1974-01" end="1974-12" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

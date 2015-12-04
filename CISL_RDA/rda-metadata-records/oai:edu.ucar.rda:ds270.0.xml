@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:13Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds270.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds270.0</identifier>
+        <datestamp>2013-04-11T21:47:05Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="270.0" type="historical">
+          <timeStamp value="2013-04-11 15:47:02 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">all_free</access>
+          <title>Washington and Thiel's Global Sea Surface Temperature Climatology</title>
+          <summary>
+              <p>Based on digitized charts available prior to 1970.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="SCRIPPS/PORD > Physical Oceanography Research Division, Scripps Institution of Oceanography" contact="Warren Washington;Linda Thiel" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">MAPS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <reference type="technical_report">
+              <authorList>Washington, W.M. and L.G. Thiel</authorList>
+              <year>1970</year>
+              <title>Digitized Global Monthly Mean Ocean Surface Temperatures</title>
+              <organization reportID="TN-54+STR" pages="30">National Center for Atmospheric Research</organization>
+            
+          </reference>
+          <publicationDate>9999-00-00</publicationDate>
+          <contentMetadata>
+              <temporal start="9998" end="9998" groupID="Entire Dataset" />
+              <temporalFrequency type="climatology" unit="month" />
+              <dataType>grid</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+              <geospatialCoverage>
+                <grid definition="latLon" numX="144" numY="71" startLon="180W" startLat="87.5S" endLon="177.5E" endLat="87.5N" xRes="2.5" yRes="2.5" />
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

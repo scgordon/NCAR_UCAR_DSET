@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:50Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds287.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds287.0</identifier>
+        <datestamp>2008-10-27T16:47:06Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="287.0" type="primary">
+          <timeStamp value="2008-10-27 10:47:02 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>GFDL MOM Climatological Ocean Initialization Analyses</title>
+          <summary>
+              <p>Formatted and Unformatted data archive used to create initialization grids for the GFDL MOM model.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/GFDL > NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Water Temperature</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <publicationDate>1992-09-15</publicationDate>
+          <contentMetadata>
+              <temporal start="9998" end="9998" groupID="Entire Dataset" />
+              <dataType>grid</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

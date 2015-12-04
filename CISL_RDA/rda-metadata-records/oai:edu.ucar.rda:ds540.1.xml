@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:02Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds540.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds540.1</identifier>
+        <datestamp>2015-02-13T20:40:57Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="540.1" type="primary">
+          <timeStamp value="2015-11-02 9:14:51 -0700" />
+          <doi>10.5065/D6CF9N3F</doi>
+          <continuingUpdate value="yes" frequency="monthly" />
+          
+          <title>International Comprehensive Ocean-Atmosphere Data Set (ICOADS) Release 2.5, Monthly Summaries</title>
+          <summary>
+              <p>The International Comprehensive Ocean-Atmosphere Data Set (ICOADS) is a global ocean marine meteorological and surface ocean dataset.  It is formed by merging many national and international data sources that contain measurements and visual observations from ships (merchant, navy, research), moored and drifting buoys, coastal stations, and other marine platforms. The coverage is global and sampling density varies depending on date and geographic position relative to shipping routes and ocean observing systems.  The monthly summary time
+              series are available at 2-degree (since 1800) and 1-degree (since 1960) spatial
+              resolutions. Observations (22 observed and computed parameters) taken in each month for a give spatial latitude by longitude box are statistically summarized (e.g. mean, median, number of observations, etc) and NOT interpolated or analyzed to fill data voids.</p>
+              <p>All three U.S. ICOADS partners (NOAA/ESRL, NOAA/NCDC, NCAR) offer various data
+              access and format options.  To review all available options see the
+              <a href="http://icoads.noaa.gov/products.html">ICOADS website</a>.
+              </p>
+              <p>IMPORTANT: The time period of data available is defined in two segments.
+              <ul>
+              <li>ICOADS Monthly Summary Release 2.5 covers 1800 through 2007</li>
+              <li>All data following the Release 2.5 end date is based exclusively on real-time GTS data with minimal quality control.  These data should be considered preliminary and will be subject to change in new Releases of ICOADS</li>
+              </ul>
+              </p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" citable="yes" />
+          <contributor vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" formerName="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" citable="yes" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/ESRL > Earth System Research Laboratory, NOAA, U.S. Department of Commerce" formerName="Climate Diagnostics Center" citable="yes" />
+          <contributor vocabulary="GCMD" name="UCO/CIRES > Cooperative Institute for Research in Environmental Sciences, University of Colorado" citable="yes" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/OAR/PMEL > Pacific Marine Environmental Laboratory, OAR, NOAA, U.S. Department of Commerce" citable="no" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NDBC > National Data Buoy Center, National Weather Service, NOAA, U.S. Department of Commerce" citable="no" />
+          <contributor vocabulary="GCMD" name="CA/DFO/ISDM > Integrated Science Data Management, Fisheries and Oceans, Canada" formerName="MEDS" citable="no" />
+          <contributor vocabulary="GCMD" name="GB/MOD/MET > Met Office, Ministry of Defence, United Kingdom" citable="no" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP > National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" citable="no" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NODC/OCL > Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce" citable="no" />
+          <contributor vocabulary="GCMD" name="JP/JAMSTEC/TRITON > TRITON Office, Japan Marine Science and Technology Center, Japan" citable="no" />
+          <contributor vocabulary="GCMD" name="FSU/COAPS > Center for Ocean-Atmospheric Prediction Studies, Florida State University" citable="no" />
+          <contributor vocabulary="GCMD" name="DE/DWD > Deutscher Wetterdienst (German Meteorological Service), Germany" citable="no" />
+          <contributor vocabulary="GCMD" name="UN/WMO > World Meteorological Organization, United Nations" citable="no" />
+          <contributor vocabulary="GCMD" name="GB/NOCS > National Oceanography Centre, Southampton, United Kingdom" citable="no" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Wind Stress</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <contact>Zaihua Ji</contact>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">DRIFTING OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">BUOYS</platform>
+          <platform vocabulary="GCMD">MOORINGS</platform>
+          <platform vocabulary="GCMD">COASTAL STATIONS</platform>
+          <project vocabulary="GCMD">ICOADS > International Comprehensive Ocean Atmosphere Data Set</project>
+          <topic vocabulary="ISO">oceans</topic>
+          <reference type="journal"><authorList>Woodruff, S.D., S.J. Worley, S.J. Lubker, Z. Ji, J.E. Freeman, D.I. Berry, P. Brohan, E.C. Kent, R.W. Reynolds, S.R. Smith, C. Wilkinson</authorList><year>2011</year><title>ICOADS Release 2.5: extensions and enhancements to the surface marine meteorological archive</title><periodical number="31(7)" pages="951-967">International Journal of Climatology</periodical><doi>10.1002/joc.2103</doi><url>http://onlinelibrary.wiley.com/doi/10.1002/joc.2103/full</url>
+          </reference>
+          <relatedResource url="http://icoads.noaa.gov/">ICOADS Project Website</relatedResource>
+          <relatedDataset ID="540.0" />
+          <publicationDate>1984-04-18</publicationDate>
+          <contentMetadata>
+              <temporal start="1960-01" end="2015-10-31" groupID="MSG2.5_1X1_EQ" />
+              <temporal start="1800-01" end="1997-12" groupID="ADPQC" />
+              <temporal start="1800-01" end="2015-10-31" groupID="MSG2.5_2X2" />
+              <temporal start="1960-01" end="2015-10-31" groupID="MSG2.5_1X1" />
+              <temporalFrequency type="regular" number="1" unit="month" statistics="mean" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+                <level type="Mean sea level" value="0" />
+              </levels>
+              <geospatialCoverage>
+                <location>Ocean > Arctic Ocean</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Azores</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Bermuda</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Canary Islands</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Cape Verde</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Antigua And Barbuda</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Bahamas</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Bonaire</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Cuba</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Curacao</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Dominica</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Dominican Republic</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Grenada</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Guadeloupe</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Haiti</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Jamaica</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Martinique</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Puerto Rico</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > St Kitts And Nevis</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > St Lucia</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > St Vincent And The Grenadines</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Trinidad And Tobago</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Turks And Caicos Islands</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Virgin Islands</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Madeira</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Corsica</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Cyprus</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Malta</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Sardinia</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Sicily</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Norwegian Sea > Faeroe Islands</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > St Pierre And Miquelon</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Svalbard And Jan Mayen</location>
+                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > Falkland Islands</location>
+                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > Sao Tome And Principe</location>
+                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > South Georgia Island</location>
+                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > South Orkney Islands</location>
+                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > South Sandwich Islands</location>
+                <location>Ocean > Indian Ocean > Andaman Islands</location>
+                <location>Ocean > Indian Ocean > Borneo</location>
+                <location>Ocean > Indian Ocean > Brunei Darussalam</location>
+                <location>Ocean > Indian Ocean > Christmas Island</location>
+                <location>Ocean > Indian Ocean > Comoros</location>
+                <location>Ocean > Indian Ocean > Indonesia</location>
+                <location>Ocean > Indian Ocean > Indonesia > Sumatra</location>
+                <location>Ocean > Indian Ocean > Madagascar</location>
+                <location>Ocean > Indian Ocean > Malaysia</location>
+                <location>Ocean > Indian Ocean > Maldives</location>
+                <location>Ocean > Indian Ocean > Mauritius</location>
+                <location>Ocean > Indian Ocean > Nicobar Islands</location>
+                <location>Ocean > Indian Ocean > Reunion</location>
+                <location>Ocean > Indian Ocean > Seychelles</location>
+                <location>Ocean > Indian Ocean > Singapore</location>
+                <location>Ocean > Indian Ocean > Sri Lanka</location>
+                <location>Ocean > Indian Ocean > Zanzibar</location>
+                <location>Ocean > Pacific Ocean > Central Pacific Ocean > Guam</location>
+                <location>Ocean > Pacific Ocean > Central Pacific Ocean > Kiribati</location>
+                <location>Ocean > Pacific Ocean > Central Pacific Ocean > Wake Island</location>
+                <location>Ocean > Pacific Ocean > Eastern Pacific Ocean > Galapagos Islands</location>
+                <location>Ocean > Pacific Ocean > North Pacific Ocean > Okinawa</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > New Caledonia</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Papua New Guinea</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Solomon Islands</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Vanuatu</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Cook Islands</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Fiji</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > French Polynesia</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Niue</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Pitcairn Island</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Samoa</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tokelau</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tonga</location>
+                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tuvalu</location>
+                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Federated States of Micronesia</location>
+                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Marshall Islands</location>
+                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Northern Mariana Islands</location>
+                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Palau</location>
+                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Philippines</location>
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
