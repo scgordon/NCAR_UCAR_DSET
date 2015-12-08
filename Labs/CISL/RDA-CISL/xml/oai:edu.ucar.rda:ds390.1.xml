@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:59Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds390.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds390.1</identifier>
+        <datestamp>2008-09-30T20:12:06Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="390.1" type="primary">
+          <timeStamp value="2008-09-30 14:12:02 -0600" />
+          <continuingUpdate value="yes" frequency="yearly" />
+          <access pricingRate="standard">none_free</access>
+          <title>U.S. Controlled Time Series Radiosonde Observations, daily 1948-con</title>
+          <summary>
+              <p>U.S. controlled station time series of upper air observations (soundings)
+              comprise the data in this set.
+              From the National Climatic Data Center (NCDC), DSS obtains annual updates of the DSI-6301 UPPER AIR DIGITAL FILES,
+              which are then quality checked, reformatted, hydrostatically checked, and merged into existing station time series.</p>
+              <p>Primarily, stations are located in the contiguous U.S., Alaska, the Caribbean,
+              Hawaii and other Pacific Islands, plus Keflavik, Ascension Island, Diego Garcia, and the South Pole. There are currently about 110 stations received.</p>
+              <p>Mandatory, standard, and significant levels may include pressure, height,
+              temperature, moisture, wind direction and speed. Earliest data is for 1945, but periods of record vary widely among the stations.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Atmospheric Pressure Measurements</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">RAWINSONDES</platform>
+          <platform vocabulary="GCMD">PIBAL > Pilot Balloons</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <platform vocabulary="GCMD">FIXED SHIPS</platform>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedResource url="http://www.ofcm.gov/fmh3/text/">Federal Meteorological Handbook No. 3, Rawinsonde and Pibal Observations</relatedResource>
+          <publicationDate>1980-01-21</publicationDate>
+          <contentMetadata>
+            <temporal start="1912-01-01" end="2005-12-31" groupID="Entire Dataset" />
+            <temporalFrequency type="regular" number="1" unit="day" />
+            <temporalFrequency type="regular" number="12" unit="hour" />
+            <temporalFrequency type="regular" number="4" unit="day" />
+            <temporalFrequency type="regular" number="3" unit="day" />
+            <dataType>grid</dataType>
+            <dataType>platform_observation</dataType>
+            <format>DSS_TSR</format>
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

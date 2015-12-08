@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:04Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds543.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds543.0</identifier>
+        <datestamp>2010-10-18T20:34:42Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="543.0" type="historical">
+          <timeStamp value="2010-10-18 14:34:40 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">all_free</access>
+          <title>Joe Reid's (Scripps) NODC Deep Ocean Station Profiles</title>
+          <summary>
+              <p>High quality global ocean profile stations.  Specially
+              selected surface to bottom profiles intended for
+              global ocean circulation studies. Approx. 12000 stations.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="SCRIPPS/IOD/CDIP > Coastal Data Information Program, Integrative Oceanography Division, Scripps Institution of Oceanography" contact="Joe L. Reid;Sarilee Anderson" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NODC/OCL > Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Water Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Nitrate</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Oxygen</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Phosphate</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Silicate</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <publicationDate>1988-09-07</publicationDate>
+          <contentMetadata>
+              <temporal start="1900" end="1994" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

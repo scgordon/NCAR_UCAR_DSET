@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:21Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds712.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds712.0</identifier>
+        <datestamp>2007-05-11T21:30:00Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="712.0" type="primary">
+          <timeStamp value="2007-05-11 15:30:00 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>Smith's SMS Hourly Brightness Data for GATE, 1974Jun-Aug</title>
+          <summary>
+              <p>A subset of Synchronous Meteorological Satellite data for GATE</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="COLOSTATE/ATMOS > Department of Atmospheric Science, Colorado State University" contact="Eric Smith" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Spectral/Engineering > Visible Wavelengths > Visible Imagery</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Spectral/Engineering > Infrared Wavelengths > Infrared Imagery</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">SATELLITES</platform>
+          <platform vocabulary="GCMD">SMS > Synchronous Meteorological Satellites</platform>
+          <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+          <supportsProject vocabulary="GCMD">GATE > GARP Atlantic Tropical Experiment</supportsProject>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <reference type="technical_report">
+              <authorList>Polifka, M.C. and S.K. Cox</authorList>
+              <year>1977</year>
+              <title>GATE SMS-1 Brightness Frequency Distribution Digital Magnetic Data Tapes</title>
+              <organization reportID="" pages="25">Department of Atmospheric Science, Colorado State University, Fort Collins, CO</organization>
+            
+          </reference>
+          <publicationDate>1980-11-07</publicationDate>
+          <contentMetadata>
+              <temporal start="1974-06" end="1974-08" groupID="Entire Dataset" />
+              <dataType>satellite</dataType>
+              <format>proprietary_Binary</format>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

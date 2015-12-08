@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds087.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds087.0</identifier>
+        <datestamp>2009-03-05T03:11:27Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="087.0" type="primary">
+          <timeStamp value="2009-03-04 20:11:23 -0700" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>Gelman's 72x19 Monthly Northern and Southern Hemisphere Stratospheric Analyses, October 1978 to December 1988</title>
+          <summary>
+              <p>72x19 hemispheric grids, 8 levels, temperature and height</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP/CPC > Climate Prediction Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" contact="Mel Gelman" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">MODELS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1991-05-14</publicationDate>
+          <contentMetadata>
+              <temporal start="1978-10" end="1988-12" groupID="Entire Dataset" />
+              <temporalFrequency type="regular" number="1" unit="month" statistics="mean" />
+              <dataType>grid</dataType>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Isobaric level" value="70" units="mbar" />
+                <level type="Isobaric level" value="50" units="mbar" />
+                <level type="Isobaric level" value="30" units="mbar" />
+                <level type="Isobaric level" value="10" units="mbar" />
+                <level type="Isobaric level" value="5" units="mbar" />
+                <level type="Isobaric level" value="2" units="mbar" />
+                <level type="Isobaric level" value="1" units="mbar" />
+                <level type="Isobaric level" value="0.4" units="mbar" />
+              </levels>
+              <geospatialCoverage>
+                <grid definition="latLon" numX="72" numY="19" startLon="0E" startLat="0N" endLon="355E" endLat="90N" xRes="5" yRes="5" />
+                <grid definition="latLon" numX="72" numY="19" startLon="0E" startLat="0S" endLon="355E" endLat="90S" xRes="5" yRes="5" />
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

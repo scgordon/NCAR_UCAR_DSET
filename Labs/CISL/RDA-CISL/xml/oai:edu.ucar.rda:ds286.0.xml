@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:50Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds286.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds286.0</identifier>
+        <datestamp>2006-10-16T21:33:35Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="286.0" type="primary">
+          <timeStamp value="2006-10-16 15:33:35 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>Mean hydrographic analyses of the North Atlantic, by Fukumori</title>
+          <summary>
+              <p>Hydrography analysis for the North Atlantic ocean including
+              temperature, salinity, oxygen, phosphate, nitrate, and silicate.
+              Based on data from 1981-1985.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="MIT/EAPS > Dept. of Earth, Atmospheric, and Planetary Sciences, Massachusetts Institute of Technology" contact="Fukumori;Martel;Wunsch" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Water Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Dissolved Gases</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Oxygen</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Phosphate</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Nitrate</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Dissolved Solids</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Silicate</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <reference type="journal">
+              <authorList>Fukumori, I., F. Martel and C. Wunsch</authorList>
+              <year>1991</year>
+              <title>The hydrography of the North Atlantic in the early 1980s.  An Atlas</title>
+              <periodical number="27" pages="1-110">Progress in Oceanography</periodical>
+            
+          </reference>
+          <publicationDate>1989-12-14</publicationDate>
+          <contentMetadata>
+              <temporal start="1981" end="1985" />
+              <dataType>grids</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+                <level type="Specified height below ground or water surface" value="250" units="m" />
+                <level type="Specified height below ground or water surface" value="700" units="m" />
+                <level type="Specified height below ground or water surface" value="1200" units="m" />
+                <level type="Specified height below ground or water surface" value="2000" units="m" />
+                <level type="Specified height below ground or water surface" value="3250" units="m" />
+                <level type="Specified height below ground or water surface" value="4500" units="m" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

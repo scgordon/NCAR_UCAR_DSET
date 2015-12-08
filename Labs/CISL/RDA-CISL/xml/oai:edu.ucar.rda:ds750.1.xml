@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:24Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds750.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds750.1</identifier>
+        <datestamp>2015-02-13T21:24:52Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="750.1" type="historical">
+          <timeStamp value="2015-02-13 14:24:48 -0700" />
+          <continuingUpdate value="no" />
+          
+          <title>Rand's Global Elevation and Depth Data</title>
+          <summary><p>This dataset contains
+              elevation and depth data at 1-degree resolution across the
+              globe.  This set was derived from a set originally compiled at
+              Scripps Institute of Oceanography (see <a href=
+              "http://rda.ucar.edu/datasets/ds750.0/">ds750.0</a>).  It has been superseded by more current <a href="http://rda.ucar.edu/index.html#!lfd?b=var&amp;v=Terrain Elevation">Terrain Elevation</a> datasets.
+              </p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="RAND > RAND Corporation" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Topography > Terrain Elevation</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Bathymetry/Seafloor Topography > Seafloor Topography</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+          <topic vocabulary="ISO">elevation</topic>
+          <publicationDate>1980-09-29</publicationDate>
+          <contentMetadata>
+              <temporal start="9998" end="9998" groupID="Entire Dataset" />
+              <dataType>grid</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+              <geospatialCoverage>
+                <grid definition="latLon" numX="360" numY="180" startLon="0.5E" startLat="89.5S" endLon="359.5E" endLat="89.5N" xRes="1.0" yRes="1.0" />
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:44Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds609.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds609.0</identifier>
+        <datestamp>2015-07-15T21:37:00Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="609.0" type="primary">
+          <timeStamp value="2015-07-15 15:36:55 -0600" />
+          <continuingUpdate value="yes" frequency="daily" />
+          
+          <title>NCEP North American Mesoscale (NAM) 12 km Analysis</title>
+          <summary><p>WRF Non Hydrostatic Mesoscale Model is used at NCEP to produce different mesoscale analysis products over North America. The analysis output archived here is over continental United States at 12 km spatial resolution every 6 hours.</p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP/EMC > Environmental Modeling Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Snow</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <contact>Chi-Fan Shih</contact>
+          <platform vocabulary="GCMD">NCEP-NAM > NCEP North American Model</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>2015-07-15</publicationDate>
+          <contentMetadata>
+            <temporal start="2012-01-01 00:00 +0000" end="2015-11-29 18:00 +0000" groupID="Entire Dataset" />
+            <dataType>grid</dataType>
+            <dataType>platform_observation</dataType>
+            <format>WMO_GRIB2</format>
+            <geospatialCoverage>
+              <grid definition="lambertConformal" numX="614" numY="428" startLon="226.541E" startLat="12.19N" projLon="265E" resLat="25N" xRes="12.191" yRes="12.191" pole="N" stdParallel1="25N" stdParallel2="25N" />
+            </geospatialCoverage>
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

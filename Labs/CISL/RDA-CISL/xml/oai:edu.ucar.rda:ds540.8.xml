@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:03Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds540.8" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds540.8</identifier>
+        <datestamp>2015-02-11T03:15:45Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="540.8" type="primary">
+          <timeStamp value="2015-11-02 6:01:49 -0700" />
+          <continuingUpdate value="yes" frequency="monthly" />
+          
+          <title>Marine Surface Data from the National Center for Environmental Prediction.</title>
+          <summary><p>
+              Marine surface data are segregated from
+              Global Telecommunication
+              System (GTS) data stream at the National Center for Environmental
+              Prediction (NCEP).  The GTS records have global distribution
+              and are from ships, buoys,
+              and other platforms at frequencies native to each respective
+              observing system.  The data include many parameters from complete
+              ship surface meteorological observations (wind, atmospheric pressure and
+              and temperature, cloudiness, sea surface temperature, etc.) to
+              limited variables from drifting buoy observations (sea surface temperature
+              and atmospheric pressure).  Beginning in March 1997
+              these data have been collected and archived primarily
+              to support the development of the International Comprehensive
+              Ocean-Atmosphere Data Set (ICOADS).  Periodically, the
+              GTS data are processed, quality assurance checked,
+              combined with other data sources, and included in ICOADS.
+              </p>
+              <p>
+              These data may be suitable for some very specific studies,
+              but it is generally recommended that ICOADS be used
+              instead.
+              The <a href="http://rda.ucar.edu/datasets/ds540.0/">
+              ICOADS observations</a> and
+              <a href="http://rda.ucar.edu/datasets/ds540.1/"> ICOADS
+              monthly summary statistics </a> are
+              also available, as is much more information
+              on the <a href="http://icoads.noaa.gov/"> ICOADS project
+              website</a>
+              </p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP/EMC > Environmental Modeling Center, National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" contact="Diane Stokes, Diane.Stokes@noaa.gov" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <contact>Zaihua Ji</contact>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">COASTAL STATIONS</platform>
+          <platform vocabulary="GCMD">BUOYS</platform>
+          <platform vocabulary="GCMD">DRIFTING OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">MOORINGS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <project vocabulary="GCMD">GTS > Global Telecommunications System</project>
+          <topic vocabulary="ISO">oceans</topic>
+          <relatedDataset ID="540.0" />
+          <relatedDataset ID="540.1" />
+          <publicationDate>2002-07-03</publicationDate>
+          <contentMetadata>
+              <temporal start="1997-03" end="2015-10-31" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>WMO_BUFR</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+              <geospatialCoverage>
+                <location>Geographic Region > Global Ocean</location>
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>
