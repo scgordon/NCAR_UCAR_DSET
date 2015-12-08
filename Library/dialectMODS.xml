@@ -7,8 +7,9 @@
                 <cw:spiral>
                                 <cw:item name="Abstract">//mods:mods/mods:abstract</cw:item>
                                 <cw:item name="Resource Identifier">//mods:mods/mods:identifier</cw:item>
-                                <cw:item name="Related Resource Identifier">//mods:mods/mods:relatedItem/mods:identifier</cw:item>
                                 <cw:item name="Resource Identifier Type">//mods:mods/mods:identifier/@type</cw:item>
+                                <cw:item name="Related Resource Identifier">//mods:mods/mods:relatedItem/mods:identifier</cw:item>
+                                <cw:item name="Naming Authority">//mods:mods/mods:identifier/@type</cw:item>
                                 <cw:item name="Resource Title">//mods:mods/mods:title</cw:item>
                                 <cw:item name="Author / Originator">//mods:mods/mods:name[roleTerm="Author"]</cw:item>
                                 <cw:item name="Author / Originator">//mods:mods/mods:name[roleTerm="Creator"]</cw:item>
@@ -20,6 +21,7 @@
                                 <cw:item name="Publication Date">//mods:mods/mods:originInfo/mods:dateIssued</cw:item>
                                 <cw:item name="Resource Creation/Revision Date">//mods:mods/mods:originInfo/mods:dateCreated</cw:item>
                                 <cw:item name="Resource Creation/Revision Date">//mods:mods/mods:originInfo/mods:dateModified</cw:item>
+                                <cw:item name="Modified Date">//mods:mods/mods:originInfo/mods:dateModified</cw:item>
                                 <cw:item name="Resource Contact">//mods:mods/mods:name[roleTerm="Contributor"]</cw:item>
                                 <cw:item name="Abstract">//mods:mods/mods:abstract</cw:item>
                                 <cw:item name="Theme Keyword">//mods:mods/mods:subject/mods:topic</cw:item>
@@ -27,6 +29,7 @@
                                 <cw:item name="Keyword Vocabulary">//mods:mods/mods:subject/@authority</cw:item>
                                 <cw:item name="Resource Distribution">//mods:mods/mods:location</cw:item>
                                 <cw:item name="Spatial Extent">//mods:mods/mods:subject/mods:geographic</cw:item>
+                                <cw:item name="Spatial Resolution">//mods:mods/mods:subject/mods:geographic/cartographics/scale</cw:item>
                                 <cw:item name="Bounding Box">//mods:mods/mods:subject/mods:geographic/cartographics/coordinates</cw:item>
                                 <cw:item name="Temporal Extent">//mods:mods/mods:subject/mods:temporal</cw:item>
                                 <cw:item name="Resource Use Constraints">//mods:mods/mods:dataset/mods:intellectualRights</cw:item>
@@ -36,11 +39,6 @@
                                 <cw:item name="Resource Quality Description">//mods:methods/mods:physicalDescription</cw:item>
                                 <cw:item name="Resource Language">//mods:mods/mods:language</cw:item>
                                 <cw:item name="Resource Version">//mods:mods/mods:originInfo/mods:edition</cw:item>
-                                <cw:item name="Rights">//mods:mods/mods:accessCondition</cw:item>
-                                <cw:item name="Modified Date">//mods:mods/mods:recordInfo/mods:recordChangeDate</cw:item>
                                 <cw:item name="Metadata Identifier">//mods:mods/mods:recordInfo/mods:recordIdentifier</cw:item>
-                                <cw:item name="Resource Lineage">//mods:mods/mods:note/@acquisition</cw:item>
-                                <cw:item name="Resource on-line Link">//mods:mods/mods:location/mods:url</cw:item>
-
-                </cw:spiral>
+                </cw:spiral>    <cw:item name="Bounding">//mods:mods/mods:subject/mods:topic</cw:item>
 </cw:crosswalk>

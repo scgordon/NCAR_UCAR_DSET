@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:resource xmlns:p="http://datacite.org/schema/kernel-3"
+        xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+	<p:identifier identifierType="DOI">10.9999/9999</p:identifier>
+	<p:creators>
+		<p:creator> <p:creatorName>Russ Rew</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Glenn Davis</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Steve Emmerson</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Cathy Cormack</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>John Caron</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Robert Pincus</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Ed Hartnett</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Dennis Heimbigner</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Lynton Appel</p:creatorName> </p:creator>
+		<p:creator> <p:creatorName>Ward Fisher</p:creatorName> </p:creator>
+	</p:creators>
+	<p:titles>
+		<p:title>Unidata NetCDF</p:title>
+ 		<p:title titleType="AlternativeTitle">netCDF</p:title>
+ 		<p:title titleType="AlternativeTitle">netCDF-3</p:title>
+		<p:title titleType="AlternativeTitle">netCDF-4</p:title>
+	</p:titles>
+	<p:publisher>University Corporation for Atmospheric Research, Unidata</p:publisher>
+	<p:publicationYear>1989</p:publicationYear>
+	<p:subjects>
+		<p:subject subjectScheme="LC"
+			schemeURI="http://id.loc.gov/authorities/subjects/sh99001417.html">Software</p:subject>
+		<p:subject subjectScheme="LC"
+			schemeURI="http://id.loc.gov/authorities/subjects/sh86005933.html">Free computer software</p:subject>
+		<p:subject subjectScheme="LC"
+			schemeURI="http://id.loc.gov/authorities/subjects/sh99003437.html">Open source software</p:subject>
+		<p:subject subjectScheme="LC"
+			schemeURI="http://id.loc.gov/authorities/subjects/sh89000200.html">Systems software</p:subject>
+		<p:subject subjectScheme="LC"
+			schemeURI="http://id.loc.gov/authorities/subjects/sh98004527.html">Application program interfaces</p:subject>
+		<p:subject subjectScheme="LC"
+			schemeURI="http://id.loc.gov/authorities/subjects/sh96000740.html">Metadata</p:subject>
+	</p:subjects>
+	<p:resourceType resourceTypeGeneral="Software">Data model, software libraries, and standard format supporting the creation, access and sharing of scientific data.</p:resourceType>
+	<p:contributors>
+		<p:contributor contributorType="ContactPerson">
+			<p:contributorName>support-netcdf@unidata.ucar.edu</p:contributorName>
+		</p:contributor>
+		<p:contributor contributorType="ProjectLeader">
+			<p:contributorName>Russ Rew</p:contributorName>
+		</p:contributor>		
+		<p:contributor contributorType="ProjectLeader">
+			<p:contributorName>Ward Fisher</p:contributorName>
+		</p:contributor>		
+		<p:contributor contributorType="Distributor">
+			<p:contributorName>University Corporation for Atmospheric Research, Unidata</p:contributorName>
+		</p:contributor>
+		<p:contributor contributorType="Funder">
+			<p:contributorName>National Science Foundation</p:contributorName>
+		</p:contributor>
+		<p:contributor contributorType="Funder">
+			<p:contributorName>NASA</p:contributorName>
+		</p:contributor>
+		<p:contributor contributorType="HostingInstitution">
+			<p:contributorName>University Corporation for Atmospheric Research, Unidata</p:contributorName>
+		</p:contributor>
+		<p:contributor contributorType="ResearchGroup">
+			<p:contributorName>National Oceanic and Atmospheric Administration, Earth System Research Laboratory</p:contributorName>
+		</p:contributor>
+	</p:contributors>
+	<!-- Please see here for an explanation of date ranges http://www.ukoln.ac.uk/metadata/dcmi/collection-RKMS-ISO8601/ -->
+	<p:dates>
+		<p:date dateType="Created">1989</p:date>
+		<p:date dateType="Copyrighted">1990/</p:date>
+		<p:date dateType="Updated">2014/</p:date>
+	</p:dates>
+	<p:language>en</p:language>
+	<p:formats>
+		<p:format>application/java-archive</p:format>
+		<p:format>application/gzip</p:format>
+		<p:format>application/tar</p:format>
+	</p:formats>
+	<p:rightsList>
+		<p:rights rightsURI="http://www.unidata.ucar.edu/netcdf/copyright.html">UCAR/Unidata Open Source Software License</p:rights>
+	</p:rightsList>
+	<p:descriptions>
+		<p:description descriptionType="Abstract">NetCDF (network Common Data Form) is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages. The netCDF libraries support a machine-independent format for representing scientific data. Together, the interfaces, libraries, and format support the creation, access, and sharing of scientific data.
+		</p:description>
+		<p:description descriptionType="Other">
+		  NetCDF Data has the following characteristics.  Self-Describing: A netCDF file includes information about the data it contains.  Portable: A netCDF file can be accessed by computers with different ways of storing integers, characters, and floating-point numbers.  Scalable: A small subset of a large dataset may be accessed efficiently.  Appendable: Data may be appended to a properly structured netCDF file without copying the dataset or redefining its structure.  Sharable: One writer and multiple readers may simultaneously access the same netCDF file.  Archivable: Access to all earlier forms of netCDF data will be supported by current and future versions of the software.
+		</p:description>
+	</p:descriptions>
+	<p:relatedIdentifiers>
+		<p:relatedIdentifier relatedIdentifierType="URL"
+			relationType="References">http://www.hdfgroup.org/HDF5/</p:relatedIdentifier>
+		<p:relatedIdentifier relatedIdentifierType="URL"
+			relationType="IsDocumentedBy">http://www.unidata.ucar.edu/netcdf/</p:relatedIdentifier>
+	</p:relatedIdentifiers>
+</p:resource>

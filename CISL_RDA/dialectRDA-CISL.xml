@@ -16,7 +16,7 @@
                                 <cw:item name="Abstract">/rda:dsOverview/rda:summary</cw:item>
                                 <cw:item name="Theme Keyword">/rda:dsOverview/rda:variable</cw:item>
                                 <cw:item name="Theme Keyword">/rda:dsOverview/rda:keyword</cw:item>
-                                <cw:item name="Resource Creation/Revision Date">/rda:dsOverview/rda:contentMetadata/rda:temporal</cw:item>
+                                <cw:item name="Resource Creation/Revision Date">/rda:dsOverview/rda:publicationDate</cw:item>
                                 <cw:item name="Resource Format">/rda:dsOverview/contentMetadata/format</cw:item>
                                 <cw:item name="Keyword Vocabulary">/rda:dsOverview/rda:variable/@vocabulary</cw:item>
                                 <cw:item name="Resource Identifier">/rda:dsOverview/@ID</cw:item>
@@ -27,7 +27,7 @@
                                 <cw:item name="Bounding Box">/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage/rda:grid</cw:item>
                                 <cw:item name="Related Resource Identifier">/rda:dsOverview/rda:relatedDOI</cw:item>
                                 <cw:item name="Related Resource Identifier">/rda:dsOverview/rda:relatedDataset/@ID</cw:item>
-
+                                <cw:item name="Resource on-line Link">/rda:dsOverview/rda:referenceURL</cw:item>
                                 <cw:item name="Transfer Size">/rda:dsOverview/rda:relatedDataset/@ID</cw:item>
                                 <cw:item name="Topic Category">/rda:dsOverview/rda:topic[@vocabulary=ISO]</cw:item>
                                 <cw:item name="Spatial Resolution">/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage/rda:grid/@xRes</cw:item>
