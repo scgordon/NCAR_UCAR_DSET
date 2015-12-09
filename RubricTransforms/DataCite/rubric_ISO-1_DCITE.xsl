@@ -38,8 +38,8 @@
 </xsl:text><xsl:text>
 "items" : [
 </xsl:text><xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Language",</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemExists.d1e9080" as="xs:integer+"><xsl:sequence select="if(exists(/resource/language)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemExists.d1e9080)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemCounts.d1e9080" as="xs:integer+"><xsl:sequence select="count(/resource/language)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemCounts.d1e9080)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Language",</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemExists.d1e9097" as="xs:integer+"><xsl:sequence select="if(exists(/resource/language)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemExists.d1e9097)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemCounts.d1e9097" as="xs:integer+"><xsl:sequence select="count(/resource/language)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemCounts.d1e9097)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -48,8 +48,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"The language of the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Type",</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemExists.d1e5988" as="xs:integer+"><xsl:sequence select="if(exists(/resource/resourceType)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemExists.d1e5988)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemCounts.d1e5988" as="xs:integer+"><xsl:sequence select="count(/resource/resourceType)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemCounts.d1e5988)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Type",</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemExists.d1e5997" as="xs:integer+"><xsl:sequence select="if(exists(/resource/resourceType)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemExists.d1e5997)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="ISO-1_Discovery-Conditional.itemCounts.d1e5997" as="xs:integer+"><xsl:sequence select="count(/resource/resourceType)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Conditional.itemCounts.d1e5997)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -86,8 +86,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"The date the resource was created"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="ISO-1_Discovery-Optional.itemExists.d1e2631" as="xs:integer+"><xsl:sequence select="if(exists(/resource/identifier)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Optional.itemExists.d1e2631)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="ISO-1_Discovery-Optional.itemCounts.d1e2631" as="xs:integer+"><xsl:sequence select="count(/resource/identifier)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Optional.itemCounts.d1e2631)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="ISO-1_Discovery-Optional.itemExists.d1e2622" as="xs:integer+"><xsl:sequence select="if(exists(/resource/identifier)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Optional.itemExists.d1e2622)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="ISO-1_Discovery-Optional.itemCounts.d1e2622" as="xs:integer+"><xsl:sequence select="count(/resource/identifier)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($ISO-1_Discovery-Optional.itemCounts.d1e2622)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>

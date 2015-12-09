@@ -4,8 +4,8 @@
 </xsl:text><xsl:text>
 "items" : [
 </xsl:text><xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2635" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=id]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2635)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2635" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=id]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2635)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2622" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=id]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2622)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2622" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=id]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2622)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -16,8 +16,8 @@
 <xsl:text>{
 </xsl:text><xsl:text>"name":"Resource Identifier Type",</xsl:text><xsl:text>"exists":"-1",</xsl:text><xsl:text>"count":"-1",</xsl:text><xsl:text>"description":"The type of identifier used to uniquely identify the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Author / Originator",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e3808" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=creator_name]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e3808)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e3808" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=creator_name]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e3808)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Author / Originator",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e3798" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=creator_name]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e3798)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e3798" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=creator_name]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e3798)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -40,8 +40,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Publisher",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2126" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=publisher_name]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2126)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2126" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=publisher_name]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2126)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Publisher",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2119" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=publisher_name]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2119)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2119" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=publisher_name]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2119)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -86,8 +86,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.",</xsl:text><xsl:text>"description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Contributor Name",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e4442" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=creator_name]/@value | /netcdf/attribute[@name=contributor_name]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e4442)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e4442" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=creator_name]/@value | /netcdf/attribute[@name=contributor_name]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e4442)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Contributor Name",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e4444" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=creator_name]/@value | /netcdf/attribute[@name=contributor_name]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e4444)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e4444" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=creator_name]/@value | /netcdf/attribute[@name=contributor_name]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e4444)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -99,8 +99,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"Contributor to the resource"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Contributor Role",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e9402" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=contributor_role]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e9402)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e9402" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=contributor_role]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e9402)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Contributor Role",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e9415" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=contributor_role]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e9415)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e9415" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=contributor_role]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e9415)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -137,8 +137,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"note":"This concept is called Desciption in Catalog Services for the Web.",</xsl:text><xsl:text>"description":"A paragraph describing the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Spatial Extent",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e7355" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=geospatial_lat_max])) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e7355)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e7355" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=geospatial_lat_max])"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e7355)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Spatial Extent",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e7375" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=geospatial_lat_max])) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e7375)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e7375" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=geospatial_lat_max])"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e7375)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -155,8 +155,8 @@
 </xsl:text><xsl:text>{
 </xsl:text><xsl:text>"name":"Resource Language",</xsl:text><xsl:text>"exists":"-1",</xsl:text><xsl:text>"count":"-1",</xsl:text><xsl:text>"description":"The language of the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e2635" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=id]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e2635)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e2635" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=id]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e2635)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e2622" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=id]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e2622)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e2622" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=id]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e2622)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -171,8 +171,8 @@
 <xsl:text>{
 </xsl:text><xsl:text>"name":"Resource Version",</xsl:text><xsl:text>"exists":"-1",</xsl:text><xsl:text>"count":"-1",</xsl:text><xsl:text>"description":"Version of the cited resource"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Rights",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e4608" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=license]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e4608)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e4608" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=license]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e4608)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Rights",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e4610" as="xs:integer+"><xsl:sequence select="if(exists(/netcdf/attribute[@name=license]/@value)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e4610)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e4610" as="xs:integer+"><xsl:sequence select="count(/netcdf/attribute[@name=license]/@value)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e4610)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
