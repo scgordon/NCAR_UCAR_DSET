@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:54:34Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds726.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds726.1</identifier>
-        <datestamp>2006-10-16T22:42:43Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="726.1" type="primary">
-          <timeStamp value="2006-10-16 16:42:43 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">none_free</access>
-          <title>Monthly SEASAT Wind Stress Analyses, by Chelton</title>
-          <summary>
-              <p>Wind Stress derived from SEASAT by Dudley Chelton.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="NASA/GSFC/EOS/PO > Program Office, Earth Observing System, Goddard Space Flight Center, NASA" contact="Chelton" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Wind Stress</variable>
-          <contact>Steven Worley</contact>
-          <platform vocabulary="GCMD">GRIDDING METHODS</platform>
-          <topic vocabulary="ISO">oceans</topic>
-          <publicationDate>1989-09-07</publicationDate>
-          <contentMetadata>
-              <temporal start="1978-07" end="1978-10" />
-              <dataType>grids</dataType>
-              <format>proprietary_ASCII</format>
-              <levels>
-                <level type="Ground or water surface" value="0" />
-              </levels>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="726.1"
+            type="primary">
+   <timeStamp value="2006-10-16 16:42:43 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>Monthly SEASAT Wind Stress Analyses, by Chelton</title>
+   <summary>
+      <p>Wind Stress derived from SEASAT by Dudley Chelton.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="NASA/GSFC/EOS/PO &gt; Program Office, Earth Observing System, Goddard Space Flight Center, NASA"
+                contact="Chelton"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Wind Stress</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <publicationDate>1989-09-07</publicationDate>
+   <contentMetadata>
+      <temporal start="1978-07" end="1978-10"/>
+      <dataType>grids</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

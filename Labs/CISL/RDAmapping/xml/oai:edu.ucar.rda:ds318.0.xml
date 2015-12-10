@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:53Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds318.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds318.0</identifier>
+        <datestamp>2015-07-22T02:24:57Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="318.0" type="primary">
+          <timeStamp value="2015-07-21 20:24:50 -0600" />
+          <continuingUpdate value="no" />
+          
+          <title>Climate Model Outputs Assembled by DSS for EPA Carbon Dioxide Studies</title>
+          <summary>
+              <p>Various global climate model runs at several institutions were made in the 1980s to assess the impact of increasing levels of atmospheric CO2 on the global climate.  The Data Support Section at NCAR assembled and/or computed the 10-year monthly climatologies from the outputs of these runs and made them available in a common ASCII exchange format.  The standard parameters that were provided by all of the models are surface temperature, wind speed, precipitation, humidity, incoming solar radiation, and pressure (sea-level or surface).  Other parameters were provided and they varied depending on the individual model.  These models also provided outputs in various timesteps other than decadal means, and those outputs are archived by institution in the ds318.1 through ds318.5 series of datasets.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="NASA/GSFC/ESD/GISS > Goddard Institute for Space Studies, Earth Sciences Directorate, Goddard Space Flight Center, NASA" citable="no" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/GFDL > NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce" citable="no" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Atmospheric Stability</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Soils > Soil Moisture/Water Content</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Soils > Soil Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Land Temperature > Skin Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Snow</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Hydrosphere > Snow/Ice > Snow Depth</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Surface Radiative Properties > Albedo</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Radiation > Shortwave Radiation</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Radiation > Longwave Radiation</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Hydrosphere > Surface Water > Runoff</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Rate</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Boundary Layer Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Maximum/Minimum Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Evaporation</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Heat Budget > Evaporation</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Radiation > Solar Irradiance</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">MODELS</platform>
+          <platform vocabulary="GCMD">CLIMATE MODELS</platform>
+          <supportsProject vocabulary="GCMD">USCSP > U.S. Country Studies Program</supportsProject>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedDataset ID="318.1" />
+          <relatedDataset ID="318.2" />
+          <relatedDataset ID="318.3" />
+          <relatedDataset ID="318.4" />
+          <relatedDataset ID="318.5" />
+          <publicationDate>1987-10-28</publicationDate>
+          <contentMetadata>
+              <temporal start="9998" end="9998" groupID="Entire Dataset" />
+              <dataType>grid</dataType>
+              <format>proprietary_ASCII</format>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

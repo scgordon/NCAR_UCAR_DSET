@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:46Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds885.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds885.1</identifier>
+        <datestamp>2008-04-24T03:33:30Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="885.1" type="primary">
+          <timeStamp value="2008-04-23 21:33:26 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">all_free</access>
+          <title>NCDC TD9640 U.S. Palmer Drought Indices, continuing from 1895</title>
+          <summary>
+              <p>This dataset contains monthly average temperature,
+              precipitation, and Palmer Drought Indices for each climatic
+              division in the 48 contiguous U.S. states, as well as Puerto
+              Rico and the Virgin Islands.  The period of record is January
+              1895 to April 1993.  Monthly averages within a climatic division
+              have been calculated by giving equal weight to stations
+              reporting both temperature and precipitation.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" contact="Tom Karl, (704)-259-0405;Red Ezell, (704)-259-0446" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Climate Indicators > Drought Indices > Palmer Drought Severity Index</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedResource url="http://www1.ncdc.noaa.gov/pub/data/cirs/">Source of this set at NCDC</relatedResource>
+          <publicationDate>1982-05-13</publicationDate>
+          <contentMetadata>
+              <temporal start="1895-01" end="2005-01" groupID="Entire Dataset" />
+              <temporalFrequency type="regular" number="1" unit="month" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+              <geospatialCoverage>
+                <location>Continent > North America > United States Of America > Alabama</location>
+                <location>Continent > North America > United States Of America > Arizona</location>
+                <location>Continent > North America > United States Of America > Arkansas</location>
+                <location>Continent > North America > United States Of America > California</location>
+                <location>Continent > North America > United States Of America > Colorado</location>
+                <location>Continent > North America > United States Of America > Connecticut</location>
+                <location>Continent > North America > United States Of America > Delaware</location>
+                <location>Continent > North America > United States Of America > District Of Columbia</location>
+                <location>Continent > North America > United States Of America > Florida</location>
+                <location>Continent > North America > United States Of America > Georgia</location>
+                <location>Continent > North America > United States Of America > Idaho</location>
+                <location>Continent > North America > United States Of America > Illinois</location>
+                <location>Continent > North America > United States Of America > Indiana</location>
+                <location>Continent > North America > United States Of America > Iowa</location>
+                <location>Continent > North America > United States Of America > Kansas</location>
+                <location>Continent > North America > United States Of America > Kentucky</location>
+                <location>Continent > North America > United States Of America > Louisiana</location>
+                <location>Continent > North America > United States Of America > Maine</location>
+                <location>Continent > North America > United States Of America > Maryland</location>
+                <location>Continent > North America > United States Of America > Massachusetts</location>
+                <location>Continent > North America > United States Of America > Michigan</location>
+                <location>Continent > North America > United States Of America > Minnesota</location>
+                <location>Continent > North America > United States Of America > Mississippi</location>
+                <location>Continent > North America > United States Of America > Missouri</location>
+                <location>Continent > North America > United States Of America > Montana</location>
+                <location>Continent > North America > United States Of America > Nebraska</location>
+                <location>Continent > North America > United States Of America > Nevada</location>
+                <location>Continent > North America > United States Of America > New Hampshire</location>
+                <location>Continent > North America > United States Of America > New Jersey</location>
+                <location>Continent > North America > United States Of America > New Mexico</location>
+                <location>Continent > North America > United States Of America > New York</location>
+                <location>Continent > North America > United States Of America > North Carolina</location>
+                <location>Continent > North America > United States Of America > North Dakota</location>
+                <location>Continent > North America > United States Of America > Ohio</location>
+                <location>Continent > North America > United States Of America > Oklahoma</location>
+                <location>Continent > North America > United States Of America > Oregon</location>
+                <location>Continent > North America > United States Of America > Pennsylvania</location>
+                <location>Continent > North America > United States Of America > Rhode Island</location>
+                <location>Continent > North America > United States Of America > South Carolina</location>
+                <location>Continent > North America > United States Of America > South Dakota</location>
+                <location>Continent > North America > United States Of America > Tennessee</location>
+                <location>Continent > North America > United States Of America > Texas</location>
+                <location>Continent > North America > United States Of America > Utah</location>
+                <location>Continent > North America > United States Of America > Vermont</location>
+                <location>Continent > North America > United States Of America > Virginia</location>
+                <location>Continent > North America > United States Of America > Washington</location>
+                <location>Continent > North America > United States Of America > West Virginia</location>
+                <location>Continent > North America > United States Of America > Wisconsin</location>
+                <location>Continent > North America > United States Of America > Wyoming</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Puerto Rico</location>
+                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Virgin Islands</location>
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

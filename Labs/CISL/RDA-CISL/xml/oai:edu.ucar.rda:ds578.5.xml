@@ -1,58 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:54:49Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds578.5" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds578.5</identifier>
-        <datestamp>2007-09-29T03:51:50Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="578.5" type="primary">
-          <timeStamp value="2007-09-28 21:51:50 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">all_free</access>
-          <title>Two Long-Term Instrumental Climatic Data Bases of the People's Republic of China</title>
-          <summary>
-              <p>Two PRC climate data bases, derived mainly from instrument measurements, are presented                               
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="578.5"
+            type="primary">
+   <timeStamp value="2007-09-28 21:51:50 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Two Long-Term Instrumental Climatic Data Bases of the People's Republic of China</title>
+   <summary>
+      <p>Two PRC climate data bases, derived mainly from instrument measurements, are presented                               
               in this dataset; one consists of monthly means, extremes, or totals of 14 meteorological                               
               variables observed at 60 stations, the other contains monthly mean temperatures and monthly precipitation                                 
               totals from 205 stations.  The two data bases have no stations in common.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOE/ORNL/ESD/CDIAC > Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, U. S. Department of Energy" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Hydrosphere > Snow/Ice > Snow Cover</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Radiation > Sunshine</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
-          <contact>Bob Dattore</contact>
-          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
-          <platform vocabulary="GCMD">GROUND STATIONS</platform>
-          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <publicationDate>1996-12-05</publicationDate>
-          <contentMetadata>
-            <temporal start="1841-01-01" end="1988-12-31" groupID="Entire Dataset" />
-            <temporalFrequency type="regular" number="1" unit="month" />
-            <temporalFrequency type="regular" number="1" unit="year" />
-            <dataType>grid</dataType>
-            <dataType>platform_observation</dataType>
-            <format>proprietary_ASCII</format>
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOE/ORNL/ESD/CDIAC &gt; Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, U. S. Department of Energy"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Snow/Ice &gt; Snow Cover</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Sunshine</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1996-12-05</publicationDate>
+   <contentMetadata>
+      <temporal start="1841-01-01" end="1988-12-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="1" unit="year"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_ASCII</format>
+   </contentMetadata>
+</dsOverview>

@@ -1,43 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:56:06Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds830.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds830.0</identifier>
-        <datestamp>2006-10-16T22:54:14Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="830.0" type="primary">
-          <timeStamp value="2006-10-16 16:54:14 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">none_free</access>
-          <title>U.S.C.G.S. Geomagnetic Data for 3 stations, 1947-1969</title>
-          <summary>
-              <p>Later data are at NCAR, on a CDROM from NGDC.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/NOS/NGS > National Geodetic Survey, National Ocean Service, NOAA, U.S. Department of Commerce" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Solid Earth > Geomagnetism > Geomagnetic Indices</variable>
-          <contact>Will Spangler</contact>
-          <topic vocabulary="ISO">geoscientificInformation</topic>
-          <publicationDate>1980-01-11</publicationDate>
-          <contentMetadata>
-              <temporal start="1947-01" end="1969-12" />
-              <dataType>platform_observations</dataType>
-              <format>proprietary_Binary</format>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="830.0"
+            type="primary">
+   <timeStamp value="2006-10-16 16:54:14 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>U.S.C.G.S. Geomagnetic Data for 3 stations, 1947-1969</title>
+   <summary>
+      <p>Later data are at NCAR, on a CDROM from NGDC.</p>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NOS/NGS &gt; National Geodetic Survey, National Ocean Service, NOAA, U.S. Department of Commerce"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Solid Earth &gt; Geomagnetism &gt; Geomagnetic Indices</variable>
+   <contact>Will Spangler</contact>
+   <topic vocabulary="ISO">geoscientificInformation</topic>
+   <publicationDate>1980-01-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1947-01" end="1969-12"/>
+      <dataType>platform_observations</dataType>
+      <format>proprietary_Binary</format>
+   </contentMetadata>
+</dsOverview>

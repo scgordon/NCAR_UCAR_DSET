@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:04Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds542.3" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds542.3</identifier>
+        <datestamp>2006-10-16T22:19:00Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="542.3" type="primary">
+          <timeStamp value="2006-10-16 16:19:00 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>NODC Compressed (Low-resolution) CTD/STD CO22</title>
+          <summary>
+              <p>Ocean profile observations for temperature and salinity</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NODC/OCL > Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <publicationDate>1987-12-29</publicationDate>
+          <contentMetadata>
+              <temporal start="1969" end="1991" />
+              <dataType>platform_observations</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

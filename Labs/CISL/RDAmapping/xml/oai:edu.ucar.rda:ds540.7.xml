@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:54:59Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds540.7" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds540.7</identifier>
+        <datestamp>2011-01-30T15:04:30Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="540.7" type="primary">
+          <timeStamp value="2011-01-30 08:04:26 -0700" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>VOSCLIM Met Office GTS data</title>
+          <summary>
+              <p>The GTS data stream from the VOSCLIM project ships.
+              The BUFR formatted records are received from the UK
+              Met Office.  These data are primarily for the development
+              of the ICOADS database.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="GB/MOD/MET > Met Office, Ministry of Defence, United Kingdom" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/OAR/CDC > Climate Diagnostics Center, OAR, NOAA, U.S. Department of Commerce" contact="Scott Woodruff" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <project vocabulary="GCMD">VOSCLIM > Voluntary Observing Ship (VOS) Climate Project</project>
+          <topic vocabulary="ISO">oceans</topic>
+          <relatedDataset ID="540.0" />
+          <relatedDataset ID="540.1" />
+          <relatedDataset ID="540.6" />
+          <publicationDate>2003-04-27</publicationDate>
+          <contentMetadata>
+              <temporal start="2001-11-01" end="2003-04-06" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>WMO_BUFR</format>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

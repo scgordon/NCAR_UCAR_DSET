@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:09Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds111.5" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds111.5</identifier>
+        <datestamp>2015-02-11T21:31:09Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="111.5" type="primary">
+          <timeStamp value="2015-02-11 14:31:01 -0700" />
+          <continuingUpdate value="no" />
+          
+          <title>ECMWF TOGA Global Tropospheric Analyses, monthly from January 1985 to the present (DSS built)</title>
+          <summary><p>These are year-month means on 2.5 degree grids derived from <a href="http://rda.ucar.edu/datasets/ds111.2/">DS111.2,</a>
+              by DSS.  Both surface and upper air.  Bad grids found by Kevin
+              Trenberth in NCAR Technical Note 373 are excluded.</p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" formerName="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" citable="no" />
+          <contributor vocabulary="GCMD" name="ECMWF > European Centre for Medium-Range Weather Forecasts" citable="no" />
+          <restrictions>
+    <access>
+      <p>We are allowed to distribute this data to US scientists, scientists visiting US organizations, and Canadian scientists affiliated with UCAR member organizations only.</p>
+    </access>
+    <usage>
+      <p>This data must not be used for commercial purposes.  ECMWF must be given credit in any publications in which this data is used.</p>
+    </usage>
+  
+</restrictions>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Land Temperature > Skin Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Vertical Wind Motion</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Boundary Layer Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">MODELS</platform>
+          <platform vocabulary="GCMD">ECMWFIFS > ECMWF Integrated Forecast System</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1992-09-09</publicationDate>
+          <contentMetadata>
+            <temporal start="1985-01-01 00:00 +0000" end="2004-08-31 12:00 +0000" groupID="Entire Dataset" />
+            <temporalFrequency type="regular" number="1" unit="month" />
+            <dataType>grid</dataType>
+            <dataType>platform_observation</dataType>
+            <format href="http://dss.ucar.edu/docs/formats/grib/gribdoc/">WMO_GRIB1</format>
+            <format>WMO_GRIB0</format>
+            <geospatialCoverage>
+              <grid definition="latLon" numX="144" numY="73" startLon="0E" startLat="90N" endLon="357.5E" endLat="90S" xRes="2.5" yRes="2.5" />
+            </geospatialCoverage>
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:00Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds530.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds530.0</identifier>
+        <datestamp>2015-03-25T15:09:29Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="530.0" type="primary">
+          <timeStamp value="2015-03-25 09:09:14 -0600" />
+          <continuingUpdate value="no" />
+          
+          <title>ICOADS Auxiliary and Future Datasets</title>
+          <summary><p>Auxiliary, preliminary, and other datasets that are to be included in ICOADS at a future time.  Various format are used.  We do not recommend general public use of these data.  This is primarily a data exchange archive point for ICOADS researchers.
+              </p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/ESRL > Earth System Research Laboratory, NOAA, U.S. Department of Commerce" contact="Scott Woodruff, (303)-497-6747, Scott.D.Woodruff@noaa.gov" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wind Waves</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <contact>Zaihua Ji</contact>
+          <platform vocabulary="GCMD">BUOYS</platform>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">LOGBOOKS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <project vocabulary="GCMD">ICOADS > International Comprehensive Ocean Atmosphere Data Set</project>
+          <topic vocabulary="ISO">oceans</topic>
+          <relatedResource url="http://icoads.noaa.gov/">ICOADS project website</relatedResource>
+          <relatedDataset ID="540.0" />
+          <relatedDataset ID="540.1" />
+          <relatedDataset ID="530.1" />
+          <relatedDataset ID="533.1" />
+          <relatedDataset ID="539.0" />
+          <relatedDataset ID="256.1" />
+          <publicationDate>2003-10-01</publicationDate>
+          <contentMetadata>
+              <temporal start="1958" end="1985" groupID="Entire Dataset" />
+              <temporal start="1946" end="1984" groupID="Entire Dataset" />
+              <temporal start="1938" end="1947" groupID="Entire Dataset" />
+              <temporal start="1878" end="1894" groupID="Entire Dataset" />
+              <temporal start="1662" end="1855" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

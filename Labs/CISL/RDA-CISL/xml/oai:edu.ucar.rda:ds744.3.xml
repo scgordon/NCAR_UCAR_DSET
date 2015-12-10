@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:54:34Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds744.3" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds744.3</identifier>
-        <datestamp>2015-02-13T19:59:53Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="744.3" type="primary">
-          <timeStamp value="2015-02-13 12:59:49 -0700" />
-          <continuingUpdate value="no" />
-          
-          <title>SeaWinds QuikSCAT Scatterometer Ocean Winds from Remote Sensing Systems</title>
-          <summary><p>
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="744.3"
+            type="primary">
+   <timeStamp value="2015-02-13 12:59:49 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>SeaWinds QuikSCAT Scatterometer Ocean Winds from Remote Sensing Systems</title>
+   <summary>
+      <p>
               The SeaWinds instrument on the QuikSCAT satellite is
               a specialized radar that measures near-surface wind
               speed and direction at a 25 km resolution. This
@@ -36,14 +24,14 @@
               The dataset time series ends in June 2002, however,
               continuing data are available from RSS.
               </p>
-              <p>
+      <p>
               Many more details concerning the Ku-2001 data are available
               from the  <a href="http://www.remss.com/">
               RSS website</a>.  These data are also directly
               available from RSS.
               </p>
-              <p>
-              <font color="red">Notice 07/28/2006:</font> JPL PO.DAAC has
+      <p>
+         <font color="red">Notice 07/28/2006:</font> JPL PO.DAAC has
               initiated reprocessing of all ADEOS-II and QuikSCAT data with
               superior algorithms for retrievals in high wind speed and light
               rain areas.  This reprocessing could effect this dataset. More
@@ -53,31 +41,27 @@
               
               
               </p>
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="RSS > Remote Sensing Systems" citable="yes" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
-          <contact>Zaihua Ji</contact>
-          <platform vocabulary="GCMD">SATELLITES</platform>
-          <topic vocabulary="ISO">oceans</topic>
-          <relatedResource url="http://www.remss.com/">Remote Sensing Systems (RSS) web site</relatedResource>
-          <relatedResource url="http://podaac.jpl.nasa.gov/quikscat/">JPL PO.DAAC</relatedResource>
-          <relatedDataset ID="744.2" />
-          <relatedDataset ID="744.5" />
-          <relatedDataset ID="744.4" />
-          <publicationDate>2000-10-05</publicationDate>
-          <contentMetadata>
-              <temporal start="1999-07" end="2002-06" groupID="QSAN-KU-2001" />
-              <temporal start="1999-07-19" end="2009-04-30" groupID="QSAN-L2B-25KM" />
-              <dataType>satellite</dataType>
-              <format>proprietary_Binary</format>
-              <levels>
-                <level type="Ground or water surface" value="0" />
-              </levels>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD" name="RSS &gt; Remote Sensing Systems" citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">SATELLITES</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <relatedResource url="http://www.remss.com/">Remote Sensing Systems (RSS) web site</relatedResource>
+   <relatedResource url="http://podaac.jpl.nasa.gov/quikscat/">JPL PO.DAAC</relatedResource>
+   <relatedDataset ID="744.2"/>
+   <relatedDataset ID="744.5"/>
+   <relatedDataset ID="744.4"/>
+   <publicationDate>2000-10-05</publicationDate>
+   <contentMetadata>
+      <temporal start="1999-07" end="2002-06" groupID="QSAN-KU-2001"/>
+      <temporal start="1999-07-19" end="2009-04-30" groupID="QSAN-L2B-25KM"/>
+      <dataType>satellite</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

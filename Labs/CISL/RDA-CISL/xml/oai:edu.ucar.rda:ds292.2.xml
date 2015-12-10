@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:55:51Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds292.2" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds292.2</identifier>
-        <datestamp>2010-04-19T18:58:24Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="292.2" type="primary">
-          <timeStamp value="2010-04-19 12:58:18 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">none_free</access>
-          <title>Extended Edited Synoptic Cloud Reports Archive (EECRA) from Ships and Land Stations Over the Globe</title>
-          <summary>
-              <p>EECRA contains surface synoptic weather reports for the entire globe,
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="292.2"
+            type="primary">
+   <timeStamp value="2010-04-19 12:58:18 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>Extended Edited Synoptic Cloud Reports Archive (EECRA) from Ships and Land Stations Over the Globe</title>
+   <summary>
+      <p>EECRA contains surface synoptic weather reports for the entire globe,
               gathered from various available data sets. The reports were processed, edited,
               and rewritten to provide a single dataset of individual observations of clouds,
               spanning the 46 years 1952-1997, and later augmented with data for 11 years 1998-2008, for ship data and the 26 years 1971-1996 for
@@ -29,343 +17,341 @@
               each edited report also includes the associated pressure, present weather, wind,
               air temperature, and dew point (and sea surface temperature over oceans).
               </p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="UAZ/ATMO > Department of Atmospheric Sciences, University of Arizona" contact="Carole J. Hahn" />
-          <contributor vocabulary="GCMD" name="UWA/ATMOS > Department of Atmospheric Science, University of Washington" contact="Steven G. Warren" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Types</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
-          <contact>Zaihua Ji</contact>
-          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
-          <platform vocabulary="GCMD">GROUND STATIONS</platform>
-          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
-          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
-          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
-          <platform vocabulary="GCMD">SHIPS</platform>
-          <platform vocabulary="GCMD">MOVING SHIPS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <reference type="technical_report">
-              <authorList>Hahn, C.J. and S.G. Warren</authorList>
-              <year>1999</year>
-              <title>Extended Edited Synoptic Cloud Reports from Ships and Land Stations Over the Globe, 1952-1996</title>
-              <organization reportID="NDP026C" pages="71">Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, Oak Ridge, TN</organization>
-            
-          </reference>
-          <relatedResource url="http://www.atmos.washington.edu/CloudMap/">Climate Atlas of Clouds Over Land and Ocean at the University of Washington</relatedResource>
-          <relatedResource url="http://cdiac.esd.ornl.gov/epubs/ndp/ndp026c/ndp026c.html">Documentation and Data at CDIAC</relatedResource>
-          <relatedDataset ID="292.0" />
-          <relatedDataset ID="292.1" />
-          <publicationDate>2006-08-16</publicationDate>
-          <contentMetadata>
-              <temporal start="1952" end="2008" groupID="Entire Dataset" />
-              <dataType>platform_observation</dataType>
-              <format>proprietary_ASCII</format>
-              <geospatialCoverage>
-                <location>Continent > Africa > Central Africa > Angola</location>
-                <location>Continent > Africa > Central Africa > Cameroon</location>
-                <location>Continent > Africa > Central Africa > Central African Republic</location>
-                <location>Continent > Africa > Central Africa > Chad</location>
-                <location>Continent > Africa > Central Africa > Congo, Democratic Republic</location>
-                <location>Continent > Africa > Central Africa > Congo, Republic</location>
-                <location>Continent > Africa > Central Africa > Equatorial Guinea</location>
-                <location>Continent > Africa > Central Africa > Gabon</location>
-                <location>Continent > Africa > Eastern Africa > Burundi</location>
-                <location>Continent > Africa > Eastern Africa > Djibouti</location>
-                <location>Continent > Africa > Eastern Africa > Eritrea</location>
-                <location>Continent > Africa > Eastern Africa > Ethiopia</location>
-                <location>Continent > Africa > Eastern Africa > Kenya</location>
-                <location>Continent > Africa > Eastern Africa > Malawi</location>
-                <location>Continent > Africa > Eastern Africa > Mozambique</location>
-                <location>Continent > Africa > Eastern Africa > Rwanda</location>
-                <location>Continent > Africa > Eastern Africa > Somalia</location>
-                <location>Continent > Africa > Eastern Africa > Tanzania</location>
-                <location>Continent > Africa > Eastern Africa > Uganda</location>
-                <location>Continent > Africa > Eastern Africa > Zambia</location>
-                <location>Continent > Africa > Eastern Africa > Zimbabwe</location>
-                <location>Continent > Africa > Northern Africa > Algeria</location>
-                <location>Continent > Africa > Northern Africa > Egypt</location>
-                <location>Continent > Africa > Northern Africa > Libya</location>
-                <location>Continent > Africa > Northern Africa > Morocco</location>
-                <location>Continent > Africa > Northern Africa > Sudan</location>
-                <location>Continent > Africa > Northern Africa > Tunisia</location>
-                <location>Continent > Africa > Southern Africa > Botswana</location>
-                <location>Continent > Africa > Southern Africa > Lesotho</location>
-                <location>Continent > Africa > Southern Africa > Namibia</location>
-                <location>Continent > Africa > Southern Africa > South Africa</location>
-                <location>Continent > Africa > Southern Africa > Swaziland</location>
-                <location>Continent > Africa > Western Africa > Benin</location>
-                <location>Continent > Africa > Western Africa > Burkina Faso</location>
-                <location>Continent > Africa > Western Africa > Cote D'ivoire</location>
-                <location>Continent > Africa > Western Africa > Gambia</location>
-                <location>Continent > Africa > Western Africa > Ghana</location>
-                <location>Continent > Africa > Western Africa > Guinea</location>
-                <location>Continent > Africa > Western Africa > Guinea-bissau</location>
-                <location>Continent > Africa > Western Africa > Liberia</location>
-                <location>Continent > Africa > Western Africa > Mali</location>
-                <location>Continent > Africa > Western Africa > Mauritania</location>
-                <location>Continent > Africa > Western Africa > Niger</location>
-                <location>Continent > Africa > Western Africa > Nigeria</location>
-                <location>Continent > Africa > Western Africa > Senegal</location>
-                <location>Continent > Africa > Western Africa > Sierra Leone</location>
-                <location>Continent > Africa > Western Africa > Togo</location>
-                <location>Continent > Africa > Western Africa > Western Sahara</location>
-                <location>Continent > Antarctica</location>
-                <location>Continent > Asia > Central/Eastern Russia</location>
-                <location>Continent > Asia > Eastern Asia > China</location>
-                <location>Continent > Asia > Eastern Asia > China > Hong Kong</location>
-                <location>Continent > Asia > Eastern Asia > Japan</location>
-                <location>Continent > Asia > Eastern Asia > Mongolia</location>
-                <location>Continent > Asia > Eastern Asia > North Korea</location>
-                <location>Continent > Asia > Eastern Asia > South Korea</location>
-                <location>Continent > Asia > Eastern Asia > Taiwan</location>
-                <location>Continent > Asia > Southcentral Asia > Afghanistan</location>
-                <location>Continent > Asia > Southcentral Asia > Bangladesh</location>
-                <location>Continent > Asia > Southcentral Asia > Bhutan</location>
-                <location>Continent > Asia > Southcentral Asia > India</location>
-                <location>Continent > Asia > Southcentral Asia > Iran</location>
-                <location>Continent > Asia > Southcentral Asia > Kazakhstan</location>
-                <location>Continent > Asia > Southcentral Asia > Kyrgyzstan</location>
-                <location>Continent > Asia > Southcentral Asia > Nepal</location>
-                <location>Continent > Asia > Southcentral Asia > Pakistan</location>
-                <location>Continent > Asia > Southcentral Asia > Tajikistan</location>
-                <location>Continent > Asia > Southcentral Asia > Turkmenistan</location>
-                <location>Continent > Asia > Southcentral Asia > Uzbekistan</location>
-                <location>Continent > Asia > Southeastern Asia > Burma</location>
-                <location>Continent > Asia > Southeastern Asia > Cambodia</location>
-                <location>Continent > Asia > Southeastern Asia > Laos</location>
-                <location>Continent > Asia > Southeastern Asia > Thailand</location>
-                <location>Continent > Asia > Southeastern Asia > Vietnam</location>
-                <location>Continent > Asia > Western Asia > Armenia</location>
-                <location>Continent > Asia > Western Asia > Azerbaijan</location>
-                <location>Continent > Asia > Western Asia > Georgia, Republic</location>
-                <location>Continent > Asia > Western Asia > Middle East > Bahrain</location>
-                <location>Continent > Asia > Western Asia > Middle East > Iraq</location>
-                <location>Continent > Asia > Western Asia > Middle East > Israel</location>
-                <location>Continent > Asia > Western Asia > Middle East > Jordan</location>
-                <location>Continent > Asia > Western Asia > Middle East > Kuwait</location>
-                <location>Continent > Asia > Western Asia > Middle East > Lebanon</location>
-                <location>Continent > Asia > Western Asia > Middle East > Oman</location>
-                <location>Continent > Asia > Western Asia > Middle East > Qatar</location>
-                <location>Continent > Asia > Western Asia > Middle East > Saudi Arabia</location>
-                <location>Continent > Asia > Western Asia > Middle East > Syria</location>
-                <location>Continent > Asia > Western Asia > Middle East > United Arab Emirates</location>
-                <location>Continent > Asia > Western Asia > Middle East > Yemen</location>
-                <location>Continent > Asia > Western Asia > Turkey</location>
-                <location>Continent > Australia/new Zealand > Australia</location>
-                <location>Continent > Australia/new Zealand > New Zealand</location>
-                <location>Continent > Australia/new Zealand > Tasmania</location>
-                <location>Continent > Europe > Eastern Europe > Belarus</location>
-                <location>Continent > Europe > Eastern Europe > Bulgaria</location>
-                <location>Continent > Europe > Eastern Europe > Czech Republic</location>
-                <location>Continent > Europe > Eastern Europe > Hungary</location>
-                <location>Continent > Europe > Eastern Europe > Moldova</location>
-                <location>Continent > Europe > Eastern Europe > Poland</location>
-                <location>Continent > Europe > Eastern Europe > Romania</location>
-                <location>Continent > Europe > Eastern Europe > Slovakia</location>
-                <location>Continent > Europe > Eastern Europe > Ukraine</location>
-                <location>Continent > Europe > Eastern Europe > Western Russia</location>
-                <location>Continent > Europe > Northern Europe > British Isles > Ireland</location>
-                <location>Continent > Europe > Northern Europe > British Isles > United Kingdom</location>
-                <location>Continent > Europe > Northern Europe > Estonia</location>
-                <location>Continent > Europe > Northern Europe > Iceland</location>
-                <location>Continent > Europe > Northern Europe > Latvia</location>
-                <location>Continent > Europe > Northern Europe > Lithuania</location>
-                <location>Continent > Europe > Northern Europe > Scandanavia > Denmark</location>
-                <location>Continent > Europe > Northern Europe > Scandanavia > Finland</location>
-                <location>Continent > Europe > Northern Europe > Scandanavia > Norway</location>
-                <location>Continent > Europe > Northern Europe > Scandanavia > Sweden</location>
-                <location>Continent > Europe > Southern Europe > Albania</location>
-                <location>Continent > Europe > Southern Europe > Andorra</location>
-                <location>Continent > Europe > Southern Europe > Bosnia And Herzegovina</location>
-                <location>Continent > Europe > Southern Europe > Croatia</location>
-                <location>Continent > Europe > Southern Europe > Greece</location>
-                <location>Continent > Europe > Southern Europe > Italy</location>
-                <location>Continent > Europe > Southern Europe > Macedonia, Fyr > Yugoslavia</location>
-                <location>Continent > Europe > Southern Europe > Slovenia</location>
-                <location>Continent > Europe > Southern Europe > Spain</location>
-                <location>Continent > Europe > Western Europe > Austria</location>
-                <location>Continent > Europe > Western Europe > Belgium</location>
-                <location>Continent > Europe > Western Europe > France</location>
-                <location>Continent > Europe > Western Europe > Germany</location>
-                <location>Continent > Europe > Western Europe > Liechtenstein</location>
-                <location>Continent > Europe > Western Europe > Luxembourg</location>
-                <location>Continent > Europe > Western Europe > Netherlands</location>
-                <location>Continent > Europe > Western Europe > Portugal</location>
-                <location>Continent > Europe > Western Europe > Switzerland</location>
-                <location>Continent > North America > Canada > Alberta</location>
-                <location>Continent > North America > Canada > British Columbia</location>
-                <location>Continent > North America > Canada > Manitoba</location>
-                <location>Continent > North America > Canada > New Brunswick</location>
-                <location>Continent > North America > Canada > Newfoundland And Labrador</location>
-                <location>Continent > North America > Canada > Northwest Territories</location>
-                <location>Continent > North America > Canada > Nova Scotia</location>
-                <location>Continent > North America > Canada > Ontario</location>
-                <location>Continent > North America > Canada > Prince Edward Island</location>
-                <location>Continent > North America > Canada > Quebec</location>
-                <location>Continent > North America > Canada > Saskatchewan</location>
-                <location>Continent > North America > Canada > Yukon Territory</location>
-                <location>Continent > North America > Central America > Belize</location>
-                <location>Continent > North America > Central America > Costa Rica</location>
-                <location>Continent > North America > Central America > El Salvador</location>
-                <location>Continent > North America > Central America > Guatemala</location>
-                <location>Continent > North America > Central America > Honduras</location>
-                <location>Continent > North America > Central America > Nicaragua</location>
-                <location>Continent > North America > Central America > Panama</location>
-                <location>Continent > North America > Greenland</location>
-                <location>Continent > North America > Mexico</location>
-                <location>Continent > North America > United States Of America > Alabama</location>
-                <location>Continent > North America > United States Of America > Alaska</location>
-                <location>Continent > North America > United States Of America > Arizona</location>
-                <location>Continent > North America > United States Of America > Arkansas</location>
-                <location>Continent > North America > United States Of America > California</location>
-                <location>Continent > North America > United States Of America > Colorado</location>
-                <location>Continent > North America > United States Of America > Connecticut</location>
-                <location>Continent > North America > United States Of America > Delaware</location>
-                <location>Continent > North America > United States Of America > District Of Columbia</location>
-                <location>Continent > North America > United States Of America > Florida</location>
-                <location>Continent > North America > United States Of America > Georgia</location>
-                <location>Continent > North America > United States Of America > Hawaii</location>
-                <location>Continent > North America > United States Of America > Idaho</location>
-                <location>Continent > North America > United States Of America > Illinois</location>
-                <location>Continent > North America > United States Of America > Indiana</location>
-                <location>Continent > North America > United States Of America > Iowa</location>
-                <location>Continent > North America > United States Of America > Kansas</location>
-                <location>Continent > North America > United States Of America > Kentucky</location>
-                <location>Continent > North America > United States Of America > Louisiana</location>
-                <location>Continent > North America > United States Of America > Maine</location>
-                <location>Continent > North America > United States Of America > Maryland</location>
-                <location>Continent > North America > United States Of America > Massachusetts</location>
-                <location>Continent > North America > United States Of America > Michigan</location>
-                <location>Continent > North America > United States Of America > Minnesota</location>
-                <location>Continent > North America > United States Of America > Mississippi</location>
-                <location>Continent > North America > United States Of America > Missouri</location>
-                <location>Continent > North America > United States Of America > Montana</location>
-                <location>Continent > North America > United States Of America > Nebraska</location>
-                <location>Continent > North America > United States Of America > Nevada</location>
-                <location>Continent > North America > United States Of America > New Hampshire</location>
-                <location>Continent > North America > United States Of America > New Jersey</location>
-                <location>Continent > North America > United States Of America > New Mexico</location>
-                <location>Continent > North America > United States Of America > New York</location>
-                <location>Continent > North America > United States Of America > North Carolina</location>
-                <location>Continent > North America > United States Of America > North Dakota</location>
-                <location>Continent > North America > United States Of America > Ohio</location>
-                <location>Continent > North America > United States Of America > Oklahoma</location>
-                <location>Continent > North America > United States Of America > Oregon</location>
-                <location>Continent > North America > United States Of America > Pennsylvania</location>
-                <location>Continent > North America > United States Of America > Rhode Island</location>
-                <location>Continent > North America > United States Of America > South Carolina</location>
-                <location>Continent > North America > United States Of America > South Dakota</location>
-                <location>Continent > North America > United States Of America > Tennessee</location>
-                <location>Continent > North America > United States Of America > Texas</location>
-                <location>Continent > North America > United States Of America > Utah</location>
-                <location>Continent > North America > United States Of America > Vermont</location>
-                <location>Continent > North America > United States Of America > Virginia</location>
-                <location>Continent > North America > United States Of America > Washington</location>
-                <location>Continent > North America > United States Of America > West Virginia</location>
-                <location>Continent > North America > United States Of America > Wisconsin</location>
-                <location>Continent > North America > United States Of America > Wyoming</location>
-                <location>Continent > South America > Argentina</location>
-                <location>Continent > South America > Bolivia</location>
-                <location>Continent > South America > Brazil</location>
-                <location>Continent > South America > Chile</location>
-                <location>Continent > South America > Colombia</location>
-                <location>Continent > South America > Ecuador</location>
-                <location>Continent > South America > French Guiana</location>
-                <location>Continent > South America > Guyana</location>
-                <location>Continent > South America > Paraguay</location>
-                <location>Continent > South America > Peru</location>
-                <location>Continent > South America > Suriname</location>
-                <location>Continent > South America > Uruguay</location>
-                <location>Continent > South America > Venezuela</location>
-                <location>Ocean > Arctic Ocean</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Azores</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Bermuda</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Canary Islands</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Cape Verde</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Antigua And Barbuda</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Bahamas</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Bonaire</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Cuba</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Curacao</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Dominica</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Dominican Republic</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Grenada</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Guadeloupe</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Haiti</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Jamaica</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Martinique</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Puerto Rico</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > St Kitts And Nevis</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > St Lucia</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > St Vincent And The Grenadines</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Trinidad And Tobago</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Turks And Caicos Islands</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Caribbean Sea > Virgin Islands</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Madeira</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Corsica</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Cyprus</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Malta</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Sardinia</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Mediterranean Sea > Sicily</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Norwegian Sea > Faeroe Islands</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > St Pierre And Miquelon</location>
-                <location>Ocean > Atlantic Ocean > North Atlantic Ocean > Svalbard And Jan Mayen</location>
-                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > Falkland Islands</location>
-                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > Sao Tome And Principe</location>
-                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > South Georgia Island</location>
-                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > South Orkney Islands</location>
-                <location>Ocean > Atlantic Ocean > South Atlantic Ocean > South Sandwich Islands</location>
-                <location>Ocean > Indian Ocean > Andaman Islands</location>
-                <location>Ocean > Indian Ocean > Borneo</location>
-                <location>Ocean > Indian Ocean > Brunei Darussalam</location>
-                <location>Ocean > Indian Ocean > Christmas Island</location>
-                <location>Ocean > Indian Ocean > Comoros</location>
-                <location>Ocean > Indian Ocean > Indonesia</location>
-                <location>Ocean > Indian Ocean > Indonesia > Sumatra</location>
-                <location>Ocean > Indian Ocean > Madagascar</location>
-                <location>Ocean > Indian Ocean > Malaysia</location>
-                <location>Ocean > Indian Ocean > Maldives</location>
-                <location>Ocean > Indian Ocean > Mauritius</location>
-                <location>Ocean > Indian Ocean > Nicobar Islands</location>
-                <location>Ocean > Indian Ocean > Reunion</location>
-                <location>Ocean > Indian Ocean > Seychelles</location>
-                <location>Ocean > Indian Ocean > Singapore</location>
-                <location>Ocean > Indian Ocean > Sri Lanka</location>
-                <location>Ocean > Indian Ocean > Zanzibar</location>
-                <location>Ocean > Pacific Ocean > Central Pacific Ocean > Guam</location>
-                <location>Ocean > Pacific Ocean > Central Pacific Ocean > Kiribati</location>
-                <location>Ocean > Pacific Ocean > Central Pacific Ocean > Wake Island</location>
-                <location>Ocean > Pacific Ocean > Eastern Pacific Ocean > Galapagos Islands</location>
-                <location>Ocean > Pacific Ocean > North Pacific Ocean > Okinawa</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > New Caledonia</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Papua New Guinea</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Solomon Islands</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Melanesia > Vanuatu</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Cook Islands</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Fiji</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > French Polynesia</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Niue</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Pitcairn Island</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Samoa</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tokelau</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tonga</location>
-                <location>Ocean > Pacific Ocean > South Pacific Ocean > Polynesia > Tuvalu</location>
-                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Federated States of Micronesia</location>
-                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Marshall Islands</location>
-                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Northern Mariana Islands</location>
-                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Micronesia > Palau</location>
-                <location>Ocean > Pacific Ocean > Western Pacific Ocean > Philippines</location>
-              </geospatialCoverage>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="UAZ/ATMO &gt; Department of Atmospheric Sciences, University of Arizona"
+                contact="Carole J. Hahn"/>
+   <contributor vocabulary="GCMD"
+                name="UWA/ATMOS &gt; Department of Atmospheric Science, University of Washington"
+                contact="Steven G. Warren"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Amount/Frequency</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Clouds &gt; Cloud Types</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Dew Point Temperature</variable>
+   <contact>Zaihua Ji</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">MOVING SHIPS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="technical_report">
+      <authorList>Hahn, C.J. and S.G. Warren</authorList>
+      <year>1999</year>
+      <title>Extended Edited Synoptic Cloud Reports from Ships and Land Stations Over the Globe, 1952-1996</title>
+      <organization reportID="NDP026C" pages="71">Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, Oak Ridge, TN</organization>
+   </reference>
+   <relatedResource url="http://www.atmos.washington.edu/CloudMap/">Climate Atlas of Clouds Over Land and Ocean at the University of Washington</relatedResource>
+   <relatedResource url="http://cdiac.esd.ornl.gov/epubs/ndp/ndp026c/ndp026c.html">Documentation and Data at CDIAC</relatedResource>
+   <relatedDataset ID="292.0"/>
+   <relatedDataset ID="292.1"/>
+   <publicationDate>2006-08-16</publicationDate>
+   <contentMetadata>
+      <temporal start="1952" end="2008" groupID="Entire Dataset"/>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_ASCII</format>
+      <geospatialCoverage>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Angola</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Cameroon</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Central African Republic</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Chad</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Congo, Democratic Republic</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Congo, Republic</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Equatorial Guinea</location>
+         <location>Continent &gt; Africa &gt; Central Africa &gt; Gabon</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Burundi</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Djibouti</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Eritrea</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Ethiopia</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Kenya</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Malawi</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Mozambique</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Rwanda</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Somalia</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Tanzania</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Uganda</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Zambia</location>
+         <location>Continent &gt; Africa &gt; Eastern Africa &gt; Zimbabwe</location>
+         <location>Continent &gt; Africa &gt; Northern Africa &gt; Algeria</location>
+         <location>Continent &gt; Africa &gt; Northern Africa &gt; Egypt</location>
+         <location>Continent &gt; Africa &gt; Northern Africa &gt; Libya</location>
+         <location>Continent &gt; Africa &gt; Northern Africa &gt; Morocco</location>
+         <location>Continent &gt; Africa &gt; Northern Africa &gt; Sudan</location>
+         <location>Continent &gt; Africa &gt; Northern Africa &gt; Tunisia</location>
+         <location>Continent &gt; Africa &gt; Southern Africa &gt; Botswana</location>
+         <location>Continent &gt; Africa &gt; Southern Africa &gt; Lesotho</location>
+         <location>Continent &gt; Africa &gt; Southern Africa &gt; Namibia</location>
+         <location>Continent &gt; Africa &gt; Southern Africa &gt; South Africa</location>
+         <location>Continent &gt; Africa &gt; Southern Africa &gt; Swaziland</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Benin</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Burkina Faso</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Cote D'ivoire</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Gambia</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Ghana</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Guinea</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Guinea-bissau</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Liberia</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Mali</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Mauritania</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Niger</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Nigeria</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Senegal</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Sierra Leone</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Togo</location>
+         <location>Continent &gt; Africa &gt; Western Africa &gt; Western Sahara</location>
+         <location>Continent &gt; Antarctica</location>
+         <location>Continent &gt; Asia &gt; Central/Eastern Russia</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; China</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; China &gt; Hong Kong</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; Japan</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; Mongolia</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; North Korea</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; South Korea</location>
+         <location>Continent &gt; Asia &gt; Eastern Asia &gt; Taiwan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Afghanistan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Bangladesh</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Bhutan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; India</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Iran</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Kazakhstan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Kyrgyzstan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Nepal</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Pakistan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Tajikistan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Turkmenistan</location>
+         <location>Continent &gt; Asia &gt; Southcentral Asia &gt; Uzbekistan</location>
+         <location>Continent &gt; Asia &gt; Southeastern Asia &gt; Burma</location>
+         <location>Continent &gt; Asia &gt; Southeastern Asia &gt; Cambodia</location>
+         <location>Continent &gt; Asia &gt; Southeastern Asia &gt; Laos</location>
+         <location>Continent &gt; Asia &gt; Southeastern Asia &gt; Thailand</location>
+         <location>Continent &gt; Asia &gt; Southeastern Asia &gt; Vietnam</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Armenia</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Azerbaijan</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Georgia, Republic</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Bahrain</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Iraq</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Israel</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Jordan</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Kuwait</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Lebanon</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Oman</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Qatar</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Saudi Arabia</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Syria</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; United Arab Emirates</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Middle East &gt; Yemen</location>
+         <location>Continent &gt; Asia &gt; Western Asia &gt; Turkey</location>
+         <location>Continent &gt; Australia/new Zealand &gt; Australia</location>
+         <location>Continent &gt; Australia/new Zealand &gt; New Zealand</location>
+         <location>Continent &gt; Australia/new Zealand &gt; Tasmania</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Belarus</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Bulgaria</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Czech Republic</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Hungary</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Moldova</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Poland</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Romania</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Slovakia</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Ukraine</location>
+         <location>Continent &gt; Europe &gt; Eastern Europe &gt; Western Russia</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; British Isles &gt; Ireland</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; British Isles &gt; United Kingdom</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Estonia</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Iceland</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Latvia</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Lithuania</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Scandanavia &gt; Denmark</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Scandanavia &gt; Finland</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Scandanavia &gt; Norway</location>
+         <location>Continent &gt; Europe &gt; Northern Europe &gt; Scandanavia &gt; Sweden</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Albania</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Andorra</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Bosnia And Herzegovina</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Croatia</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Greece</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Italy</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Macedonia, Fyr &gt; Yugoslavia</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Slovenia</location>
+         <location>Continent &gt; Europe &gt; Southern Europe &gt; Spain</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Austria</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Belgium</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; France</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Germany</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Liechtenstein</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Luxembourg</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Netherlands</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Portugal</location>
+         <location>Continent &gt; Europe &gt; Western Europe &gt; Switzerland</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Alberta</location>
+         <location>Continent &gt; North America &gt; Canada &gt; British Columbia</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Manitoba</location>
+         <location>Continent &gt; North America &gt; Canada &gt; New Brunswick</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Newfoundland And Labrador</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Northwest Territories</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Nova Scotia</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Ontario</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Prince Edward Island</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Quebec</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Saskatchewan</location>
+         <location>Continent &gt; North America &gt; Canada &gt; Yukon Territory</location>
+         <location>Continent &gt; North America &gt; Central America &gt; Belize</location>
+         <location>Continent &gt; North America &gt; Central America &gt; Costa Rica</location>
+         <location>Continent &gt; North America &gt; Central America &gt; El Salvador</location>
+         <location>Continent &gt; North America &gt; Central America &gt; Guatemala</location>
+         <location>Continent &gt; North America &gt; Central America &gt; Honduras</location>
+         <location>Continent &gt; North America &gt; Central America &gt; Nicaragua</location>
+         <location>Continent &gt; North America &gt; Central America &gt; Panama</location>
+         <location>Continent &gt; North America &gt; Greenland</location>
+         <location>Continent &gt; North America &gt; Mexico</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Alabama</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Alaska</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Arizona</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Arkansas</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; California</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Colorado</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Connecticut</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Delaware</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; District Of Columbia</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Florida</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Georgia</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Hawaii</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Idaho</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Illinois</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Indiana</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Iowa</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Kansas</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Kentucky</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Louisiana</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Maine</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Maryland</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Massachusetts</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Michigan</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Minnesota</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Mississippi</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Missouri</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Montana</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Nebraska</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Nevada</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; New Hampshire</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; New Jersey</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; New Mexico</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; New York</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; North Carolina</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; North Dakota</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Ohio</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Oklahoma</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Oregon</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Pennsylvania</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Rhode Island</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; South Carolina</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; South Dakota</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Tennessee</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Texas</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Utah</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Vermont</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Virginia</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Washington</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; West Virginia</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Wisconsin</location>
+         <location>Continent &gt; North America &gt; United States Of America &gt; Wyoming</location>
+         <location>Continent &gt; South America &gt; Argentina</location>
+         <location>Continent &gt; South America &gt; Bolivia</location>
+         <location>Continent &gt; South America &gt; Brazil</location>
+         <location>Continent &gt; South America &gt; Chile</location>
+         <location>Continent &gt; South America &gt; Colombia</location>
+         <location>Continent &gt; South America &gt; Ecuador</location>
+         <location>Continent &gt; South America &gt; French Guiana</location>
+         <location>Continent &gt; South America &gt; Guyana</location>
+         <location>Continent &gt; South America &gt; Paraguay</location>
+         <location>Continent &gt; South America &gt; Peru</location>
+         <location>Continent &gt; South America &gt; Suriname</location>
+         <location>Continent &gt; South America &gt; Uruguay</location>
+         <location>Continent &gt; South America &gt; Venezuela</location>
+         <location>Ocean &gt; Arctic Ocean</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Azores</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Bermuda</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Canary Islands</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Cape Verde</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Antigua And Barbuda</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Bahamas</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Bonaire</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Cuba</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Curacao</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Dominica</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Dominican Republic</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Grenada</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Guadeloupe</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Haiti</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Jamaica</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Martinique</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Puerto Rico</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; St Kitts And Nevis</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; St Lucia</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; St Vincent And The Grenadines</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Trinidad And Tobago</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Turks And Caicos Islands</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Caribbean Sea &gt; Virgin Islands</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Madeira</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Mediterranean Sea &gt; Corsica</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Mediterranean Sea &gt; Cyprus</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Mediterranean Sea &gt; Malta</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Mediterranean Sea &gt; Sardinia</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Mediterranean Sea &gt; Sicily</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Norwegian Sea &gt; Faeroe Islands</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; St Pierre And Miquelon</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; North Atlantic Ocean &gt; Svalbard And Jan Mayen</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; South Atlantic Ocean &gt; Falkland Islands</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; South Atlantic Ocean &gt; Sao Tome And Principe</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; South Atlantic Ocean &gt; South Georgia Island</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; South Atlantic Ocean &gt; South Orkney Islands</location>
+         <location>Ocean &gt; Atlantic Ocean &gt; South Atlantic Ocean &gt; South Sandwich Islands</location>
+         <location>Ocean &gt; Indian Ocean &gt; Andaman Islands</location>
+         <location>Ocean &gt; Indian Ocean &gt; Borneo</location>
+         <location>Ocean &gt; Indian Ocean &gt; Brunei Darussalam</location>
+         <location>Ocean &gt; Indian Ocean &gt; Christmas Island</location>
+         <location>Ocean &gt; Indian Ocean &gt; Comoros</location>
+         <location>Ocean &gt; Indian Ocean &gt; Indonesia</location>
+         <location>Ocean &gt; Indian Ocean &gt; Indonesia &gt; Sumatra</location>
+         <location>Ocean &gt; Indian Ocean &gt; Madagascar</location>
+         <location>Ocean &gt; Indian Ocean &gt; Malaysia</location>
+         <location>Ocean &gt; Indian Ocean &gt; Maldives</location>
+         <location>Ocean &gt; Indian Ocean &gt; Mauritius</location>
+         <location>Ocean &gt; Indian Ocean &gt; Nicobar Islands</location>
+         <location>Ocean &gt; Indian Ocean &gt; Reunion</location>
+         <location>Ocean &gt; Indian Ocean &gt; Seychelles</location>
+         <location>Ocean &gt; Indian Ocean &gt; Singapore</location>
+         <location>Ocean &gt; Indian Ocean &gt; Sri Lanka</location>
+         <location>Ocean &gt; Indian Ocean &gt; Zanzibar</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Central Pacific Ocean &gt; Guam</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Central Pacific Ocean &gt; Kiribati</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Central Pacific Ocean &gt; Wake Island</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Eastern Pacific Ocean &gt; Galapagos Islands</location>
+         <location>Ocean &gt; Pacific Ocean &gt; North Pacific Ocean &gt; Okinawa</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Melanesia &gt; New Caledonia</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Melanesia &gt; Papua New Guinea</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Melanesia &gt; Solomon Islands</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Melanesia &gt; Vanuatu</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Cook Islands</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Fiji</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; French Polynesia</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Niue</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Pitcairn Island</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Samoa</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Tokelau</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Tonga</location>
+         <location>Ocean &gt; Pacific Ocean &gt; South Pacific Ocean &gt; Polynesia &gt; Tuvalu</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Micronesia &gt; Federated States of Micronesia</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Micronesia &gt; Marshall Islands</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Micronesia &gt; Northern Mariana Islands</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Micronesia &gt; Palau</location>
+         <location>Ocean &gt; Pacific Ocean &gt; Western Pacific Ocean &gt; Philippines</location>
+      </geospatialCoverage>
+   </contentMetadata>
+</dsOverview>

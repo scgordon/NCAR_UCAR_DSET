@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:43Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds256.3" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds256.3</identifier>
+        <datestamp>2011-12-03T02:59:13Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="256.3" type="primary">
+          <timeStamp value="2011-12-02 19:59:10 -0700" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>MEDS Observed Wave Data</title>
+          <summary>
+              <p>Data from Canadian buoys through Nov. 1998, data from
+              two NOAA buoys now operated by Canada, and data from
+              three Canadian waverider buoys.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="CA/DFO/MEDS > Marine Environmental Data Service, Fisheries and Oceans, Canada" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Significant Wave Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Period</variable>
+          <contact>Zaihua Ji</contact>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">BUOYS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <relatedResource url="http://www.meds-sdmm.dfo-mpo.gc.ca">Marine Environmental Data Service web site</relatedResource>
+          <publicationDate>1999-06-29</publicationDate>
+          <contentMetadata>
+            <temporal start="1970-06-26" end="1998-11-23" groupID="Entire Dataset" />
+            <temporalFrequency type="regular" number="8" unit="hour" />
+            <temporalFrequency type="regular" number="2" unit="hour" />
+            <temporalFrequency type="regular" number="1" unit="hour" />
+            <dataType>grid</dataType>
+            <dataType>platform_observation</dataType>
+            <format>proprietary_ASCII</format>
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

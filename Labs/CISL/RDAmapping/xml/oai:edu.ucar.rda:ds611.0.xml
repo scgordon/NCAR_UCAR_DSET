@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:54:44Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds611.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds611.0</identifier>
+        <datestamp>2015-02-12T00:05:23Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="611.0" type="primary">
+          <timeStamp value="2015-02-11 17:05:19 -0700" />
+          <continuingUpdate value="no" />
+          
+          <title>ALPEX Dropwindsondes, spring 1982</title>
+          <summary>
+              <p>From the ALPine EXperiment, for FGGE</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="UCAR/NCAR/CGD/CAS > Climate Analysis Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" contact="Paul Julian" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">DROPWINDSONDES</platform>
+          <project vocabulary="GCMD">ALPEX > Alpine Experiment</project>
+          <project vocabulary="GCMD">GARP/FGGE > Global Atmospheric Research Program/First Garp Global Experiment (GARP/FGGE)</project>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedDataset ID="307.7" />
+          <relatedDataset ID="381.0" />
+          <publicationDate>1983-02-28</publicationDate>
+          <contentMetadata>
+              <temporal start="9998" end="9998" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_Binary</format>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

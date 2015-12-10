@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:01Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds518.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds518.0</identifier>
+        <datestamp>2013-02-25T23:57:40Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="518.0" type="primary">
+          <timeStamp value="2013-02-25 16:57:37 -0700" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">all_free</access>
+          <title>Japan Summary of Day, 1951-1989</title>
+          <summary>
+              <p>This dataset contains summary of day information (maximum and
+              minimum temperatures and precipitation amount) for Japanese
+              stations from 1951 to 1989.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="JP/JMA > Japan Meteorological Agency, Japan" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Maximum/Minimum Temperature</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1990-05-09</publicationDate>
+          <contentMetadata>
+              <temporal start="1951" end="1989" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+              <geospatialCoverage>
+                <location>Continent > Asia > Eastern Asia > Japan</location>
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

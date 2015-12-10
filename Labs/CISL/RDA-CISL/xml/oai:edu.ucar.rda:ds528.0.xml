@@ -1,54 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:56:18Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds528.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds528.0</identifier>
-        <datestamp>2014-01-16T04:45:11Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="528.0" type="primary">
-          <timeStamp value="2014-01-15 21:45:08 -0700" />
-          <continuingUpdate value="no" />
-          
-          <title>Vecchia's Upper Midwest U.S. Monthly Station Summaries</title>
-          <summary><p>This dataset contains monthly summary information for
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="528.0"
+            type="primary">
+   <timeStamp value="2014-01-15 21:45:08 -0700"/>
+   <continuingUpdate value="no"/>
+   <title>Vecchia's Upper Midwest U.S. Monthly Station Summaries</title>
+   <summary>
+      <p>This dataset contains monthly summary information for
               stations in seven Upper Midwest states (Minnesota, Iowa, North
               Dakota, South Dakota, Montana, Wyoming, and Nebraska).  Included
               in the summaries are temperature, precipitation, and snowfall
               statistics.</p>
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="COLOSTATE/STAT > Department of Statistics, Colorado State University" contact="Dom Vecchia" citable="yes" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Snow</variable>
-          <contact>Bob Dattore</contact>
-          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
-          <platform vocabulary="GCMD">GROUND STATIONS</platform>
-          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
-          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <publicationDate>1980-03-20</publicationDate>
-          <contentMetadata>
-              <temporal start="9998" end="9998" groupID="Entire Dataset" />
-              <dataType>platform_observation</dataType>
-              <format>proprietary_Binary</format>
-              <levels>
-                <level type="Ground or water surface" value="0" />
-              </levels>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="COLOSTATE/STAT &gt; Department of Statistics, Colorado State University"
+                contact="Dom Vecchia"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Snow</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1980-03-20</publicationDate>
+   <contentMetadata>
+      <temporal start="9998" end="9998" groupID="Entire Dataset"/>
+      <dataType>platform_observation</dataType>
+      <format>proprietary_Binary</format>
+      <levels>
+         <level type="Ground or water surface" value="0"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

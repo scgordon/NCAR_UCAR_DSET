@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:35Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds460.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds460.0</identifier>
+        <datestamp>2006-10-17T04:35:04Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="460.0" type="primary">
+          <timeStamp value="2006-10-16 22:35:04 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>U.S.A.F. ETAC TD9600 Surface Observations, 1967Feb-Apr and 1976Aug</title>
+          <summary>
+              <p>Global surface observations from the U.S.A.F. for February
+              1967 to April 1967 and for August 1976.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOD/USAF/AFWA > Air Force Weather Agency, U.S. Air Force, U.S. Department of Defense" formerName="Environmental Technical Applications Center" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Types</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Base</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Air Quality > Visibility</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Station Height</variable>
+          <contact>Will Spangler</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1980-03-24</publicationDate>
+          <contentMetadata>
+              <temporal start="1976-08" end="1976-08" />
+              <temporal start="1967-02" end="1967-04" />
+              <dataType>platform_observations</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

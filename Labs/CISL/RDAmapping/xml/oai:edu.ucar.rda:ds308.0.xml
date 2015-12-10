@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:53Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds308.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds308.0</identifier>
+        <datestamp>2007-05-11T21:35:45Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="308.0" type="primary">
+          <timeStamp value="2007-05-11 15:35:45 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>GFDL Global Analyses for FGGE, SOP 1 and 2, 1978Dec-1979Nov</title>
+          <summary>
+              <p>This dataset contains global analyses of tropospheric
+              geopotential height, temperature, winds, relative humidity, and
+              vertical motion from the Geophysical Fluid Dynamics Laboratory
+              (GFDL) for FGGE Special Observation Periods 1 and 2.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/GFDL > NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Vertical Wind Motion</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Wind Stress</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">MODELS</platform>
+          <supportsProject vocabulary="GCMD">GARP/FGGE > Global Atmospheric Research Program/First Garp Global Experiment (GARP/FGGE)</supportsProject>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <reference type="technical_report">
+              <authorList>Ploshay, J.J., R.K. White, and K. Miyakoda</authorList>
+              <year>1983</year>
+              <title>FGGE Level III-B Daily Global Analyses Part II (Mar 1979 - May 1979)</title>
+              <organization reportID="Data Report ERL GFDL-2" pages="285">NOAA</organization>
+            
+          </reference>
+          <publicationDate>1984-12-05</publicationDate>
+          <contentMetadata>
+              <temporal start="1978-12" end="1979-11" groupID="Entire Dataset" />
+              <dataType>grid</dataType>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

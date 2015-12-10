@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:33Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds463.2" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds463.2</identifier>
+        <datestamp>2015-02-11T04:12:33Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="463.2" type="historical">
+          <timeStamp value="2015-02-10 21:12:29 -0700" />
+          <continuingUpdate value="yes" frequency="yearly" />
+          
+          <title>U.S.A.F. DATSAV3 Surface Observations, 1901-continuing</title>
+          <summary><p>This ASCII data set (DATSAV3) is produced at the National Climatic Data Center (NCDC) from
+              a USAF binary set (DATSAV2), a collection of worldwide surface weather observations from sources such as the
+              the Global Telecommunications System (GTS) and Automated Weather Network (AWN).  The Air Force Weather Agency (AFWA)
+              decoded most of the collected observations for the Air Force Combat Climatology Center (AFCCC) where final
+              decoding, validation, and quality control created DATSAV2.</p>
+              <p>Mandatory data includes pressure, temperature, visibility, sky condition,
+              and wind observation, but there may also be additional data,
+              data remarks, or data element quality sections.</p>
+              <p>NCDC provides quarterly updates to DSS, usually with a two-month delay.
+              The earliest data is for 1901.  The earliest years have the least volume of data, a few hundred megabytes;
+              the volume in the 1950s-early 1960s increased by a factor of 10-20; 1965-1972 shows a decrease because of a loss of data;
+              beginning in 1973 with about 5 gigabytes of data, volume has gradually increased to about 20 gigabytes per year.
+              There are now about 10,000 active stations.</p>
+              <p>Similar data sets prepared by the National Centers for Environmental Prediction (NCEP)
+              are <a href="http://rda.ucar.edu/datasets/ds464.0/">ds464.0</a> (beginning February 1975), and <a href="http://rda.ucar.edu/datasets/ds461.0/">ds461.0</a> (beginning April 2000).
+              </p>
+              <p style="color: red">This dataset has been superseded by <a href="/datasets/ds463.3/">ds463.3</a>.</p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" citable="no" />
+          <contributor vocabulary="GCMD" name="DOD/USAF/AFCCC > Air Force Combat Climatology Center, U.S. Air Force, U.S. Department of Defense" citable="no" />
+          <contributor vocabulary="GCMD" name="DOD/USAF/AFWA > Air Force Weather Agency, U.S. Air Force, U.S. Department of Defense" citable="no" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Types</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Snow</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Air Quality > Visibility</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Base</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Period</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Station Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Speed/Direction</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Hail</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Maximum/Minimum Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Pressure Tendency</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <project vocabulary="GCMD">AWDN > Automated Weather Data Network</project>
+          <project vocabulary="GCMD">GTS > Global Telecommunications System</project>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedDataset ID="463.0" />
+          <relatedDataset ID="463.1" />
+          <relatedDataset ID="463.3" />
+          <relatedDataset ID="467.0" />
+          <publicationDate>2003-06-16</publicationDate>
+          <contentMetadata>
+              <temporal start="1901-01" end="2008-05" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

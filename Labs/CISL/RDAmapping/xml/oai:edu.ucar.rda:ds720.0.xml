@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:54:35Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds720.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds720.0</identifier>
+        <datestamp>2006-10-17T04:36:37Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="720.0" type="primary">
+          <timeStamp value="2006-10-16 22:36:37 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>NESS GOES Wind data, October 1974 to February 1984</title>
+          <summary>
+              <p>This dataset contains GOES satellite cloud wind data for
+              various periods between October 1974 and February 1984.  All
+              observations are from the final NESDIS archive.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/OSDPD/SSD > Satellite Services Division, Office of Satellite Data Processing and Distribution, NESDIS, NOAA, U.S. Department of Commerce" formerName="National Environmental Satellite Service" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">GOES > NOAA Geostationary Operational Environmental Satellites</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1980-07-14</publicationDate>
+          <contentMetadata>
+              <temporal start="1981-11" end="1984-02" />
+              <temporal start="1975-09" end="1980-04" />
+              <temporal start="1974-12" end="1975-07" />
+              <temporal start="1974-10" end="1974-10" />
+              <dataType>satellite</dataType>
+              <format>proprietary_Binary</format>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

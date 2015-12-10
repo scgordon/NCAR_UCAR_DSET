@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:54:59Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds535.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds535.0</identifier>
+        <datestamp>2013-01-09T05:15:35Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="535.0" type="primary">
+          <timeStamp value="2013-01-08 22:15:31 -0700" />
+          <continuingUpdate value="no" />
+          <access>all_free</access>
+          <title>Ocean station vessel observations</title>
+          <summary>
+              <p>Surface observations, some XBT profiles, and some
+              sub-surface station data from permanent observing ocean ships.
+              Earliest data is 1945 and latest data is 1991. Added in June 2006 are station
+              and line P profile data extracted from WOD05 by Boyer.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NODC/OCL > Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
+          <contributor vocabulary="GCMD" name="UCO/CIRES > Cooperative Institute for Research in Environmental Sciences, University of Colorado" contact="Mike Alexander" />
+          <contributor vocabulary="GCMD" name="U-BRIS/GGY > School of Geographic Sciences, University of Bristol, United Kingdom" contact="David Kilham" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Air Quality > Visibility</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Sea Ice > Icebergs</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Period</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Speed/Direction</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Swells</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
+          <contact>Zaihua Ji</contact>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <publicationDate>1980-11-12</publicationDate>
+          <contentMetadata>
+              <temporal start="1945" end="1991" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:35Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds461.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds461.0</identifier>
+        <datestamp>2014-07-16T18:27:07Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="461.0" type="primary">
+          <timeStamp value="2014-07-16 12:27:02 -0600" />
+          <continuingUpdate value="yes" frequency="daily" />
+          
+          <title>NCEP ADP Global Surface Observational Weather Data, October 1999 - continuing</title>
+          <summary><p>NCEP ADP Global Surface Observational Weather Data are composed of surface weather reports operationally collected by the National Centers for Environmental Prediction (NCEP).
+              The data includes land and marine surface reports received via the Global Telecommunications System (GTS).  Variables recorded in the reports include pressure, air temperature, dew point temperature,
+              wind direction and speed.  Precipitation data has been decoded for the
+              U.S. and Canada.  Report intervals range from hourly to 3 hourly. These data are the primary input to the NCEP Global Data Assimilation System (GDAS).</p>
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP > National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Types</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Base</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Air Quality > Visibility</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Snow</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Station Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Period</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Speed/Direction</variable>
+          <contact>Grace Peng</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">COASTAL STATIONS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">FIXED SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <platform vocabulary="GCMD">BUOYS</platform>
+          <platform vocabulary="GCMD">BOGUS</platform>
+          <supportsProject vocabulary="GCMD">WRF > WRF (Weather Research and Forecasting) Modeling</supportsProject>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedResource url="http://www.nco.ncep.noaa.gov/sib/decoders/BUFRLIB/">NCEP BUFRLIB software</relatedResource>
+          <relatedResource url="http://nomads.ncep.noaa.gov/">NCEP model data (include surface BUFR data in the gdas.* directories)</relatedResource>
+          <relatedResource url="http://nomads.ncdc.noaa.gov/data.php#gdas">NCDC gdas BUFR obs data.</relatedResource>
+          <relatedResource url="http://www.iges.org/grads/">GrADS - Software for visualizing BUFR formatted obs data.</relatedResource>
+          <relatedResource url="http://www.emc.ncep.noaa.gov/mmb/data_processing/bufrtab_tableb.htm">NCEP BUFRLIB MNEMONICS</relatedResource>
+          <relatedDataset ID="464.0" />
+          <relatedDataset ID="351.0" />
+          <relatedDataset ID="336.0" />
+          <relatedDataset ID="337.0" />
+          <relatedDataset ID="463.2" />
+          <relatedDataset ID="463.3" />
+          <relatedDataset ID="292.2" />
+          <relatedDataset ID="467.0" />
+          <relatedDataset ID="472.0" />
+          <relatedDataset ID="570.0" />
+          <relatedDataset ID="900.0" />
+          <relatedDataset ID="735.0" />
+          <publicationDate>2004-02-23</publicationDate>
+          <contentMetadata>
+            <temporal start="1999-09-30" end="2015-11-24" groupID="Entire Dataset" />
+            <temporalFrequency type="regular" number="1" unit="day" />
+            <temporalFrequency type="regular" number="2" unit="hour" />
+            <temporalFrequency type="regular" number="1" unit="hour" />
+            <temporalFrequency type="regular" number="1" unit="minute" />
+            <temporalFrequency type="regular" number="12" unit="second" />
+            <dataType>grid</dataType>
+            <dataType>platform_observation</dataType>
+            <format href="http://dss.ucar.edu/docs/formats/bufr/">WMO_BUFR</format>
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

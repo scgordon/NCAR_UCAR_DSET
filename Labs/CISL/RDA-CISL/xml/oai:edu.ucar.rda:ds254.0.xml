@@ -1,69 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:55:42Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds254.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds254.0</identifier>
-        <datestamp>2007-02-01T18:33:37Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="254.0" type="primary">
-          <timeStamp value="2007-02-01 11:33:37 -0700" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">all_free</access>
-          <title>Upper Ocean Nutrient Climatologies, by Louanchi and Najjar</title>
-          <summary>
-              <p>The phosphate, nitrate and silicate data used to produce the monthly
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="254.0"
+            type="primary">
+   <timeStamp value="2007-02-01 11:33:37 -0700"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Upper Ocean Nutrient Climatologies, by Louanchi and Najjar</title>
+   <summary>
+      <p>The phosphate, nitrate and silicate data used to produce the monthly
               climatologies were taken from the World Ocean Atlas 1998
               produced by the Ocean Climate Laboratory at the National Oceanographic
               Data Center (NODC).  The monthly grids are analyzed onto the top 14 NODC
               standard levels 0, 10, 20, 30, 50, 75, 100, 125, 150, 200, 250, 300, 400 and
               500 m.  The  horizontal resolution is 2 degrees x 2 degrees.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NODC/OCL > Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce" contact="Ferial Louanchi;Raymond Najjar" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Phosphate</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Nitrate</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Chemistry > Silicate</variable>
-          <contact>Steven Worley</contact>
-          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
-          <platform vocabulary="GCMD">SHIPS</platform>
-          <platform vocabulary="GCMD">MOVING SHIPS</platform>
-          <topic vocabulary="ISO">oceans</topic>
-          <reference type="journal">
-              <authorList>Louanchi F. and R.G. Najjar</authorList>
-              <year>2000</year>
-              <title>A global monthly climatology of phosphate, nitrate and silicate in the upper ocean: export production and shallow remineralization</title>
-              <periodical number="14" pages="957-977">Global Biogeochem. Cycles</periodical>
-            
-          </reference>
-          <reference type="journal">
-              <authorList>Louanchi F. and R.G. Najjar</authorList>
-              <year>2001</year>
-              <title>Annual cycles of nutrients and oxygen in the upper layer of the North Atlantic Ocean</title>
-              <periodical number="17" pages="2155-2171">Deep Sea Research</periodical>
-            
-          </reference>
-          <publicationDate>1993-03-15</publicationDate>
-          <contentMetadata>
-              <temporal start="1945" end="1996" />
-              <temporalFrequency type="climatology" unit="month" />
-              <dataType>grid</dataType>
-              <format>proprietary_ASCII</format>
-              <format>proprietary_Binary</format>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NODC/OCL &gt; Ocean Climate Laboratory, National Oceanographic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                contact="Ferial Louanchi;Raymond Najjar"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Chemistry &gt; Phosphate</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Chemistry &gt; Nitrate</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Chemistry &gt; Silicate</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+   <platform vocabulary="GCMD">SHIPS</platform>
+   <platform vocabulary="GCMD">MOVING SHIPS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <reference type="journal">
+      <authorList>Louanchi F. and R.G. Najjar</authorList>
+      <year>2000</year>
+      <title>A global monthly climatology of phosphate, nitrate and silicate in the upper ocean: export production and shallow remineralization</title>
+      <periodical number="14" pages="957-977">Global Biogeochem. Cycles</periodical>
+   </reference>
+   <reference type="journal">
+      <authorList>Louanchi F. and R.G. Najjar</authorList>
+      <year>2001</year>
+      <title>Annual cycles of nutrients and oxygen in the upper layer of the North Atlantic Ocean</title>
+      <periodical number="17" pages="2155-2171">Deep Sea Research</periodical>
+   </reference>
+   <publicationDate>1993-03-15</publicationDate>
+   <contentMetadata>
+      <temporal start="1945" end="1996"/>
+      <temporalFrequency type="climatology" unit="month"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <format>proprietary_Binary</format>
+   </contentMetadata>
+</dsOverview>

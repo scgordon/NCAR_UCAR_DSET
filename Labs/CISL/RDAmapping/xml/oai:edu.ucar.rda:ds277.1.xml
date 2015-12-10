@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:46Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds277.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds277.1</identifier>
+        <datestamp>2015-07-23T16:45:59Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="277.1" type="historical">
+          <timeStamp value="2015-07-23 10:45:55 -0600" />
+          <continuingUpdate value="no" />
+          
+          <title>NCEP ODAS Tropical Pacific Ocean Monthly Analyses</title>
+          <summary>
+              <p>Monthly average fields derived from weekly analysis
+              using the NCEP Ocean-Data Assimilation System (ODAS).
+              </p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NWS/NCEP > National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce" citable="yes" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Wind Stress</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Water Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <contact>Steven Worley</contact>
+          <platform vocabulary="GCMD">MODELS</platform>
+          <topic vocabulary="ISO">oceans</topic>
+          <reference type="journal"><authorList>Ji, M., A. Leetmaa and J. Derber</authorList><year>1995</year><title>An Ocean Analysis System for Seasonal to Interannual Climate Studies</title><periodical number="123" pages="460-481">Mon. Wea. Rev.</periodical>
+          </reference>
+          <reference type="journal"><authorList>Ji, M., and T.M. Smith</authorList><year>1995</year><title>Ocean model response to temperature data assimilation and varying surface wind stress: Intercomparisons and implications for climate forecast</title><periodical number="123" pages="1811-1821">Mon. Wea. Rev.</periodical>
+          </reference>
+          <reference type="journal"><authorList>Derber, J.D., and A. Rosati</authorList><year>1989</year><title>A Global oceanic data assimilation system</title><periodical number="19" pages="1333-1347">J. Phys. Oceanogr.</periodical>
+          </reference>
+          <relatedResource url="http://www.emc.ncep.noaa.gov/research/cmb/pac_analysis/">NCEP ODAS reference website</relatedResource>
+          <relatedDataset ID="277.6" />
+          <publicationDate>1993-09-10</publicationDate>
+          <contentMetadata>
+              <temporal start="1980" end="2000-05" groupID="Entire Dataset" />
+              <dataType>grid</dataType>
+              <format>proprietary_Binary</format>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

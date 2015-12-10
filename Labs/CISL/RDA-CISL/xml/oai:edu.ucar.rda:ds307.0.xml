@@ -1,70 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:55:52Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds307.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds307.0</identifier>
-        <datestamp>2007-05-11T21:31:58Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="307.0" type="primary">
-          <timeStamp value="2007-05-11 15:31:58 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">none_free</access>
-          <title>ECMWF FGGE Global Analyses, daily (1.875 degr) 1978Dec-1979Nov</title>
-          <summary>
-              <p>Collected from the European Centre for Medium Range Weather Forecasts
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="307.0"
+            type="primary">
+   <timeStamp value="2007-05-11 15:31:58 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>ECMWF FGGE Global Analyses, daily (1.875 degr) 1978Dec-1979Nov</title>
+   <summary>
+      <p>Collected from the European Centre for Medium Range Weather Forecasts
               for FGGE.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="ECMWF > European Centre for Medium-Range Weather Forecasts" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" formerName="National Climatic Center" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Vertical Wind Motion</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
-          <contact>Bob Dattore</contact>
-          <platform vocabulary="GCMD">MODELS</platform>
-          <supportsProject vocabulary="GCMD">GARP/FGGE > Global Atmospheric Research Program/First Garp Global Experiment (GARP/FGGE)</supportsProject>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <publicationDate>1981-07-10</publicationDate>
-          <contentMetadata>
-              <temporal start="1978-12" end="1979-11" groupID="Entire Dataset" />
-              <dataType>grid</dataType>
-              <format>proprietary_Binary</format>
-              <format>NCEP_ON84</format>
-              <levels>
-                <level type="Ground or water surface" value="0" units="" />
-                <level type="Isobaric level" value="1000" units="mbar" />
-                <level type="Isobaric level" value="850" units="mbar" />
-                <level type="Isobaric level" value="700" units="mbar" />
-                <level type="Isobaric level" value="500" units="mbar" />
-                <level type="Isobaric level" value="400" units="mbar" />
-                <level type="Isobaric level" value="300" units="mbar" />
-                <level type="Isobaric level" value="250" units="mbar" />
-                <level type="Isobaric level" value="200" units="mbar" />
-                <level type="Isobaric level" value="150" units="mbar" />
-                <level type="Isobaric level" value="100" units="mbar" />
-                <level type="Isobaric level" value="70" units="mbar" />
-                <level type="Isobaric level" value="50" units="mbar" />
-                <level type="Isobaric level" value="30" units="mbar" />
-                <level type="Isobaric level" value="20" units="mbar" />
-                <level type="Isobaric level" value="10" units="mbar" />
-              </levels>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="ECMWF &gt; European Centre for Medium-Range Weather Forecasts"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                formerName="National Climatic Center"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">MODELS</platform>
+   <supportsProject vocabulary="GCMD">GARP/FGGE &gt; Global Atmospheric Research Program/First Garp Global Experiment (GARP/FGGE)</supportsProject>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1981-07-10</publicationDate>
+   <contentMetadata>
+      <temporal start="1978-12" end="1979-11" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_Binary</format>
+      <format>NCEP_ON84</format>
+      <levels>
+         <level type="Ground or water surface" value="0" units=""/>
+         <level type="Isobaric level" value="1000" units="mbar"/>
+         <level type="Isobaric level" value="850" units="mbar"/>
+         <level type="Isobaric level" value="700" units="mbar"/>
+         <level type="Isobaric level" value="500" units="mbar"/>
+         <level type="Isobaric level" value="400" units="mbar"/>
+         <level type="Isobaric level" value="300" units="mbar"/>
+         <level type="Isobaric level" value="250" units="mbar"/>
+         <level type="Isobaric level" value="200" units="mbar"/>
+         <level type="Isobaric level" value="150" units="mbar"/>
+         <level type="Isobaric level" value="100" units="mbar"/>
+         <level type="Isobaric level" value="70" units="mbar"/>
+         <level type="Isobaric level" value="50" units="mbar"/>
+         <level type="Isobaric level" value="30" units="mbar"/>
+         <level type="Isobaric level" value="20" units="mbar"/>
+         <level type="Isobaric level" value="10" units="mbar"/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:56:05Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds570.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds570.0</identifier>
-        <datestamp>2013-10-14T19:43:52Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="570.0" type="primary">
-          <timeStamp value="2013-10-14 13:43:48 -0600" />
-          <continuingUpdate value="yes" frequency="yearly" />
-          
-          <title>World Monthly Surface Station Climatology</title>
-          <summary><p>This world monthly surface station climatology has data
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="570.0"
+            type="primary">
+   <timeStamp value="2013-10-14 13:43:48 -0600"/>
+   <continuingUpdate value="yes" frequency="yearly"/>
+   <title>World Monthly Surface Station Climatology</title>
+   <summary>
+      <p>This world monthly surface station climatology has data
           for over 4700 different stations (2600 in more recent
           years).  Data for some stations goes as
-          far back as the mid-1700s. See <a href="http://rda.ucar.edu/datasets/ds570.0/#!docs/decadal.html"><b>decadal coverage</b></a>  for more detail. Most of the data was obtained
+          far back as the mid-1700s. See <a href="http://rda.ucar.edu/datasets/ds570.0/#!docs/decadal.html">
+            <b>decadal coverage</b>
+         </a>  for more detail. Most of the data was obtained
           directly from the National Climatic Data Center (NCDC),
           Asheville, North Carolina.  However, much of the data
           prior to 1951 came from John Wolbach of Harvard College
@@ -35,39 +25,51 @@
           valuable source for data obtained directly from various
           countries.
           </p>
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" citable="yes" />
-          <contributor vocabulary="GCMD" name="HARVARD/HCO > Harvard College Observatory, Harvard University" contact="John Wolbach" citable="yes" />
-          <contributor vocabulary="GCMD" name="FSU/METEO > Meteorology Department, Florida State University" contact="Sharon Nicholson" citable="yes" />
-          <contributor vocabulary="GCMD" name="UCAR/NCAR/CGD/CAS > Climate Analysis Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" contact="Dennis Shea" citable="yes" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Radiation > Sunshine</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Anomalies</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
-          <contact>Bob Dattore</contact>
-          <platform vocabulary="GCMD">GROUND STATIONS</platform>
-          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
-          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <reference type="journal"><authorList>Quayle, R.G.</authorList><year>1989</year><title>The Wolbach Dataset for Global Climate Monitoring - Philanthropy and Climatology</title><periodical number="70(12)" pages="1570-1570">Bull. Amer. Meteor. Soc.</periodical>
-          </reference>
-          <publicationDate>1981-07-13</publicationDate>
-          <contentMetadata>
-            <temporal start="1738-01-01" end="2015-07-31" groupID="Entire Dataset" />
-            <temporalFrequency type="regular" number="1" unit="month" />
-            <temporalFrequency type="regular" number="0" unit="day" />
-            <dataType>grid</dataType>
-            <dataType>platform_observation</dataType>
-            <format>DSS_WMSSC</format>
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="HARVARD/HCO &gt; Harvard College Observatory, Harvard University"
+                contact="John Wolbach"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="FSU/METEO &gt; Meteorology Department, Florida State University"
+                contact="Sharon Nicholson"
+                citable="yes"/>
+   <contributor vocabulary="GCMD"
+                name="UCAR/NCAR/CGD/CAS &gt; Climate Analysis Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"
+                contact="Dennis Shea"
+                citable="yes"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Radiation &gt; Sunshine</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Water Vapor &gt; Humidity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Sea Level Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Surface Pressure</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Anomalies</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Altitude &gt; Geopotential Height</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Surface Air Temperature</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Quayle, R.G.</authorList>
+      <year>1989</year>
+      <title>The Wolbach Dataset for Global Climate Monitoring - Philanthropy and Climatology</title>
+      <periodical number="70(12)" pages="1570-1570">Bull. Amer. Meteor. Soc.</periodical>
+   </reference>
+   <publicationDate>1981-07-13</publicationDate>
+   <contentMetadata>
+      <temporal start="1738-01-01" end="2015-07-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <temporalFrequency type="regular" number="0" unit="day"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format>DSS_WMSSC</format>
+   </contentMetadata>
+</dsOverview>

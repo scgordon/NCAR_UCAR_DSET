@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds475.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds475.0</identifier>
+        <datestamp>2013-02-26T23:06:46Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="475.0" type="primary">
+          <timeStamp value="2013-02-26 16:06:42 -0700" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>U.S.S.R. Surface 6- and 3-hourly Surface Synoptic Observations 1936-1983</title>
+          <summary>
+              <p>This dataset contains daily 6-hourly and 3-hourly surface
+              observations for many U.S.S.R. stations for January 1936 to
+              December 1983.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOE/ORNL/ESD/CDIAC > Carbon Dioxide Information Analysis Center, Environmental Sciences Division, Oak Ridge National Laboratory, U. S. Department of Energy" />
+          <contributor vocabulary="GCMD" name="WDC/METEOROLOGY, OBNINSK > World Data Center for Meteorology, Obninsk" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Types</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Base</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Air Quality > Visibility</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Station Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1996-06-13</publicationDate>
+          <contentMetadata>
+              <temporal start="1936-01" end="1983-12" groupID="Entire Dataset" />
+              <dataType>platform_observation</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Ground or water surface" value="0" units="" />
+              </levels>
+              <geospatialCoverage>
+                <location>Continent > Europe > Eastern Europe > Western Russia</location>
+                <location>Continent > Asia > Central/Eastern Russia</location>
+                <location>Continent > Asia > Southcentral Asia > Kazakhstan</location>
+                <location>Continent > Asia > Southcentral Asia > Uzbekistan</location>
+                <location>Continent > Asia > Southcentral Asia > Kyrgyzstan</location>
+                <location>Continent > Asia > Western Asia > Georgia, Republic</location>
+                <location>Continent > Europe > Eastern Europe > Ukraine</location>
+                <location>Continent > Europe > Eastern Europe > Belarus</location>
+                <location>Continent > Europe > Northern Europe > Lithuania</location>
+                <location>Continent > Europe > Northern Europe > Latvia</location>
+                <location>Continent > Europe > Northern Europe > Estonia</location>
+                <location>Continent > Asia > Southcentral Asia > Tajikistan</location>
+                <location>Continent > Asia > Southcentral Asia > Turkmenistan</location>
+                <location>Continent > Asia > Western Asia > Armenia</location>
+                <location>Continent > Asia > Western Asia > Azerbaijan</location>
+              </geospatialCoverage>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

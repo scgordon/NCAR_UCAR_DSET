@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:55:58Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds359.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds359.0</identifier>
-        <datestamp>2013-04-10T14:48:50Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="359.0" type="primary">
-          <timeStamp value="2013-04-10 08:48:47 -0600" />
-          <continuingUpdate value="yes" frequency="quarterly" />
-          <access pricingRate="standard">all_free</access>
-          <title>NOAA Profiler Network (NPN) Observations, 1992May-continuing</title>
-          <summary>
-              <p>
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="359.0"
+            type="primary">
+   <timeStamp value="2013-04-10 08:48:47 -0600"/>
+   <continuingUpdate value="yes" frequency="quarterly"/>
+   <access pricingRate="standard">all_free</access>
+   <title>NOAA Profiler Network (NPN) Observations, 1992May-continuing</title>
+   <summary>
+      <p>
               The NOAA Profiler Network (NPN) has 35 unmanned Doppler Radar
               sites in 18 central US states and Alaska. They provide hourly
               vertical profiles of wind data. The hourly netCDF files
@@ -29,34 +17,32 @@
               starting from May 1992 are archived in this dataset. It continues
               to be updated monthly.
               </p>
-              <p>
+      <p>
               U and V wind components from 500m above ground level to 16.25km
               are recorded at every 250m increment. Several stations may have
               been moved or added. Problems of bird contamination are also
               reported. Flags are used to indicate the quality of data.
               </p>
-              <p>
+      <p>
               Detailed description of NPN and recent data (of last 14 days)
               are available at <a href="http://www.profiler.noaa.gov">FSL's NPN site</a>.
               </p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/OAR/FSL > Forecast Systems Laboratory, OAR, NOAA, U.S. Department of Commerce" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Vertical Wind Motion</variable>
-          <contact>Chi-Fan Shih</contact>
-          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <publicationDate>1993-07-06</publicationDate>
-          <contentMetadata>
-              <temporal start="1992-05-14 06:00 +0000" end="2006-04-30 23:00 +0000" groupID="Entire Dataset" />
-              <dataType>platform_observation</dataType>
-              <format>netCDF</format>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/OAR/FSL &gt; Forecast Systems Laboratory, OAR, NOAA, U.S. Department of Commerce"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Vertical Wind Motion</variable>
+   <contact>Chi-Fan Shih</contact>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1993-07-06</publicationDate>
+   <contentMetadata>
+      <temporal start="1992-05-14 06:00 +0000"
+                end="2006-04-30 23:00 +0000"
+                groupID="Entire Dataset"/>
+      <dataType>platform_observation</dataType>
+      <format>netCDF</format>
+   </contentMetadata>
+</dsOverview>

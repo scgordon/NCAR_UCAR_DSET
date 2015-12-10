@@ -1,56 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:56:19Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds571.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds571.0</identifier>
-        <datestamp>2011-04-04T12:28:45Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="571.0" type="primary">
-          <timeStamp value="2011-04-04 06:28:42 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">all_free</access>
-          <title>Nicholson's Africa Precipitation, monthly 1901-1984</title>
-          <summary>
-              <p>Sharon Nicholson at Florida State University compiled this
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="571.0"
+            type="primary">
+   <timeStamp value="2011-04-04 06:28:42 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Nicholson's Africa Precipitation, monthly 1901-1984</title>
+   <summary>
+      <p>Sharon Nicholson at Florida State University compiled this
               dataset of monthly rainfall totals for African stations.  The
               period covered is 1901 to 1984.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="FSU/METEO > Meteorology Department, Florida State University" contact="Sharon Nicholson" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
-          <contact>Bob Dattore</contact>
-          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
-          <platform vocabulary="GCMD">GROUND STATIONS</platform>
-          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <reference type="journal">
-              <authorList>Nicholson, S.E.</authorList>
-              <year>1979</year>
-              <title>Revised rainfall series for the West African subtropics</title>
-              <periodical number="107" pages="620-623">Mon. Wea. Rev.</periodical>
-            
-          </reference>
-          <publicationDate>1980-01-16</publicationDate>
-          <contentMetadata>
-            <temporal start="1837-12-01" end="1999-12-31" groupID="Entire Dataset" />
-            <temporalFrequency type="regular" number="1" unit="month" />
-            <dataType>grid</dataType>
-            <dataType>platform_observation</dataType>
-            <format>DSS_WMSSC</format>
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="FSU/METEO &gt; Meteorology Department, Florida State University"
+                contact="Sharon Nicholson"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+   <platform vocabulary="GCMD">GROUND STATIONS</platform>
+   <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <reference type="journal">
+      <authorList>Nicholson, S.E.</authorList>
+      <year>1979</year>
+      <title>Revised rainfall series for the West African subtropics</title>
+      <periodical number="107" pages="620-623">Mon. Wea. Rev.</periodical>
+   </reference>
+   <publicationDate>1980-01-16</publicationDate>
+   <contentMetadata>
+      <temporal start="1837-12-01" end="1999-12-31" groupID="Entire Dataset"/>
+      <temporalFrequency type="regular" number="1" unit="month"/>
+      <dataType>grid</dataType>
+      <dataType>platform_observation</dataType>
+      <format>DSS_WMSSC</format>
+   </contentMetadata>
+</dsOverview>

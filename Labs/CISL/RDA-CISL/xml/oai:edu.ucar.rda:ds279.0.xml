@@ -1,56 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:55:48Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds279.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds279.0</identifier>
-        <datestamp>2010-10-18T18:46:33Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="279.0" type="historical">
-          <timeStamp value="2010-10-18 12:46:30 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">all_free</access>
-          <title>Global Oceanographic Data Set Atlas, climatologies, by Samuels and Cox GFDL</title>
-          <summary>
-              <p>Samuel and Cox (GFDL) took 15 commonly used data sets for
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="279.0"
+            type="historical">
+   <timeStamp value="2010-10-18 12:46:30 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">all_free</access>
+   <title>Global Oceanographic Data Set Atlas, climatologies, by Samuels and Cox GFDL</title>
+   <summary>
+      <p>Samuel and Cox (GFDL) took 15 commonly used data sets for
               ocean models and put them on a uniform 1x1 degree grid.
               Original data sources include Levitus, Hellerman, Esbensen and
               Kushnir to name just a few.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/GFDL > NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce" contact="Samuels;Cox" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Hydrosphere > Surface Water > Runoff</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Salinity/Density > Salinity</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Winds > Surface Winds</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Water Temperature</variable>
-          <contact>Steven Worley</contact>
-          <platform vocabulary="GCMD">GRIDDING METHODS</platform>
-          <topic vocabulary="ISO">oceans</topic>
-          <publicationDate>1988-01-21</publicationDate>
-          <contentMetadata>
-              <temporal start="9998" end="9998" groupID="Entire Dataset" />
-              <dataType>grid</dataType>
-              <format>proprietary_ASCII</format>
-              <levels>
-                <level type="Ground or water surface" value="0" units="" />
-              </levels>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section, Computational and Information Systems Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/GFDL &gt; NOAA Geophysical Fluid Dynamics Laboratory, U.S. Department of Commerce"
+                contact="Samuels;Cox"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Precipitation &gt; Precipitation Amount</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Hydrosphere &gt; Surface Water &gt; Runoff</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Salinity/Density &gt; Salinity</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Winds &gt; Surface Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature</variable>
+   <contact>Steven Worley</contact>
+   <platform vocabulary="GCMD">GRIDDING METHODS</platform>
+   <topic vocabulary="ISO">oceans</topic>
+   <publicationDate>1988-01-21</publicationDate>
+   <contentMetadata>
+      <temporal start="9998" end="9998" groupID="Entire Dataset"/>
+      <dataType>grid</dataType>
+      <format>proprietary_ASCII</format>
+      <levels>
+         <level type="Ground or water surface" value="0" units=""/>
+      </levels>
+   </contentMetadata>
+</dsOverview>

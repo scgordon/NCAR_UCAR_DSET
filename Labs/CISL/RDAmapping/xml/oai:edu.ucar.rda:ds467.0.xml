@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:54:30Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds467.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds467.0</identifier>
+        <datestamp>2006-12-08T04:57:35Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="467.0" type="primary">
+          <timeStamp value="2006-12-07 21:57:35 -0700" />
+          <continuingUpdate value="no" />
+          <access pricingRate="twice_direct_copy">none_free</access>
+          <title>AWS TD13 Global Surface Observations, daily 1901-1973</title>
+          <summary>
+              <p>Global synoptic surface observations from the Air Weather
+              Service for 1901-1973, called "Tape Deck 13" because it is
+              the combination of multiple card decks (datasets), conversion
+              to a standard format and transfer to tape.  There are usually
+              1 to 4 records per station each day.</p>
+              <p>Wind direction (dd), wind speed (ff), and station elevation
+              (stnelev) are "standard" variables usually available in each
+              deck; the rest of the variables are "supplemental fields"
+              which are not in some decks (groups of stations).
+              Sea level pressure (slp) "standard" format excludes the high
+              order digits, retaining only tens, units and tenths mb;
+              however, some decks provide the hundreds/thousands digit
+              in the "supplemental fields".</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" formerName="National Climatic Center" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Air Quality > Visibility</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Sea Level Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Surface Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Amount/Frequency</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Types</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Clouds > Cloud Base</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Humidity</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Maximum/Minimum Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Station Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Snow</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Hydrosphere > Snow/Ice > Snow Depth</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Land Surface > Soils > Soil Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Speed/Direction</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Swells</variable>
+          <contact>Bob Dattore</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">SHIPS</platform>
+          <platform vocabulary="GCMD">FIXED SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <relatedDataset ID="463.0" />
+          <relatedDataset ID="463.1" />
+          <relatedDataset ID="463.2" />
+          <relatedDataset ID="463.3" />
+          <publicationDate>1982-06-07</publicationDate>
+          <contentMetadata>
+              <temporal start="1901" end="1973" />
+              <dataType>platform_observations</dataType>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

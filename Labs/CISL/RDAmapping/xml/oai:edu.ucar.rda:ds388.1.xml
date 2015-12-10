@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:55:39Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds388.1" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds388.1</identifier>
+        <datestamp>2006-10-16T21:49:21Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="388.1" type="primary">
+          <timeStamp value="2006-10-16 15:49:21 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>Miscellaneous GATE Surface and Upper Air Data, 1974jun-1974sep</title>
+          <summary>
+              <p>Data collected during the GARP Atlantic Tropical Experiment.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Temperature > Sea Surface Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Surface Pressure</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Atmospheric Pressure Measurements</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Water Vapor > Dew Point Temperature</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Precipitation > Precipitation Amount</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Aerosols > Dust/Ash</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Height</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Oceans > Ocean Waves > Wave Speed/Direction</variable>
+          <contact>Bob Dattore</contact>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1980-04-29</publicationDate>
+          <contentMetadata>
+              <temporal start="1974-06" end="1974-09" />
+              <dataType>platform_observations</dataType>
+              <format>proprietary_ASCII</format>
+              <format>proprietary_Binary</format>
+              <levels>
+                <level type="Ground or water surface" value="0" />
+                <level type="Isobaric level" value="1000" units="mbar" />
+                <level type="Isobaric level" value="850" units="mbar" />
+                <level type="Isobaric level" value="700" units="mbar" />
+                <level type="Isobaric level" value="500" units="mbar" />
+                <level type="Isobaric level" value="400" units="mbar" />
+                <level type="Isobaric level" value="300" units="mbar" />
+                <level type="Isobaric level" value="200" units="mbar" />
+                <level type="Isobaric level" value="150" units="mbar" />
+                <level type="Isobaric level" value="100" units="mbar" />
+                <level type="Isobaric level" value="50" units="mbar" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

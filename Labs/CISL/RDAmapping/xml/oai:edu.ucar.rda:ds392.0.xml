@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
+                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
+  <responseDate>2015-11-30T21:56:17Z</responseDate>
+  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds392.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
+  <GetRecord>
+    <record>
+      <header>
+        <identifier>oai:edu.ucar.rda:ds392.0</identifier>
+        <datestamp>2006-10-20T13:18:48Z</datestamp>
+      </header>
+      <metadata>
+        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://rda.ucar.edu/schemas
+                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
+                    ID="392.0" type="primary">
+          <timeStamp value="2006-10-20 07:18:48 -0600" />
+          <continuingUpdate value="no" />
+          <access pricingRate="standard">none_free</access>
+          <title>Shea's Stratospheric Zonal Wind and Temperature Profiles, monthly 1953-1988</title>
+          <summary>
+              <p>This dataset contains monthly profiles of temperature and
+              zonal winds at stratospheric levels between 70mb and 10mb for
+              the period from January 1953 to December 1988.</p>
+            
+          </summary>
+          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
+          <contributor vocabulary="GCMD" name="UCAR/NCAR/CGD/CAS > Climate Analysis Section, Climate and Global Dynamics Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" contact="Dennis Shea" />
+          <contributor vocabulary="GCMD" name="FU-BERLIN/METEO/SRG > Stratospheric Research Group, Meteorological Institute, Freie Universitat Berlin" />
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
+          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
+          <contact>Will Spangler</contact>
+          <platform vocabulary="GCMD">FIXED OBSERVATION STATIONS</platform>
+          <platform vocabulary="GCMD">GROUND STATIONS</platform>
+          <platform vocabulary="GCMD">METEOROLOGICAL STATIONS</platform>
+          <platform vocabulary="GCMD">WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">OCEAN WEATHER STATIONS</platform>
+          <platform vocabulary="GCMD">FIXED SHIPS</platform>
+          <platform vocabulary="GCMD">MOVING SHIPS</platform>
+          <platform vocabulary="GCMD">RAWINSONDES</platform>
+          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+          <publicationDate>1989-07-18</publicationDate>
+          <contentMetadata>
+              <temporal start="1953-01" end="1988-12" />
+              <dataType>platform_observations</dataType>
+              <format>proprietary_ASCII</format>
+              <levels>
+                <level type="Isobaric level" value="70" units="mbar" />
+                <level type="Isobaric level" value="50" units="mbar" />
+                <level type="Isobaric level" value="40" units="mbar" />
+                <level type="Isobaric level" value="30" units="mbar" />
+                <level type="Isobaric level" value="20" units="mbar" />
+                <level type="Isobaric level" value="15" units="mbar" />
+                <level type="Isobaric level" value="10" units="mbar" />
+              </levels>
+            
+          </contentMetadata>
+        </dsOverview>
+      </metadata>
+    </record>
+  </GetRecord>
+</OAI-PMH>

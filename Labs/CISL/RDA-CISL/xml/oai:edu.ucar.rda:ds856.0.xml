@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/
-                             http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2015-11-30T21:54:17Z</responseDate>
-  <request verb="GetRecord" identifier="oai:edu.ucar.rda:ds856.0" metadataPrefix="native">http://rda.ucar.edu/cgi-bin/oai</request>
-  <GetRecord>
-    <record>
-      <header>
-        <identifier>oai:edu.ucar.rda:ds856.0</identifier>
-        <datestamp>2006-10-16T22:55:59Z</datestamp>
-      </header>
-      <metadata>
-        <dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                    xsi:schemaLocation="http://rda.ucar.edu/schemas
-                                        http://rda.ucar.edu/schemas/dsOverview.xsd"
-                    ID="856.0" type="primary">
-          <timeStamp value="2006-10-16 16:55:59 -0600" />
-          <continuingUpdate value="no" />
-          <access pricingRate="standard">none_free</access>
-          <title>NCDC Rocketsondes, monthly 1961-1972</title>
-          <summary>
-              <p>This dataset contains monthly rocketsonde data from NCDC for
+<dsOverview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns="http://www.openarchives.org/OAI/2.0/"
+            xsi:schemaLocation="http://rda.ucar.edu/schemas                                         http://rda.ucar.edu/schemas/dsOverview.xsd"
+            ID="856.0"
+            type="primary">
+   <timeStamp value="2006-10-16 16:55:59 -0600"/>
+   <continuingUpdate value="no"/>
+   <access pricingRate="standard">none_free</access>
+   <title>NCDC Rocketsondes, monthly 1961-1972</title>
+   <summary>
+      <p>This dataset contains monthly rocketsonde data from NCDC for
               1961 to 1972.</p>
-            
-          </summary>
-          <creator vocabulary="GCMD" name="UCAR/NCAR/CISL/DSS > Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research" />
-          <contributor vocabulary="GCMD" name="DOC/NOAA/NESDIS/NCDC > National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce" />
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</variable>
-          <variable vocabulary="GCMD">EARTH SCIENCE > Atmosphere > Atmospheric Pressure > Atmospheric Pressure Measurements</variable>
-          <contact>Bob Dattore</contact>
-          <platform vocabulary="GCMD">SOUNDING ROCKETS</platform>
-          <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
-          <publicationDate>1980-01-11</publicationDate>
-          <contentMetadata>
-              <temporal start="1961-01" end="1972-12" />
-              <dataType>platform_observations</dataType>
-              <format>proprietary_ASCII</format>
-            
-          </contentMetadata>
-        </dsOverview>
-      </metadata>
-    </record>
-  </GetRecord>
-</OAI-PMH>
+   </summary>
+   <creator vocabulary="GCMD"
+            name="UCAR/NCAR/CISL/DSS &gt; Data Support Section,Scientific Computing Division, National Center for Atmospheric Research, University Corporation for Atmospheric Research"/>
+   <contributor vocabulary="GCMD"
+                name="DOC/NOAA/NESDIS/NCDC &gt; National Climatic Data Center, NESDIS, NOAA, U.S. Department of Commerce"/>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Winds &gt; Upper Level Winds</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Temperature &gt; Air Temperature</variable>
+   <variable vocabulary="GCMD">EARTH SCIENCE &gt; Atmosphere &gt; Atmospheric Pressure &gt; Atmospheric Pressure Measurements</variable>
+   <contact>Bob Dattore</contact>
+   <platform vocabulary="GCMD">SOUNDING ROCKETS</platform>
+   <topic vocabulary="ISO">climatologyMeteorologyAtmosphere</topic>
+   <publicationDate>1980-01-11</publicationDate>
+   <contentMetadata>
+      <temporal start="1961-01" end="1972-12"/>
+      <dataType>platform_observations</dataType>
+      <format>proprietary_ASCII</format>
+   </contentMetadata>
+</dsOverview>
