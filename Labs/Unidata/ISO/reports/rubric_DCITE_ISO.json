@@ -1,0 +1,1217 @@
+{"records": [
+    {
+        "spirals": [
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory",
+                "code": "DataCite3.1Mandatory",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "8",
+                "existTotal": "4",
+                "countTotal": "12",
+                "items": [
+                    {
+                        "name": "Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Identifier for the resource described by the metadata"
+                    },
+                    {
+                        "name": "Resource Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of identifier used to uniquely identify the resource."
+                    },
+                    {
+                        "name": "Author / Originator",
+                        "exists": "1",
+                        "count": "5",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='originator']",
+                                "exists": "1",
+                                "count": "5"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='principalInvestigator']",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "note": "In CSW this concept is called Creator",
+                        "description": "The principal author of the resource"
+                    },
+                    {
+                        "name": "Author / Originator Identifier",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "A unique identifier for a resource author or originator"
+                    },
+                    {
+                        "name": "Author / Originator Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of unique identifier for a resource author or originator"
+                    },
+                    {
+                        "name": "Resource Title",
+                        "exists": "1",
+                        "count": "5",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
+                            "exists": "1",
+                            "count": "5"
+                        }],
+                        "description": "A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."
+                    },
+                    {
+                        "name": "Publisher",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "//gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='publisher']/gmd:organisationName/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Publisher of the cited resource"
+                    },
+                    {
+                        "name": "Resource Creation/Revision Date",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The date the resource was created"
+                    }
+                ]
+            },
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended",
+                "code": "DataCite3.1Recommended",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "11",
+                "existTotal": "5",
+                "countTotal": "19",
+                "items": [
+                    {
+                        "name": "Theme Keyword",
+                        "exists": "1",
+                        "count": "7",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString",
+                            "exists": "1",
+                            "count": "7"
+                        }],
+                        "note": "The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ",
+                        "description": "A word or phrase that describes some aspect of a resource. Can be one of several types."
+                    },
+                    {
+                        "name": "Keyword Vocabulary",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "note": "DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.",
+                        "description": "If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."
+                    },
+                    {
+                        "name": "Contributor Name",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "Contributor to the resource"
+                    },
+                    {
+                        "name": "Contributor Role",
+                        "exists": "1",
+                        "count": "5",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode",
+                            "exists": "1",
+                            "count": "5"
+                        }],
+                        "description": "The role of any individuals or institutions that contributed to the creation of the data."
+                    },
+                    {
+                        "name": "Responsible Party Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of a unique identifier for a person or an organization"
+                    },
+                    {
+                        "name": "Responsible Party Identifier",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "A unique identifier for a person or an organization"
+                    },
+                    {
+                        "name": "Resource Creation/Revision Date",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The date the resource was created"
+                    },
+                    {
+                        "name": "Resource Type",
+                        "exists": "1",
+                        "count": "2",
+                        "paths": [{
+                            "path": "/*/gmd:hierarchyLevel/gmd:MD_ScopeCode",
+                            "exists": "1",
+                            "count": "2"
+                        }],
+                        "description": "A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."
+                    },
+                    {
+                        "name": "Related Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "1",
+                                "count": "1"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:processingLevel/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AccuracyOfATimeMeasurement/gmd:measureIdentification/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/eos:sensor/eos:EOS_Sensor/eos:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "Identifier for a resource related to the resource being described."
+                    },
+                    {
+                        "name": "Abstract",
+                        "exists": "1",
+                        "count": "4",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:abstract/gco:CharacterString",
+                            "exists": "1",
+                            "count": "4"
+                        }],
+                        "note": "This concept is called Desciption in Catalog Services for the Web.",
+                        "description": "A paragraph describing the resource."
+                    },
+                    {
+                        "name": "Spatial Extent",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "The spatial extent of the resource."
+                    }
+                ]
+            },
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Optional",
+                "code": "DataCite3.1Optional",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "6",
+                "existTotal": "3",
+                "countTotal": "3",
+                "items": [
+                    {
+                        "name": "Resource Language",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:language/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "The language of the resource."
+                    },
+                    {
+                        "name": "Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Identifier for the resource described by the metadata"
+                    },
+                    {
+                        "name": "Transfer Size",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The size of the digital resource"
+                    },
+                    {
+                        "name": "Resource Format",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceFormat/gmd:MD_Format/gmd:name/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "The physical or digital manifestation of the resource"
+                    },
+                    {
+                        "name": "Resource Version",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:edition/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "Version of the cited resource"
+                    },
+                    {
+                        "name": "Rights",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Information about rights held in and over the resource"
+                    }
+                ]
+            }
+        ],
+        "Record": "file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(1).xml",
+        "Date": "2015-12-10-07:00",
+        "rubricType": "DCITE",
+        "rubricVersion": "0.1",
+        "rubricMax": "25",
+        "rubricExists": "12",
+        "rubricCounts": "34"
+    },
+    {
+        "spirals": [
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory",
+                "code": "DataCite3.1Mandatory",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "8",
+                "existTotal": "4",
+                "countTotal": "12",
+                "items": [
+                    {
+                        "name": "Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Identifier for the resource described by the metadata"
+                    },
+                    {
+                        "name": "Resource Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of identifier used to uniquely identify the resource."
+                    },
+                    {
+                        "name": "Author / Originator",
+                        "exists": "1",
+                        "count": "5",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='originator']",
+                                "exists": "1",
+                                "count": "5"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='principalInvestigator']",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "note": "In CSW this concept is called Creator",
+                        "description": "The principal author of the resource"
+                    },
+                    {
+                        "name": "Author / Originator Identifier",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "A unique identifier for a resource author or originator"
+                    },
+                    {
+                        "name": "Author / Originator Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of unique identifier for a resource author or originator"
+                    },
+                    {
+                        "name": "Resource Title",
+                        "exists": "1",
+                        "count": "5",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
+                            "exists": "1",
+                            "count": "5"
+                        }],
+                        "description": "A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."
+                    },
+                    {
+                        "name": "Publisher",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "//gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='publisher']/gmd:organisationName/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Publisher of the cited resource"
+                    },
+                    {
+                        "name": "Resource Creation/Revision Date",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The date the resource was created"
+                    }
+                ]
+            },
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended",
+                "code": "DataCite3.1Recommended",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "11",
+                "existTotal": "5",
+                "countTotal": "16",
+                "items": [
+                    {
+                        "name": "Theme Keyword",
+                        "exists": "1",
+                        "count": "4",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString",
+                            "exists": "1",
+                            "count": "4"
+                        }],
+                        "note": "The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ",
+                        "description": "A word or phrase that describes some aspect of a resource. Can be one of several types."
+                    },
+                    {
+                        "name": "Keyword Vocabulary",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "note": "DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.",
+                        "description": "If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."
+                    },
+                    {
+                        "name": "Contributor Name",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "Contributor to the resource"
+                    },
+                    {
+                        "name": "Contributor Role",
+                        "exists": "1",
+                        "count": "5",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode",
+                            "exists": "1",
+                            "count": "5"
+                        }],
+                        "description": "The role of any individuals or institutions that contributed to the creation of the data."
+                    },
+                    {
+                        "name": "Responsible Party Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of a unique identifier for a person or an organization"
+                    },
+                    {
+                        "name": "Responsible Party Identifier",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "A unique identifier for a person or an organization"
+                    },
+                    {
+                        "name": "Resource Creation/Revision Date",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The date the resource was created"
+                    },
+                    {
+                        "name": "Resource Type",
+                        "exists": "1",
+                        "count": "2",
+                        "paths": [{
+                            "path": "/*/gmd:hierarchyLevel/gmd:MD_ScopeCode",
+                            "exists": "1",
+                            "count": "2"
+                        }],
+                        "description": "A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."
+                    },
+                    {
+                        "name": "Related Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "1",
+                                "count": "1"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:processingLevel/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AccuracyOfATimeMeasurement/gmd:measureIdentification/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/eos:sensor/eos:EOS_Sensor/eos:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "Identifier for a resource related to the resource being described."
+                    },
+                    {
+                        "name": "Abstract",
+                        "exists": "1",
+                        "count": "4",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:abstract/gco:CharacterString",
+                            "exists": "1",
+                            "count": "4"
+                        }],
+                        "note": "This concept is called Desciption in Catalog Services for the Web.",
+                        "description": "A paragraph describing the resource."
+                    },
+                    {
+                        "name": "Spatial Extent",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "The spatial extent of the resource."
+                    }
+                ]
+            },
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Optional",
+                "code": "DataCite3.1Optional",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "6",
+                "existTotal": "3",
+                "countTotal": "3",
+                "items": [
+                    {
+                        "name": "Resource Language",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:language/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "The language of the resource."
+                    },
+                    {
+                        "name": "Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Identifier for the resource described by the metadata"
+                    },
+                    {
+                        "name": "Transfer Size",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The size of the digital resource"
+                    },
+                    {
+                        "name": "Resource Format",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceFormat/gmd:MD_Format/gmd:name/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "The physical or digital manifestation of the resource"
+                    },
+                    {
+                        "name": "Resource Version",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:edition/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "Version of the cited resource"
+                    },
+                    {
+                        "name": "Rights",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Information about rights held in and over the resource"
+                    }
+                ]
+            }
+        ],
+        "Record": "file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD.xml",
+        "Date": "2015-12-10-07:00",
+        "rubricType": "DCITE",
+        "rubricVersion": "0.1",
+        "rubricMax": "25",
+        "rubricExists": "12",
+        "rubricCounts": "31"
+    },
+    {
+        "spirals": [
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory",
+                "code": "DataCite3.1Mandatory",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "8",
+                "existTotal": "5",
+                "countTotal": "20",
+                "items": [
+                    {
+                        "name": "Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Identifier for the resource described by the metadata"
+                    },
+                    {
+                        "name": "Resource Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of identifier used to uniquely identify the resource."
+                    },
+                    {
+                        "name": "Author / Originator",
+                        "exists": "1",
+                        "count": "6",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='author']",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='originator']",
+                                "exists": "1",
+                                "count": "6"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='principalInvestigator']",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "note": "In CSW this concept is called Creator",
+                        "description": "The principal author of the resource"
+                    },
+                    {
+                        "name": "Author / Originator Identifier",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "A unique identifier for a resource author or originator"
+                    },
+                    {
+                        "name": "Author / Originator Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of unique identifier for a resource author or originator"
+                    },
+                    {
+                        "name": "Resource Title",
+                        "exists": "1",
+                        "count": "6",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString",
+                            "exists": "1",
+                            "count": "6"
+                        }],
+                        "description": "A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."
+                    },
+                    {
+                        "name": "Publisher",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "//gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='publisher']/gmd:organisationName/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Publisher of the cited resource"
+                    },
+                    {
+                        "name": "Resource Creation/Revision Date",
+                        "exists": "1",
+                        "count": "6",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime",
+                                "exists": "1",
+                                "count": "6"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The date the resource was created"
+                    }
+                ]
+            },
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended",
+                "code": "DataCite3.1Recommended",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "11",
+                "existTotal": "5",
+                "countTotal": "21",
+                "items": [
+                    {
+                        "name": "Theme Keyword",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "note": "The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ",
+                        "description": "A word or phrase that describes some aspect of a resource. Can be one of several types."
+                    },
+                    {
+                        "name": "Keyword Vocabulary",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "note": "DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.",
+                        "description": "If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."
+                    },
+                    {
+                        "name": "Contributor Name",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "Contributor to the resource"
+                    },
+                    {
+                        "name": "Contributor Role",
+                        "exists": "1",
+                        "count": "6",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode",
+                            "exists": "1",
+                            "count": "6"
+                        }],
+                        "description": "The role of any individuals or institutions that contributed to the creation of the data."
+                    },
+                    {
+                        "name": "Responsible Party Identifier Type",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "The type of a unique identifier for a person or an organization"
+                    },
+                    {
+                        "name": "Responsible Party Identifier",
+                        "exists": "-1",
+                        "count": "-1",
+                        "description": "A unique identifier for a person or an organization"
+                    },
+                    {
+                        "name": "Resource Creation/Revision Date",
+                        "exists": "1",
+                        "count": "6",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='creation']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='revision']/gmd:date/gco:DateTime",
+                                "exists": "1",
+                                "count": "6"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:Date",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date[normalize-space(gmd:dateType/gmd:CI_DateTypeCode)='publication']/gmd:date/gco:DateTime",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The date the resource was created"
+                    },
+                    {
+                        "name": "Resource Type",
+                        "exists": "1",
+                        "count": "2",
+                        "paths": [{
+                            "path": "/*/gmd:hierarchyLevel/gmd:MD_ScopeCode",
+                            "exists": "1",
+                            "count": "2"
+                        }],
+                        "description": "A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."
+                    },
+                    {
+                        "name": "Related Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:aggregationInfo/gmd:MD_AggregateInformation/gmd:aggregateDataSetIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "1",
+                                "count": "1"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicDescription/gmd:geographicIdentifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:identificationInfo/*/gmd:processingLevel/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:report/gmd:DQ_AccuracyOfATimeMeasurement/gmd:measureIdentification/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:operation/gmi:MI_Operation/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:platform/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/gmi:instrument/*/gmi:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/gmi:MI_Metadata/gmi:acquisitionInformation/gmi:MI_AcquisitionInformation/eos:sensor/eos:EOS_Sensor/eos:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "Identifier for a resource related to the resource being described."
+                    },
+                    {
+                        "name": "Abstract",
+                        "exists": "1",
+                        "count": "6",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:abstract/gco:CharacterString",
+                            "exists": "1",
+                            "count": "6"
+                        }],
+                        "note": "This concept is called Desciption in Catalog Services for the Web.",
+                        "description": "A paragraph describing the resource."
+                    },
+                    {
+                        "name": "Spatial Extent",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "The spatial extent of the resource."
+                    }
+                ]
+            },
+            {
+                "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Optional",
+                "code": "DataCite3.1Optional",
+                "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
+                "maximum": "6",
+                "existTotal": "3",
+                "countTotal": "3",
+                "items": [
+                    {
+                        "name": "Resource Language",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:language/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "The language of the resource."
+                    },
+                    {
+                        "name": "Resource Identifier",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:identifier/gmd:MD_Identifier/gmd:code/gco:CharacterString",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Identifier for the resource described by the metadata"
+                    },
+                    {
+                        "name": "Transfer Size",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [
+                            {
+                                "path": "/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributionFormat/gmd:MD_Format/gmd:formatDistributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real",
+                                "exists": "0",
+                                "count": "0"
+                            },
+                            {
+                                "path": "/*/gmd:distributionInfo/gmd:MD_Distribution/gmd:distributor/gmd:MD_Distributor/gmd:distributorTransferOptions/gmd:MD_DigitalTransferOptions/gmd:transferSize/gco:Real",
+                                "exists": "0",
+                                "count": "0"
+                            }
+                        ],
+                        "description": "The size of the digital resource"
+                    },
+                    {
+                        "name": "Resource Format",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:resourceFormat/gmd:MD_Format/gmd:name/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "The physical or digital manifestation of the resource"
+                    },
+                    {
+                        "name": "Resource Version",
+                        "exists": "0",
+                        "count": "0",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:edition/gco:CharacterString",
+                            "exists": "0",
+                            "count": "0"
+                        }],
+                        "description": "Version of the cited resource"
+                    },
+                    {
+                        "name": "Rights",
+                        "exists": "1",
+                        "count": "1",
+                        "paths": [{
+                            "path": "/*/gmd:identificationInfo/*/gmd:resourceConstraints/gmd:MD_LegalConstraints",
+                            "exists": "1",
+                            "count": "1"
+                        }],
+                        "description": "Information about rights held in and over the resource"
+                    }
+                ]
+            }
+        ],
+        "Record": "file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/WEST-CONUS_1km_VIS_20151208_1630.xml",
+        "Date": "2015-12-10-07:00",
+        "rubricType": "DCITE",
+        "rubricVersion": "0.1",
+        "rubricMax": "25",
+        "rubricExists": "13",
+        "rubricCounts": "44"
+    }
+]}

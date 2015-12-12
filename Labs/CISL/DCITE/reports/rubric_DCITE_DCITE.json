@@ -137,7 +137,7 @@
                             "count": "0"
                         },
                         {
-                            "path": "/resource/subjects/subject/@@schemeURI",
+                            "path": "/resource/subjects/subject/@schemeURI",
                             "exists": "0",
                             "count": "0"
                         }
@@ -325,8 +325,8 @@
         }
     ],
     "Record": "file:/Users/scgordon/NCAR_UCAR_DSET/Labs/CISL/DCITE/XML/D6WD3XH5.xml",
-    "Date": "2015-12-09-07:00",
-    "rubricType": "DataCite",
+    "Date": "2015-12-10-07:00",
+    "rubricType": "DCITE",
     "rubricVersion": "0.1",
     "rubricMax": "25",
     "rubricExists": "0",

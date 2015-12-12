@@ -1,110 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/glade/data01/esg-cdp/xserve/ccsm/ipcc/Products/ppt_SRESA1B_mid_annual_down_anomaly.nc">
-  <dimension name="lon" length="1405" />
-  <dimension name="nv" length="2" />
-  <dimension name="lat" length="621" />
-  <dimension name="time" length="1" isUnlimited="true" />
-  <attribute name="CDI" value="Climate Data Interface version 1.3.2" />
-  <attribute name="Conventions" value="CF-1.0" />
-  <attribute name="history" value="Fri Jan 28 16:57:14 2011: cdo -r setcalendar,365days ppt_SRESA1B_mid_annual_down_anomaly__.nc ppt_SRESA1B_mid_annual_down_anomaly.nc&#xA;Fri Jan 28 16:57:14 2011: cdo -r setreftime,2040-01-01,00:00:00,days ppt_SRESA1B_mid_annual_down_anomaly_.nc ppt_SRESA1B_mid_annual_down_anomaly__.nc&#xA;Fri Jan 28 16:57:14 2011: cdo -r settunits,days ppt_SRESA1B_mid_annual_down_anomaly.nc ppt_SRESA1B_mid_annual_down_anomaly_.nc&#xA;Fri Sep 03 14:47:39 2010: cdo sub ppt_SRESA1B_mid_down_annual.nc ppt_20C3M_Present_down_annual.nc ppt_SRESA1B_mid_annual_down_anomaly.nc&#xA;Fri Sep 03 12:41:49 2010: cdo timavg ppt_20C3M_Present_down_annual_sum.nc ppt_20C3M_Present_down_annual.nc&#xA;Fri Sep 03 12:41:37 2010: cdo yearsum ppt_20C3M_Present_down_annual_extract.nc ppt_20C3M_Present_down_annual_sum.nc&#xA;Fri Sep  3 12:40:37 2010: ncks -d time,1, ppt_20C3M_Present_down.nc ppt_20C3M_Present_down_annual_extract.nc&#xA;Fri Sep  3 11:41:34 2010: ncks -x -v parentvar -d time,1319,1559 ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1999-12.downscaled.nc ppt_20C3M_Present_down.nc&#xA;Mon Sep  1 15:13:06 2008: ncrcat ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1879-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1880-01_cat_1889-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1890-01_cat_1899-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1900-01_cat_1909-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1910-01_cat_1919-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1920-01_cat_1929-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1930-01_cat_1939-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1940-01_cat_1949-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1950-01_cat_1959-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1960-01_cat_1969-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1970-01_cat_1979-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1980-01_cat_1989-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1990-01_cat_1999-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1999-12.downscaled.nc&#xA;Mon Sep  1 13:42:40 2008: ncks -A PR_20C3M_meta.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1879-12.downscaled.nc&#xA; " />
-  <attribute name="CoefficientFileName" value="/ptmp/thoar/downscaling/coeffs2_ppt_1895_2005.nc" />
-  <attribute name="PrismDataSource" value="PRISM Group, Oregon State University" />
-  <attribute name="PrismDataURL" value="http://www.ocs.orst.edu/prism/" />
-  <attribute name="PrismDataOrigin" value="ftp.ncdc.noaa.gov/pub/data/prism100" />
-  <attribute name="PrismDataRetrievalDate1_1895_1997" value="30 Aug 2006" />
-  <attribute name="PrismDataRetrievalDate2_1998_2005" value="20 Oct 2006" />
-  <attribute name="ParentDataFileName" value="pr_A1.SRESA1B_EA1-8.CCSM.atmm.2000-01_cat_2099-12.nc" />
-  <attribute name="netCDFCreatedBy" value="Tim Hoar - thoar@ucar.edu" />
-  <attribute name="CreationDate" value="Mon Sep  1 13:12:26 2008" />
-  <attribute name="CCSM_table_id" value="Table A1" />
-  <attribute name="CCSM_title" value="model output prepared for IPCC AR4" />
-  <attribute name="CCSM_institution" value="NCAR (National Center for Atmospheric &#xA;Research, Boulder, CO, USA)" />
-  <attribute name="CCSM_source" value="CCSM3.0, version beta19 (2004): &#xA;atmosphere: CAM3.0, T85L26;&#xA;ocean     : POP1.4.3 (modified), gx1v3&#xA;sea ice   : CSIM5.0, T85;&#xA;land      : CLM3.0, gx1v3" />
-  <attribute name="CCSM_contact" value="ccsm@ucar.edu" />
-  <attribute name="CCSM_project_id" value="IPCC Fourth Assessment" />
-  <attribute name="CCSM_Conventions" value="CF-1.0" />
-  <attribute name="CCSM_references" value="Collins, W.D., et al., 2005:&#xA; The Community Climate System Model, Version 3&#xA; Journal of Climate&#xA; &#xA; Main website: http://www.ccsm.ucar.edu" />
-  <attribute name="CCSM_acknowledgment" value=" Any use of CCSM data should acknowledge the contribution&#xA; of the CCSM project and CCSM sponsor agencies with the &#xA; following citation:&#xA; 'This research uses data provided by the Community Climate&#xA; System Model project (www.ccsm.ucar.edu), supported by the&#xA; Directorate for Geosciences of the National Science Foundation&#xA; and the Office of Biological and Environmental Research of&#xA; the U.S. Department of Energy.'&#xA;In addition, the words 'Community Climate System Model' and&#xA; 'CCSM' should be included as metadata for webpages referencing&#xA; work using CCSM data or as keywords provided to journal or book&#xA;publishers of your manuscripts.&#xA;Users of CCSM data accept the responsibility of emailing&#xA; citations of publications of research using CCSM data to&#xA; ccsm@ucar.edu.&#xA;Any redistribution of CCSM data must include this data&#xA; acknowledgement statement." />
-  <attribute name="CCSM_realization" type="int" value="1" />
-  <attribute name="CCSM_experiment_id" value="720 ppm stabilization experiment (SRESA1B)" />
-  <attribute name="CCSM_history" value="Fri Aug 22 12:35:58 2008: ncea pr_A1.SRESA1B_1.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_2.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_3.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_4.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_5.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_6.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_7.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_8.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_EA1-8.CCSM.atmm.2000-01_cat_2099-12.nc&#xA;Created from CCSM3 case b30.040a&#xA; by wgstrand@ucar.edu&#xA; on Wed Nov 17 14:12:57 EST 2004&#xA; &#xA; For all data, added IPCC requested metadata" />
-  <attribute name="CCSM_comment" value="This simulation was initiated from year 2000 of &#xA; CCSM3 model run b30.030a and executed on &#xA; hardware cheetah.ccs.ornl.gov. The input external forcings are&#xA;ozone forcing    : A1B.ozone.128x64_L18_1991-2100_c040528.nc&#xA;aerosol optics   : AerosolOptics_c040105.nc&#xA;aerosol MMR      : AerosolMass_V_128x256_clim_c031022.nc&#xA;carbon scaling   : carbonscaling_A1B_1990-2100_c040609.nc&#xA;solar forcing    : Fixed at 1366.5 W m-2&#xA;GHGs             : ghg_ipcc_A1B_1870-2100_c040521.nc&#xA;GHG loss rates   : noaamisc.r8.nc&#xA;volcanic forcing : none&#xA;DMS emissions    : DMS_emissions_128x256_clim_c040122.nc&#xA;oxidants         : oxid_128x256_L26_clim_c040112.nc&#xA;SOx emissions    : SOx_emissions_A1B_128x256_L2_1990-2100_c040608.nc&#xA; Physical constants used for derived data:&#xA; Lv (latent heat of evaporation): 2.501e6 J kg-1&#xA; Lf (latent heat of fusion     ): 3.337e5 J kg-1&#xA; r[h2o] (density of water      ): 1000 kg m-3&#xA; g2kg   (grams to kilograms    ): 1000 g kg-1&#xA; &#xA; Integrations were performed by NCAR and CRIEPI with support&#xA; and facilities provided by NSF, DOE, MEXT and ESC/JAMSTEC." />
-  <attribute name="CCSM_nco_openmp_thread_number" type="int" value="1" />
-  <attribute name="CCSM_additional_note" value="Ensemble average created by strandwg on Fri Aug 22 13:34:00 MDT 2008" />
-  <attribute name="CDO" value="Climate Data Operators version 1.3.2 (http://www.mpimet.mpg.de/cdo)" />
-  <attribute name="id" value="UnidataDataDiscoveryAttributes" />
-  <attribute name="naming_authority" value="naming_authority" />
-  <attribute name="Metadata_Conventions" value="Unidata Dataset Disovery v1.0" />
-  <attribute name="Metadata_Link" value="" />
-  <attribute name="title" value="The data show annual average total precipitation anomaly for the period (2040-2059) compared to present day (1980-1999) for SRES emissions scenario A1B" />
-  <attribute name="summary" value="Anomaly was calculated by subtracting the annual average in the 20th Century Expiriment ensemble average (1980-1999) from the annual average for (2040-2059) in the SRES scenario A1B ensemble average." />
-  <attribute name="keywords" value="Atmosphere &gt; Precipitation &gt; Precipitation Anomalies" />
-  <attribute name="keywords_vocabulary" value="NASA/Global Change Master Directory (GCMD) Earth Science Keywords.  Version 6.0.0.0.0" />
-  <attribute name="standard_name_vocabulary" value="CF-1.0" />
-  <attribute name="processing_description" value="annual, multi-year averages" />
-  <attribute name="processing_type" value="average" />
-  <attribute name="climatology" value="Model: A1B scenario. Period: 2040-2059" />
-  <attribute name="cdm_data_type" value="Grid" />
-  <attribute name="source" value="Statistical downscaled product from CCSM3.0, version beta 19 (2004): atmosphere:  CAM3.0, T85.  The downscaled method was produced by Tim Hoar and Dough Nychka at NCAR/IMAGE." />
-  <attribute name="creator_name" value="NCAR GIS Program" />
-  <attribute name="creator_url" value="http://www.gis.ucar.edu" />
-  <attribute name="creator_email" value="GISSupport@ucar.edu" />
-  <attribute name="date_created" value="2011-01-28" />
-  <attribute name="institution" value="National Center for Atmospheric Research" />
-  <attribute name="project" value="GIS Program, GIS Climate Change Scenarios Portal" />
-  <attribute name="date_modified" value="2011-01-28" />
-  <attribute name="date_issued" value="2011-01-28" />
-  <attribute name="acknowledgment" value="http://www.ccsm.ucar.edu" />
-  <attribute name="geospatial_lat_min" type="double" value="-90." />
-  <attribute name="geospatial_lat_max" type="double" value="90." />
-  <attribute name="geospatial_lon_min" type="double" value="-180." />
-  <attribute name="geospatial_lon_max" type="double" value="180." />
-  <attribute name="time_coverage_start" type="int" value="0" />
-  <attribute name="time_coverage_end" type="int" value="7300" />
-  <attribute name="time_coverage_duration" type="int" value="7300" />
-  <attribute name="time_coverage_resolution" value="days" />
-  <attribute name="license" value="The data and information contained in this report is intended for research purposes only.  It is provided &quot;as is&quot; and without representations or warranties of any kind" />
-  <attribute name="publisher_name" value="NCAR GIS Program" />
-  <attribute name="publisher_email" value="GISSupport@ucar.edu" />
-  <attribute name="publisher_url" value="http://www.gis.ucar.edu/" />
-  <attribute name="program_info" value="The Geographic Information Systems (GIS) Program at the National Center for Atmospheric Research (NCAR) is an interdisciplinary effort to foster collaborative science, spatial data interoperability, and knowledge sharing with GIS. The main goal of the GIS Program is to promote and support the use of GIS as both an analysis, and an infrastructure tool in atmospheric research and to address broader issues of spatial data management, interoperability, and geoinformatics within the geosciences.  Working in collaboration with other NCAR strategic initiatives, divisions, and UCAR programs (such as Unidata, CDP, IMAGe, CGD, ISSE and RAL), we support variety of science projects at NCAR, make atmospheric data sets compatible with GIS tools, create bridges between atmospheric, geo- and social sciences, enable users to access, integrate and manage spatial information, and communicate science outcomes to the community of GIS users and the stakeholders." />
-  <attribute name="data_disclaimer" value="The data and information contained in this report is intended for research purposes only. It is provided &quot;as is&quot; and without representations or warranties of any kind, either expressed or implied. All representations and warranties are disclaimed, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.  Experience has proven that the timeliness, resolution and manner in which data from these types of reports/models is used does not wholly support the effective or reliable use of the data in making decisions of an immediate or short term nature that involve the safety of people or property. The user assumes all risk as to the use of the data and/or information. In no event will UCAR, or any other party who has been involved in the creation, production or display of this data/information, be liable for damages, whether direct, special, indirect, incidental, or consequential, including loss of profits." />
+<netcdf xmlns:nc="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+  <dimension name="lon" length="1405"/>
+  <dimension name="nv" length="2"/>
+  <dimension name="lat" length="621"/>
+  <dimension name="time" length="1" isUnlimited="true"/>
+  <attribute name="CDI" value="Climate Data Interface version 1.3.2"/>
+  <attribute name="Conventions" value="CF-1.0"/>
+  <attribute name="history"
+    value="Fri Jan 28 16:57:14 2011: cdo -r setcalendar,365days ppt_SRESA1B_mid_annual_down_anomaly__.nc ppt_SRESA1B_mid_annual_down_anomaly.nc&#xA;Fri Jan 28 16:57:14 2011: cdo -r setreftime,2040-01-01,00:00:00,days ppt_SRESA1B_mid_annual_down_anomaly_.nc ppt_SRESA1B_mid_annual_down_anomaly__.nc&#xA;Fri Jan 28 16:57:14 2011: cdo -r settunits,days ppt_SRESA1B_mid_annual_down_anomaly.nc ppt_SRESA1B_mid_annual_down_anomaly_.nc&#xA;Fri Sep 03 14:47:39 2010: cdo sub ppt_SRESA1B_mid_down_annual.nc ppt_20C3M_Present_down_annual.nc ppt_SRESA1B_mid_annual_down_anomaly.nc&#xA;Fri Sep 03 12:41:49 2010: cdo timavg ppt_20C3M_Present_down_annual_sum.nc ppt_20C3M_Present_down_annual.nc&#xA;Fri Sep 03 12:41:37 2010: cdo yearsum ppt_20C3M_Present_down_annual_extract.nc ppt_20C3M_Present_down_annual_sum.nc&#xA;Fri Sep  3 12:40:37 2010: ncks -d time,1, ppt_20C3M_Present_down.nc ppt_20C3M_Present_down_annual_extract.nc&#xA;Fri Sep  3 11:41:34 2010: ncks -x -v parentvar -d time,1319,1559 ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1999-12.downscaled.nc ppt_20C3M_Present_down.nc&#xA;Mon Sep  1 15:13:06 2008: ncrcat ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1879-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1880-01_cat_1889-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1890-01_cat_1899-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1900-01_cat_1909-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1910-01_cat_1919-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1920-01_cat_1929-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1930-01_cat_1939-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1940-01_cat_1949-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1950-01_cat_1959-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1960-01_cat_1969-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1970-01_cat_1979-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1980-01_cat_1989-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1990-01_cat_1999-12.downscaled.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1999-12.downscaled.nc&#xA;Mon Sep  1 13:42:40 2008: ncks -A PR_20C3M_meta.nc ppt_A1.20C3M_EA1-9.CCSM.atmm.1870-01_cat_1879-12.downscaled.nc&#xA; "/>
+  <attribute name="CoefficientFileName" value="/ptmp/thoar/downscaling/coeffs2_ppt_1895_2005.nc"/>
+  <attribute name="PrismDataSource" value="PRISM Group, Oregon State University"/>
+  <attribute name="PrismDataURL" value="http://www.ocs.orst.edu/prism/"/>
+  <attribute name="PrismDataOrigin" value="ftp.ncdc.noaa.gov/pub/data/prism100"/>
+  <attribute name="PrismDataRetrievalDate1_1895_1997" value="30 Aug 2006"/>
+  <attribute name="PrismDataRetrievalDate2_1998_2005" value="20 Oct 2006"/>
+  <attribute name="ParentDataFileName" value="pr_A1.SRESA1B_EA1-8.CCSM.atmm.2000-01_cat_2099-12.nc"/>
+  <attribute name="netCDFCreatedBy" value="Tim Hoar - thoar@ucar.edu"/>
+  <attribute name="CreationDate" value="Mon Sep  1 13:12:26 2008"/>
+  <attribute name="CCSM_table_id" value="Table A1"/>
+  <attribute name="CCSM_title" value="model output prepared for IPCC AR4"/>
+  <attribute name="CCSM_institution" value="NCAR (National Center for Atmospheric &#xA;Research, Boulder, CO, USA)"/>
+  <attribute name="CCSM_source" value="CCSM3.0, version beta19 (2004): &#xA;atmosphere: CAM3.0, T85L26;&#xA;ocean     : POP1.4.3 (modified), gx1v3&#xA;sea ice   : CSIM5.0, T85;&#xA;land      : CLM3.0, gx1v3"/>
+  <attribute name="CCSM_contact" value="ccsm@ucar.edu"/>
+  <attribute name="CCSM_project_id" value="IPCC Fourth Assessment"/>
+  <attribute name="CCSM_Conventions" value="CF-1.0"/>
+  <attribute name="CCSM_references" value="Collins, W.D., et al., 2005:&#xA; The Community Climate System Model, Version 3&#xA; Journal of Climate&#xA; &#xA; Main website: http://www.ccsm.ucar.edu"/>
+  <attribute name="CCSM_acknowledgment"
+    value=" Any use of CCSM data should acknowledge the contribution&#xA; of the CCSM project and CCSM sponsor agencies with the &#xA; following citation:&#xA; 'This research uses data provided by the Community Climate&#xA; System Model project (www.ccsm.ucar.edu), supported by the&#xA; Directorate for Geosciences of the National Science Foundation&#xA; and the Office of Biological and Environmental Research of&#xA; the U.S. Department of Energy.'&#xA;In addition, the words 'Community Climate System Model' and&#xA; 'CCSM' should be included as metadata for webpages referencing&#xA; work using CCSM data or as keywords provided to journal or book&#xA;publishers of your manuscripts.&#xA;Users of CCSM data accept the responsibility of emailing&#xA; citations of publications of research using CCSM data to&#xA; ccsm@ucar.edu.&#xA;Any redistribution of CCSM data must include this data&#xA; acknowledgement statement."/>
+  <attribute name="CCSM_realization" type="int" value="1"/>
+  <attribute name="CCSM_experiment_id" value="720 ppm stabilization experiment (SRESA1B)"/>
+  <attribute name="CCSM_history"
+    value="Fri Aug 22 12:35:58 2008: ncea pr_A1.SRESA1B_1.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_2.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_3.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_4.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_5.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_6.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_7.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_8.CCSM.atmm.2000-01_cat_2099-12.nc pr_A1.SRESA1B_EA1-8.CCSM.atmm.2000-01_cat_2099-12.nc&#xA;Created from CCSM3 case b30.040a&#xA; by wgstrand@ucar.edu&#xA; on Wed Nov 17 14:12:57 EST 2004&#xA; &#xA; For all data, added IPCC requested metadata"/>
+  <attribute name="CCSM_comment"
+    value="This simulation was initiated from year 2000 of &#xA; CCSM3 model run b30.030a and executed on &#xA; hardware cheetah.ccs.ornl.gov. The input external forcings are&#xA;ozone forcing    : A1B.ozone.128x64_L18_1991-2100_c040528.nc&#xA;aerosol optics   : AerosolOptics_c040105.nc&#xA;aerosol MMR      : AerosolMass_V_128x256_clim_c031022.nc&#xA;carbon scaling   : carbonscaling_A1B_1990-2100_c040609.nc&#xA;solar forcing    : Fixed at 1366.5 W m-2&#xA;GHGs             : ghg_ipcc_A1B_1870-2100_c040521.nc&#xA;GHG loss rates   : noaamisc.r8.nc&#xA;volcanic forcing : none&#xA;DMS emissions    : DMS_emissions_128x256_clim_c040122.nc&#xA;oxidants         : oxid_128x256_L26_clim_c040112.nc&#xA;SOx emissions    : SOx_emissions_A1B_128x256_L2_1990-2100_c040608.nc&#xA; Physical constants used for derived data:&#xA; Lv (latent heat of evaporation): 2.501e6 J kg-1&#xA; Lf (latent heat of fusion     ): 3.337e5 J kg-1&#xA; r[h2o] (density of water      ): 1000 kg m-3&#xA; g2kg   (grams to kilograms    ): 1000 g kg-1&#xA; &#xA; Integrations were performed by NCAR and CRIEPI with support&#xA; and facilities provided by NSF, DOE, MEXT and ESC/JAMSTEC."/>
+  <attribute name="CCSM_nco_openmp_thread_number" type="int" value="1"/>
+  <attribute name="CCSM_additional_note" value="Ensemble average created by strandwg on Fri Aug 22 13:34:00 MDT 2008"/>
+  <attribute name="CDO" value="Climate Data Operators version 1.3.2 (http://www.mpimet.mpg.de/cdo)"/>
+  <attribute name="id" value="UnidataDataDiscoveryAttributes"/>
+  <attribute name="naming_authority" value="naming_authority"/>
+  <attribute name="Metadata_Conventions" value="Unidata Dataset Disovery v1.0"/>
+  <attribute name="Metadata_Link" value=""/>
+  <attribute name="title" value="The data show annual average total precipitation anomaly for the period (2040-2059) compared to present day (1980-1999) for SRES emissions scenario A1B"/>
+  <attribute name="summary" value="Anomaly was calculated by subtracting the annual average in the 20th Century Expiriment ensemble average (1980-1999) from the annual average for (2040-2059) in the SRES scenario A1B ensemble average."/>
+  <attribute name="keywords" value="Atmosphere &gt; Precipitation &gt; Precipitation Anomalies"/>
+  <attribute name="keywords_vocabulary" value="NASA/Global Change Master Directory (GCMD) Earth Science Keywords.  Version 6.0.0.0.0"/>
+  <attribute name="standard_name_vocabulary" value="CF-1.0"/>
+  <attribute name="processing_description" value="annual, multi-year averages"/>
+  <attribute name="processing_type" value="average"/>
+  <attribute name="climatology" value="Model: A1B scenario. Period: 2040-2059"/>
+  <attribute name="cdm_data_type" value="Grid"/>
+  <attribute name="source" value="Statistical downscaled product from CCSM3.0, version beta 19 (2004): atmosphere:  CAM3.0, T85.  The downscaled method was produced by Tim Hoar and Dough Nychka at NCAR/IMAGE."/>
+  <attribute name="creator_name" value="NCAR GIS Program"/>
+  <attribute name="creator_url" value="http://www.gis.ucar.edu"/>
+  <attribute name="creator_email" value="GISSupport@ucar.edu"/>
+  <attribute name="date_created" value="2011-01-28"/>
+  <attribute name="institution" value="National Center for Atmospheric Research"/>
+  <attribute name="project" value="GIS Program, GIS Climate Change Scenarios Portal"/>
+  <attribute name="date_modified" value="2011-01-28"/>
+  <attribute name="date_issued" value="2011-01-28"/>
+  <attribute name="acknowledgment" value="http://www.ccsm.ucar.edu"/>
+  <attribute name="geospatial_lat_min" type="double" value="-90."/>
+  <attribute name="geospatial_lat_max" type="double" value="90."/>
+  <attribute name="geospatial_lon_min" type="double" value="-180."/>
+  <attribute name="geospatial_lon_max" type="double" value="180."/>
+  <attribute name="time_coverage_start" type="int" value="0"/>
+  <attribute name="time_coverage_end" type="int" value="7300"/>
+  <attribute name="time_coverage_duration" type="int" value="7300"/>
+  <attribute name="time_coverage_resolution" value="days"/>
+  <attribute name="license" value="The data and information contained in this report is intended for research purposes only.  It is provided &quot;as is&quot; and without representations or warranties of any kind"/>
+  <attribute name="publisher_name" value="NCAR GIS Program"/>
+  <attribute name="publisher_email" value="GISSupport@ucar.edu"/>
+  <attribute name="publisher_url" value="http://www.gis.ucar.edu/"/>
+  <attribute name="program_info"
+    value="The Geographic Information Systems (GIS) Program at the National Center for Atmospheric Research (NCAR) is an interdisciplinary effort to foster collaborative science, spatial data interoperability, and knowledge sharing with GIS. The main goal of the GIS Program is to promote and support the use of GIS as both an analysis, and an infrastructure tool in atmospheric research and to address broader issues of spatial data management, interoperability, and geoinformatics within the geosciences.  Working in collaboration with other NCAR strategic initiatives, divisions, and UCAR programs (such as Unidata, CDP, IMAGe, CGD, ISSE and RAL), we support variety of science projects at NCAR, make atmospheric data sets compatible with GIS tools, create bridges between atmospheric, geo- and social sciences, enable users to access, integrate and manage spatial information, and communicate science outcomes to the community of GIS users and the stakeholders."/>
+  <attribute name="data_disclaimer"
+    value="The data and information contained in this report is intended for research purposes only. It is provided &quot;as is&quot; and without representations or warranties of any kind, either expressed or implied. All representations and warranties are disclaimed, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose.  Experience has proven that the timeliness, resolution and manner in which data from these types of reports/models is used does not wholly support the effective or reliable use of the data in making decisions of an immediate or short term nature that involve the safety of people or property. The user assumes all risk as to the use of the data and/or information. In no event will UCAR, or any other party who has been involved in the creation, production or display of this data/information, be liable for damages, whether direct, special, indirect, incidental, or consequential, including loss of profits."/>
   <variable name="lon" shape="lon" type="double">
-    <attribute name="long_name" value="longitude" />
-    <attribute name="units" value="degrees_east" />
-    <attribute name="standard_name" value="longitude" />
-    <attribute name="bounds" value="lon_bounds" />
+    <attribute name="long_name" value="longitude"/>
+    <attribute name="units" value="degrees_east"/>
+    <attribute name="standard_name" value="longitude"/>
+    <attribute name="bounds" value="lon_bounds"/>
   </variable>
-  <variable name="lon_bounds" shape="lon nv" type="double">
-  </variable>
+  <variable name="lon_bounds" shape="lon nv" type="double"> </variable>
   <variable name="lat" shape="lat" type="double">
-    <attribute name="long_name" value="latitude" />
-    <attribute name="units" value="degrees_north" />
-    <attribute name="standard_name" value="latitude" />
-    <attribute name="bounds" value="lat_bounds" />
+    <attribute name="long_name" value="latitude"/>
+    <attribute name="units" value="degrees_north"/>
+    <attribute name="standard_name" value="latitude"/>
+    <attribute name="bounds" value="lat_bounds"/>
   </variable>
-  <variable name="lat_bounds" shape="lat nv" type="double">
-  </variable>
+  <variable name="lat_bounds" shape="lat nv" type="double"> </variable>
   <variable name="time" shape="time" type="double">
-    <attribute name="units" value="days since 2040-01-01 00:00" />
-    <attribute name="calendar" value="365_day" />
-    <attribute name="standard_name" value="time" />
-    <attribute name="climatology" value="climatology_bounds" />
-    <attribute name="long_name" value="time" />
-    <attribute name="axis" value="T" />
+    <attribute name="units" value="days since 2040-01-01 00:00"/>
+    <attribute name="calendar" value="365_day"/>
+    <attribute name="standard_name" value="time"/>
+    <attribute name="climatology" value="climatology_bounds"/>
+    <attribute name="long_name" value="time"/>
+    <attribute name="axis" value="T"/>
   </variable>
   <variable name="ppt" shape="time lat lon" type="float">
-    <attribute name="long_name" value="PRISM statistically downscaled precipitation amount anomaly" />
-    <attribute name="standard_name" value="precipitation_amount_anomaly" />
-    <attribute name="units" value="mm" />
-    <attribute name="cell_method" value="time: total" />
-    <attribute name="cell_methods" value="time: sum within years time: mean over years" />
-    <attribute name="cell_step1" value="thin-plate spline to dense grid" />
-    <attribute name="cell_step2" value="apply linear model based on PRISM" />
-    <attribute name="_FillValue" type="float" value="-999." />
+    <attribute name="long_name" value="PRISM statistically downscaled precipitation amount anomaly"/>
+    <attribute name="standard_name" value="precipitation_amount_anomaly"/>
+    <attribute name="units" value="mm"/>
+    <attribute name="cell_method" value="time: total"/>
+    <attribute name="cell_methods" value="time: sum within years time: mean over years"/>
+    <attribute name="cell_step1" value="thin-plate spline to dense grid"/>
+    <attribute name="cell_step2" value="apply linear model based on PRISM"/>
+    <attribute name="_FillValue" type="float" value="-999."/>
   </variable>
   <variable name="climatology_bounds" shape="time nv" type="float">
-    <attribute name="name" value="climatology_bounds" />
-    <attribute name="units" value="days since 2040-01-01 00:00" />
+    <attribute name="name" value="climatology_bounds"/>
+    <attribute name="units" value="days since 2040-01-01 00:00"/>
   </variable>
 </netcdf>
