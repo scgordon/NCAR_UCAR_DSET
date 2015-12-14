@@ -1,0 +1,778 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <title>Unidata | Data Available Through Unidata</title>    <link rel="shortcut icon" href="http://www.unidata.ucar.edu/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+
+    <meta name="google-site-verification" content="-1uQ4qWE169SCZ89TolvuauHYBwWz8zL4PI_OFB9Ue0" />
+
+    <!-- Unidata CSS -->
+    <link rel="stylesheet" href="/css/upc.css" type="text/css" />
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="/js/jquery/jquery-latest.min.js"></script>
+
+    <!-- General Unidata JS -->
+    <script type="text/javascript" src="/js/login_cookie_detect.js"></script>
+    <script type="text/javascript" src="/js/last_mod.js"></script>
+    <script type="text/javascript" src="/js/header.js"></script>
+    <script type="text/javascript" src="/js/jquery/plugins/responsive-tables.js"></script>
+
+    <!-- Tool Tips -->
+    <script type="text/javascript" src="/js/jquery/plugins/jquery.tooltipster.min.js"></script>
+
+    <!-- Toggle -->
+    <script type="text/javascript" src="/js/toggle.js"></script>
+
+    <!-- Session Management -->
+    <script type="text/javascript" src="/js/jquery/plugins/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/js/jquery/plugins/jquery.base64.js"></script>
+    <script type="text/javascript" src="/js/session.js"></script>
+
+
+
+    <meta name="Keywords" content="Unidata, forecast model output, satellite data, radar data, lightning data, aircraft-borne observation data, ACARS, GPS meteorological data, SuomiNet, textual weather bulletins, NCEP models, FNMOC, CMC, COSMIC, GOES East, GOES West, Level II, Level III, Mosaics, IDD, datastreams, data access, data repositories" />
+    <meta name="Description" content="Unidata provides atmospheric data to researchers and educators at no cost; including satellite and radar imagery, and lightning observations and model output." />
+
+       <!-- jQuery UI Tabs -->
+   <script type="text/javascript" src="/js/jquery/ui/jquery.ui.core.min.js"></script>
+   <script type="text/javascript" src="/js/jquery/ui/jquery.ui.widget.min.js"></script>
+   <script type="text/javascript" src="/js/jquery/ui/jquery.ui.tabs.min.js"></script>
+
+   <!-- Tabs CSS -->
+   <link rel="stylesheet" href="/css/tabs/include.css" type="text/css" media="screen" />
+
+   <!-- jquery.address plugin-->
+   <script type="text/javascript" src="/js/jquery/plugins/jquery.address-latest.min.js"></script> 
+
+   <!-- Converts tab links to a dropdown menu (mobiles, tablets, etc.) -->
+   <script type="text/javascript" src="/js/jquery/plugins/selectnav.unidata_custom.js"></script> 
+
+   <!-- Custom Tabs & Breadcrumbs JS-->
+   <script type="text/javascript" src="/js/tabs.js"></script>
+
+   <!-- Responsive CSS -->
+   <link rel="stylesheet" href="/css/responsive.css" type="text/css" media="screen, handheld" />
+
+
+    <style type="text/css"  media="all">
+      <!--
+      table.outer {
+       margin: 0 0 0 2px; padding: 0; border-collapse:collapse;
+      }
+      .outer big {
+       font-size: 13pt;
+      }
+      .outer td {
+       font-size: 9pt; margin: 0; padding: 0 5px; text-align: center; border: 1px solid #CCCCCC; width: 50px; height: 20px; color: #888888;
+      }
+      .outer .type {
+       width: 140px; margin: 0; text-align: left; color: #000000;
+      }
+      .outer .title {
+       margin: 0; text-align: center; border-bottom: 1px solid #888888; color: #000000;
+      }
+      .outer .hd {
+       border: none; color: #000000;
+      }
+      .outer .remote,
+      .outer .display {
+       background-color: #F0F3F7;
+      }
+      .outer .coverage {
+       background-color: #FDFDFC;
+      }
+      .outer .cat {
+       border: 1px solid #CCCCCC; color: #000000;
+      }
+      .logo {
+       float:right; padding-left:1em;
+      }
+      -->
+    </style>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4025628-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+</head>
+  <body>   
+   <header id="header-wrap">
+    <!-- horizontal navigation menu -->
+    <div id="navspace" class="clearfix">
+     <nav> 
+      <ul id="nav">
+       <li class="top"><a href="/data/" id="data" class="top_link"><span class="down">Data</span></a>
+        <ul class="sub">
+         <li><b>Available Data Types</b></li>
+         <li><a href="/data/index.html#model">Forecast Model Output</a></li>
+         <li><a href="/data/index.html#satellite">Satellite Data</a></li>
+         <li><a href="/data/index.html#radar">Radar Data</a></li>
+         <li><a href="/data/index.html#lightning">Lightning Data</a></li>
+         <li><a href="/data/index.html#profiler">Wind Profiler Data</a></li>
+         <li><a href="/data/index.html#acars">Aircraft-Borne (ACARS)</a></li>
+         <li><a href="/data/index.html#suominet">GPS Meteo. Data (SuomiNet)</a></li>
+         <li><a href="/data/index.html#text">Textual Weather Bulletins</a></li>
+         <li><b>Data Resources</b></li>
+         <li><a href="/data/DataFlow.html">Data Usage Guide</a></li>
+         <li><a href="/software/ldm/ldm-current/basics/feedtypes/">LDM Feedtypes</a></li>
+         <li><a href="/projects/idd/rtstats/">IDD Operational Status</a></li>
+         <li><a href="/data/index.html#archived">Archived Data Access</a></li>
+         <li><a href="/data/dmrc">Data Management Resource Center</a></li>
+        </ul>
+       </li>
+
+       <li class="top"><a href="/software/" id="software" class="top_link"><span class="down">Software</span></a>
+        <ul class="sub">
+         <li><b>Display &amp; Analysis</b></li>
+         <li><a href="/software/awips2/">AWIPS II</a></li>
+         <li><a href="/software/gempak/">GEMPAK</a></li>
+         <li><a href="/software/idv/">IDV</a></li>
+         <li><a href="/software/mcidas">McIDAS</a></li>
+         <li><b>Data Access &amp; Management</b></li>
+         <li><a href="/software/ldm/">LDM</a></li>
+         <li><a href="/software/mcidas/mcidd/">LDM-McIDAS Decoders</a></li>
+         <li><a href="/software/netcdf/">NetCDF</a></li>
+         <li><a href="/software/thredds/current/netcdf-java/">NetCDF Java</a></li>
+         <li><a href="/software/rosetta/">Rosetta</a></li>
+         <li><a href="/software/thredds/current/tds/">THREDDS Data Server</a></li>
+         <li><a href="/software/udunits/">UDUNITS</a></li>
+         <li><b>Deprecated Software</b></li>
+         <li><a href="https://github.com/Unidata/Garp">GARP</a></li>
+         <li><a href="https://github.com/Unidata/netCDF-Decoders">NetCDF Decoders</a></li>
+         <li><a href="https://github.com/Unidata/netCDF-Perl/blob/master/README.md">NetCDF Perl</a> </li>
+        </ul>
+       </li>
+
+       <li class="top"><a href="/downloads/" id="downloads" class="top_link"><span class="down">Downloads</span></a>
+        <ul class="sub">
+         <li><b>Display &amp; Analysis</b></li>
+         <li><a href="/software/awips2/doc/install.html">AWIPS II</a></li>
+         <li><a href="/downloads/gempak/">GEMPAK</a></li>
+         <li><a href="/downloads/idv/">IDV</a></li>
+         <li><a href="/downloads/mcidas/">McIDAS</a></li>
+         <li><b>Data Access &amp; Management</b></li>
+         <li><a href="/downloads/ldm/">LDM</a></li>
+         <li><a href="/downloads/ldm-mcidas/">LDM-McIDAS Decoders</a></li>
+         <li><a href="/downloads/netcdf/">NetCDF &amp; NetCDF Java</a></li>
+         <li><a href="/downloads/thredds/">THREDDS Data Server</a></li>
+         <li><a href="/downloads/udunits/">UDUNITS</a></li>
+         <li><b>Deprecated Software</b></li>
+         <li><a href="https://github.com/Unidata/Garp">GARP</a></li>
+         <li><a href="https://github.com/Unidata/netCDF-Decoders">NetCDF Decoders</a></li>
+         <li><a href="https://github.com/Unidata/netCDF-Perl">NetCDF Perl</a></li>
+         <li><b>Terms &amp; Conditions</b></li>
+         <li><a href="/legal/participation.html">Provision of Software</a></li>
+        </ul>
+       </li>
+
+       <li class="top"><a href="/support/" id="support" class="top_link"><span class="down">Support</span></a>
+        <ul class="sub">
+         <li><b>Support Resources</b></li>
+         <li><a href="/support/index.html#docs">Documentation</a></li>
+         <li><a href="/support/index.html#training">Training Tutorials</a></li>
+         <li><a href="/support/index.html#mailinglists">Mailing Lists</a></li>
+         <li><a href="/support/index.html#archives">Support Archives</a></li>
+         <li><b>Submit a Request</b></li>
+         <li><a href="/support/index.html#process">Suggested Support Process</a></li>
+         <li><a href="/support/index.html#request">Email-Based</a></li>
+         <li><a href="/support/requestSupport.jsp">Web-Based</a></li>
+         <li><b>Terms &amp; Conditions</b></li>
+         <li><a href="/support/index.html#conditions">Obtaining Support</a></li>
+         <li><a href="/account/account.jsp">Register as a User</a></li>
+        </ul>
+       </li>
+
+       <li class="top"><a href="/community/" id="community" class="top_link"><span class="down">Community</span></a>
+        <ul class="sub">
+         <li><b>Outreach &amp; Opportunities</b></li>
+         <li><a href="/community/index.html#unidatanews">News from Unidata</a></li>
+         <li><a href="/events/">Unidata Events</a></li>
+         <li><a href="/community/index.html#communitynews">News from the Community</a></li>
+         <li><a href="/community/index.html#opportunities">Job Opportunities</a></li>
+         <li><a href="/community/desouza/">DeSouza Award</a></li>
+         <li><a href="/community/equipaward/">Equipment Awards</a></li>
+         <li><a href="/community/internship/">Summer Internships</a></li>           
+         <li><b>We Are Community Driven</b></li>
+         <li><a href="/community/Participating_Institutions.html">Participating Institutions</a></li>
+         <li><a href="/projects/">Collaborations</a></li>
+         <li><a href="/community/index.html#ed_resources">Education Resources</a></li>
+         <li style="display:none;"><a href="/community/sitehighlight/">Software &amp; Data in Use</a></li>
+         <li><a href="/community/index.html#participate">How to Participate</a></li>
+         <li><a href="/community/index.html#acknowledge">Acknowledging Unidata</a></li>
+         <li><b>Governance</b></li>
+         <li><a href="/community/index.html#governance">Unidata's Governance Model</a></li>
+         <li><a href="/committees/polcom/">Strategic Advisory Committee</a></li>
+         <li><a href="/committees/usercom/">Users Committee</a></li>
+         <li><b>Publications &amp; Resources</b></li>
+         <li><a href="/publications/bibliography/bibliography.html">Bibliography</a></li>
+         <li><a href="/publications/acronyms/glossary.html">Glossary of Terms</a></li>
+        </ul>
+       </li>
+
+
+       <li class="top"><a href="/projects/" id="projects" class="top_link"><span class="down">Projects</span></a>
+        <ul class="sub">
+         <li><b>Current Projects</b></li>
+         <li><a href="/projects/index.html#acadis">ACADIS</a></li>
+         <li><a href="/projects/index.html#casestudies">Case Studies</a></li>
+         <li><a href="/projects/index.html#cdm">Common Data Model</a></li>
+         <li><a href="/projects/index.html#conduit">CONDUIT</a></li>
+         <li><a href="/projects/index.html#galeon">GALEON</a></li>
+         <li><a href="/projects/index.html#geon">GEON IDV</a></li>
+         <li><a href="/projects/index.html#googleafrica">Google Africa Initiative</a></li>
+         <li><a href="/projects/index.html#gridspec">GRIDSPEC</a></li>
+         <li><a href="/projects/index.html#hydro">HYDRO-NEXRAD</a></li>
+         <li><a href="/projects/index.html#idd">Internet Data Distribution</a></li>
+         <li><a href="/projects/index.html#libcf">LibCF</a></li>   
+         <li><a href="/projects/index.html#mcidas-v">McIDAS-V</a></li>
+         <li><a href="/projects/index.html#ncmp">Data Intercomparisons</a></li>
+         <li><a href="/projects/index.html#ngldm">Next-Generation LDM</a></li>
+         <li><a href="/projects/index.html#opuls">OPULS</a></li>         
+         <li><a href="/projects/index.html#owcs">OWCS</a></li>         
+         <li><a href="/projects/index.html#python">Python</a></li>
+         <li><a href="/projects/index.html#ramadda">RAMADDA in the Unidata Community</a></li>
+         <li><a href="/projects/index.html#teaching_resources">Teaching Resources</a></li>
+         <li><a href="/projects/index.html#archive">Project Archive</a></li>         
+        </ul>
+       </li>
+
+       <li class="top"><a href="/blogs/news/" id="newsmenu" class="top_link"><span class="down">News</span></a>
+        <ul class="sub">
+         <li><b>News from Unidata</b></li>
+         <li><a href="/blogs/news/">News from Unidata</a></li>
+         <li><a href="/events/">Unidata Events</a></li>
+         <li><a href="/blogs/developer/">Unidata Developer's Blog</a></li>
+         <li><b>News from the Community</b></li>
+         <li><a href="/community/index.html#communitynews">News From the Community</a></li>
+         <li><a href="/community/index.html#opportunities">Community Jobs</a></li>
+         <li><a href="/news/archives/">News Archives</a></li>
+        </ul>
+       </li>
+
+       <li class="top"><a href="/events/" id="eventsmenu" class="top_link"><span class="down">Events</span></a>
+        <ul class="sub">
+         <!-- <li><b>Fall 2015</b></li> -->
+		 <!-- <li><a href="/committees/usercom/2015Sep/">Joint Committee Meeting</a></li> -->
+         <li><b>Unidata Events</b></li>
+         <li><a href="/events/">Calendar of Events</a></li>
+         <li><a href="/community/seminars/">Seminar Series</a></li>
+         <li><a href="/events/index.html#conferences">Conferences &amp; Meetings</a></li>
+         <li><b>Unidata Workshops</b></li>
+         <li><a href="/events/index.html#training">Training Workshops</a></li>
+         <li><a href="/events/index.html#triennial">Triennial Workshops</a></li>
+         <li><a href="/events/index.html#regional">Regional Workshops</a></li>
+         <li><a href="/events/index.html#datawk">Data Workshops</a></li>
+        </ul>
+       </li>
+
+       <li class="top"><a href="/about/" id="about" class="top_link"><span class="down">About Us</span></a>
+        <ul class="sub">
+         <li><b>The Unidata Program</b></li>
+         <li><a href="/about/index.html#overview">Overview of Unidata</a></li>
+         <li><a href="/about/index.html#reports">Highlights &amp; Reports</a></li>
+         <li><a href="/publications/Unidata_Leaflet.pdf">Unidata Brochure</a></li>
+         <li><a href="/publications/directorspage/">Unidata Director's Page</a></li>
+         <li><b>Our Organization</b></li>
+         <li><a href="/about/OrgChart-Groups.pdf">Working Groups</a></li>
+         <li><a href="/about/index.html#staff">Staff Listing</a></li>
+         <li><b>Contact Unidata</b></li>
+         <li><a href="/about/index.html#contact">Contact Information</a></li>
+         <li><a href="/about/index.html#visit">Visit Unidata</a></li>
+        </ul>
+       </li>
+       <li class="top screen_collapse">
+        <a href="http://www.unidata.ucar.edu/search.jsp" id="search" class="top_link"><span class="down">Search</span></a>
+       </li>
+       <div class="menuLoginLinks screen_collapse">
+        <script type="text/javascript">loadMenuLoginLinks();</script>
+       </div>
+      </ul>
+      <a href="#" id="pull">Menu</a>  
+     </nav> 
+    </div> <!-- end navspace -->
+
+    <div id="header" class="clearfix">
+     <div id="banner">
+      <div id="logo-floater">
+       <a href="/" title="Home" rel="home" id="logo">
+        <img src="/images/logo.png" alt="Home" />
+       </a>
+      </div> <!-- /#logo-floater -->
+
+      <div id="search-floater">
+       <form name="google" action="http://www.unidata.ucar.edu/search.jsp" id="cse-search-box">
+         <input type="hidden" name="hq" value="site:www.unidata.ucar.edu"></input> 
+         <input type="hidden" name="cx" value="008424664622949020059:afj38jxaljc"> </input>
+         <input type="hidden" name="cof" value="FORID:9"> </input>
+         <input type="hidden" name="ie" value="UTF-8"> </input>
+         <input type="text" name="q" autocomplete="on" style="background: url(&quot;https://www.google.com/cse/intl/images/google_custom_search_watermark.gif&quot;) no-repeat scroll left center rgb(255, 255, 255); border-width:0 !important;" id="edit-query" size="40" maxlength="255" class="form-text"></input>
+         <input type="submit" name="sa" value="search" id="edit-sa" class="form-submit"></input>
+       </form>
+       <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box"></script>
+      </div> <!-- /#search-floater -->
+
+
+       <div class="loginLinks">
+        <script type="text/javascript">loadLoginLinks();</script>
+       </div>
+
+     </div> <!-- /#banner -->
+    </div> <!-- /#header -->
+   </header> <!-- /#header-wrap -->
+
+ 
+   <div id="wrap">
+    <div id="container">
+
+
+    <div class="internal-header">
+      <h1>Data Available Through Unidata</h1>
+      <ul id="breadcrumbs"></ul>
+    </div> <!-- /.internal-header -->
+
+    <div id="center-wrapper" class="clearfix">
+
+      <div id="tabs">
+        <!-- left tab column -->
+        <nav id="leftColumn">
+          <b class="selectnav">Page menu:</b>
+          <ul id="pageNav" class="links">
+            <li>
+              <a href="#home">Data</a>
+            </li>
+            <li>
+              <a href="#model">Forecast Model Output</a>
+            </li>
+            <li>
+              <a href="#satellite">Satellite Data</a>
+            </li>
+            <li>
+              <a href="#radar">Radar Data</a>
+            </li>
+            <li>
+              <a href="#lightning">Lightning Data</a>
+            </li>
+            <li aria-controls="acars">
+              <a href="acars.inc">Aircraft-Borne (ACARS)</a>
+            </li>
+            <li aria-controls="suominet">
+              <a href="suominet.inc">GPS Meteo. (SuomiNet)</a>
+            </li>
+            <li aria-controls="text">
+              <a href="text.inc">Textual Weather Bulletins</a>
+            </li>
+            <li aria-controls="archived">
+              <a href="archived.inc">Archived Data Access</a>
+            </li>
+            <li aria-controls="tds">
+              <a href="tds.inc">Unidata's TDS</a>
+            </li>
+            <li>
+              <a href="guidelines.html" class="external">Guidelines for Data Use</a>
+            </li>
+            <li>
+              <a href="#help">Data Help &amp; Support</a>
+            </li>
+            <li>
+              <a href="DataFlow.html" class="external">Data Usage Guide</a>
+            </li>
+            <li>
+              <a href="http://rtstats.unidata.ucar.edu/rtstats/" class="external">IDD Operational Status</a>
+            </li>
+          </ul>
+        </nav> <!-- /#leftcol -->
+
+        <div id="doubleColumn">
+          <!-- DATA HOME-->
+          <div id="home">
+            <section>
+              <h2>Data Home</h2>
+
+              <div class="left nodec">
+                <img src="/images/logos/uniLogo.png" alt="Unidata" class="nodec">The Unidata Program helps researchers and educators acquire and use earth-related data.
+              </div> <!-- /.left -->
+
+              <div class="right">
+                <article>
+                  <h5><a href="/data/DataFlow.html">Getting Started?</a></h5>
+                  <p>
+                    <a href="/data/DataFlow.html"><img src="/images/data/usageguide-50x50.png" alt="Data Usage Guide" class="dec"></a> The <a href="/data/DataFlow.html">Data Usage Guide</a> is a flowchart designed to illustrate: 1) the type of data access methods available; and 2) the display capabilities of the Unidata visualization packages for each available data type.
+                  </p>
+                  <a href="/data/DataFlow.html" class="more">Start using the Data Usage Guide</a>
+                </article>
+              </div> <!-- /.right -->
+
+              <div class="left nodec">
+                <article>
+                  <h5>Available Data Types</h5>
+                  <ul class="tabular half">
+                    <li>
+                      <a href="#model"><img src="/images/data/ncep-50x50.png" alt="Forecast Model Output" class="dec"></a><small><a href="#model">Forecast Model Output</a></small>
+                    </li>
+                    <li>
+                      <a href="#satellite"><img src="/images/data/cosmic-50x50.png" alt="Satellite Data" class="dec"></a><small><a href="#satellite">Satellite
+                        <br>
+                        Data</a></small>
+                    </li>
+                    <li>
+                      <a href="#radar"><img src="/images/data/leveliii-50x50.png" alt="Radar Data" class="dec"></a><small><a href="#radar">Radar
+                        <br>
+                        Data</a></small>
+                    </li>
+                    <li>
+                      <a href="#lightning"><img src="/images/data/lightning-50x50.png" alt="Lightning Data" class="dec"></a><small><a href="#lightning">Lightning
+                        <br>
+                        Data</a></small>
+                    </li>
+                     <li>
+                      <a href="#acars"><img src="/images/data/acars-50x50.png" alt="Aircraft-Borne Observations (ACARS)" class="dec"></a><small><a href="#acars">Aircraft-Borne (ACARS)</a></small>
+                    </li>
+                    <li>
+                      <a href="#suominet"><img src="/images/data/suominet-50x50.png" alt="GPS Meteorological Data (SuomiNet)" class="dec"></a><small><a href="#suominet">GPS Meteo. (SuomiNet)</a></small>
+                    </li>
+                    <li>
+                      <a href="#text"><img src="/images/data/text-50x50.png" alt="Textual Weather Bulletins" class="dec"></a><small><a href="#text">Textual Weather Bulletins</a></small>
+                    </li>
+                  </ul>
+                </article>
+              </div> <!-- /.left -->
+
+              <div class="right">
+                <aside>
+                  <h5><a href="/publications/factsheets/current/data_factsheet.pdf">Data Overview</a></h5>
+                  <p><img src="/images/data/iddmap-50x50.png" alt="Archived Data" class="nodec"> A <a href="/publications/factsheets/current/data_factsheet.pdf">data fact sheet</a> is available to provide a brief overview of data available from Unidata.
+                  </p>
+                  <a href="/publications/factsheets/current/data_factsheet.pdf" class="more">View the data fact sheet</a>
+                </aside>
+              </div> <!-- /.right -->
+
+              <div class="left nodec">
+                <aside>
+                  <h5><a href="#archived">Archived Data</a></h5>
+                  <a href="#archived"><img src="/images/data/conduit-50x50.png" alt="Archived Data" class="nodec"></a>Unidata also provides mechanisms for accessing some <a href="#archived">archived</a> data sets and case studies.                  
+                </aside>
+              </div> <!-- /.left -->
+
+              <div class="right">
+                <aside>
+                  <h5>Questions About Data?</h5>
+                  <p>
+                    Please send any questions or comments about data usage and guidelines to: <a href="mailto:support@unidata.ucar.edu">support@unidata.ucar.edu</a>
+                  </p>
+                </aside>
+              </div> <!-- /.right -->
+
+              <div class="left nodec">
+                <aside>
+                  <h5><a href="/projects/idd/rtstats/">IDD Operational Status</a></h5>
+                  <a href="/projects/idd/rtstats/aria-controls="lightning""><img src="/images/data/idd-50x50.png" alt="IDD Operational Status" class="nodec"></a>Real-time statistics, cumulative summary information and a list of participating sites in the <a href="/projects/idd/rtstats/">Unidata IDD network</a>.
+                </aside>
+              </div> <!-- /.left -->
+
+            </section>
+          </div><!-- /#home -->
+
+          <!-- MODEL DATA -->
+          <div id="model">
+            <section>
+              <h2>Forecast Model Output Data</h2>
+              <div class="nested model">
+                <nav>
+                  <ul class="nested">
+                    <li aria-controls="ncep">
+                      <a href="ncep.inc">NCEP</a>
+                    </li>
+                    <li aria-controls="fnmoc">
+                      <a href="fnmoc.inc">FNMOC</a>
+                    </li>
+                    <li aria-controls="cmc">
+                      <a href="cmc.inc">CMC</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div id="ncep"></div>
+                <div id="fnmoc"></div>
+                <div id="cmc"></div>
+              </div> <!-- /.nested -->
+            </section>
+          </div><!-- /#model-->
+
+          <!-- SATELLITE DATA -->
+          <div id="satellite">
+            <section>
+              <h2>Satellite Data</h2>
+              <div class="nested satellite">
+                <nav>
+                  <ul class="nested">
+                    <li aria-controls="goes">
+                      <a href="goes.inc">GOES East &amp; West</a>
+                    </li>
+                    <li aria-controls="cosmic">
+                      <a href="cosmic.inc">COSMIC Limb Sounding</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div id="goes"></div>
+                <div id="cosmic"></div>
+              </div><!-- /.nested -->
+            </section>
+          </div><!-- /#satellite -->
+
+          <!-- RADAR DATA -->
+          <div id="radar">
+            <section>
+              <h2>Radar Data</h2>
+              <div class="nested radar">
+                <nav>
+                  <ul class="nested">
+                    <li aria-controls="levelII">
+                      <a href="levelII.inc">Level II</a>
+                    </li>
+                    <li aria-controls="levelIII">
+                      <a href="levelIII.inc">Level III</a>
+                    </li>
+                    <li aria-controls="mosaics">
+                      <a href="mosaics.inc">National Mosaics</a>
+                    </li>
+                  </ul>
+                </nav>
+                <div id="levelII"></div>
+                <div id="levelIII"></div>
+                <div id="mosaics"></div>
+              </div><!-- /.nested -->
+            </section>
+          </div><!-- /#radar -->
+
+          <!-- Lightning DATA  -->
+          <div id="lightning">
+            <section style="margin-bottom:1em;">
+              <h2>Lightning Data</h2>
+              <article>
+                <h4>Lightning Data Description</h4>
+                <p><img src="/images/data/lightning-50x50.png" alt="Lightning Data" class="dec"> Unidata is pleased to facilitate the offering of lightning stroke data from several sources to universities for research and educational purposes. All data are delivered via Unidata's Local Data Manager (LDM) software on a direct, point-to-point connection basis. Data are made available to universities at no cost.</p>
+                <p>Lightning stroke data is collected by sensor networks owned by <a href="http://wsi.com/">WSI Corporation</a> and <a href="http://www.vaisala.com">Vaisala</a>. Both companies make the data available to registered research and educational institutions with several stipulations, including the restriction that the data will not be retransmitted or used in for-profit enterprises. </p>
+              </article>
+              <article>
+                <h4>Data Capabilities</h4>
+                <table class="outer responsive">
+                  <tr>
+                    <td class="hd"></td>
+                    <td colspan="3" class="remote cat">Remote Data Access</td>
+                    <td colspan="3" class="coverage cat">Data Coverage</td>
+                    <td colspan="3" class="display cat">Display &amp; Analysis Options</td>
+                  </tr>
+                  <tr>
+                    <td class="title type">LDM Feedtype*</td>
+                    <td class="title remote">
+                      <div class="tooltip" title="Publically Accessible McIDAS ADDE servers">
+                        McIDAS ADDE
+                      </div></td>
+                    <td class="title remote">
+                      <div class="tooltip" title="THREDDS Data Server on Unidata's thredds server">
+                        TDS
+                      </div></td>
+                    <td class="title remote">
+                      <div class="tooltip" title="Short-term data archive of raw &amp; decoded LDM data on Unidata's motherlode server">
+                        Short-Term Archive
+                      </div></td>
+                    <td class="title coverage">Regional</td>
+                    <td class="title coverage">National</td>
+                    <td class="title coverage">Global</td>
+                    <td class="title display">GEMPAK</td>
+                    <td class="title display">IDV</td>
+                    <td class="title display">McIDAS</td>
+                  </tr>
+                  <tr>
+                    <!--
+                    <td class="type"><a href="/data/lightning.html">LIGHTNING
+                    (FT14,NLDN)</a></td>
+                    -->
+                    <td class="type">LIGHTNING (FT14,NLDN)</td>
+                    <td class="remote"><a href="/software/mcidas/adde_servers.html"><big>&#10003;</big> <big>R</big></td>
+                    <td class="remote"><a href="http://thredds.ucar.edu/thredds/catalog.html"><big>&#10003;</big> <big>R</big></a></td>
+                    <td class="remote"></td>
+                    <td class="coverage"><big>&#10003;</big></td>
+                    <td class="coverage"><big>&#10003;</big></td>
+                    <td class="coverage"><big>&#10003;</big></td>
+                    <td class="display"><a href="/software/gempak/"><big>&#10003;</big></a></td>
+                    <td class="display"><a href="/software/idv/"><big>&#10003;</big></a></td>
+                    <td class="display"><a href="/software/mcidas/"><big>&#10003;</big></a></td>
+                  </tr>
+                </table>
+                <p>
+                  <b>R = Restricted</b>:  Data cannot be served past one's own insitution.   Please see the <a href="guidelines.html">guidelines</a> regarding the access and use of lightning data.
+                </p>
+                <p>
+                  <a href="/software/ldm/ldm-current/basics/feedtypes/" class="more">*See a complete list of LDM feed types</a>
+                </p>
+              </article>
+              <article class="clearfix">
+                <h4>Data Feeds</h4>
+                <div class="nested lightning">
+                  <nav>
+                    <ul class="nested">
+                      <li aria-controls="napln">
+                        <a href="lightning/napln.inc">NAPLN</a>
+                      </li>
+                      <li aria-controls="nldn">
+                        <a href="lightning/nldn.inc">NLDN</a>
+                      </li>
+                      <li aria-controls="uspln">
+                        <a href="lightning/uspln.inc">USPLN</a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div id="napln"></div>
+                  <div id="nldn"></div>
+                  <div id="uspln"></div>
+                </div><!-- /.nested -->
+              </article>
+              <aside>
+                <h4>Questions About Lightning Data?</h4>
+                <p>
+                  Questions or comments about lightning data can be sent to: <a href="mailto:support@unidata.ucar.edu">support@unidata.ucar.edu</a>
+                </p>
+              </aside>
+            </section>
+          </div><!-- /#lightning -->
+
+          <!-- DATA HELP & SUPPORT -->
+          <div id="help">
+            <h2>Data Help &amp; Support</h2>
+            <div class="nested help">
+              <nav>
+                <ul class="nested">
+                  <li aria-controls="discovery">
+                    <a href="discovery.inc">Data Discovery Resources</a>
+                  </li>
+                  <li aria-controls="mailinglists">
+                    <a href="mailinglists.inc">Mailing Lists</a>
+                  </li>
+                  <li aria-controls="requestingsupport">
+                    <a href="requestingsupport.inc">Requesting Support</a>
+                  </li>
+                </ul>
+              </nav>
+              <div id="discovery"></div>
+              <div id="mailinglists"></div>
+              <div id="requestingsupport"></div>
+            </div><!-- /.nested -->
+            </div><!-- /#help -->
+
+          </div><!-- /#doubleColumn -->
+        </div><!-- /#tabs -->
+      </div><!-- /#center-wrapper -->
+
+    </div> <!-- /#container -->
+ </div> <!-- /#wrap -->
+
+  <!-- See footer.css for the styling of this section -->
+ <footer>
+  <div id="triptych-column-container">
+    <div id="triptych-columns">
+      <div class="column triptych_left">
+        <h2>Follow Unidata</h2>
+        <ul class="tabular half follow-icons">
+          <li>
+            <a href="https://twitter.com/unidata"><img src="/images/twitter.png" alt="Twitter" title="Twitter" /></a>
+          </li>
+          <li>
+            <a href="https://plus.google.com/105982992127916444326/posts"><img src="/images/googleplus.png" alt="Google+" title="Google+" /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/Unidata"><img src="/images/facebook.png" alt="Facebook" title="Facebook"/></a>
+          </li>
+          <li>
+            <a href="http://www.youtube.com/user/unidatanews"><img src="/images/youtube.png" alt="YouTube Channel" title="YouTube Channel"/></a>
+          </li>
+          <li>
+            <a href="http://www.unidata.ucar.edu/blogs/news/feed/entries/atom"><img src="/images/rss.png" alt="News@Unidata blog" title="News@Unidata blog"/></a>
+          </li>
+          <li>
+            <a href="http://www.unidata.ucar.edu/blogs/developer/feed/entries/atom"><img src="/images/blog.png" alt="Developers' Blog" title="Developers' Blog"/></a>
+          </li>
+        </ul>
+      </div> <!-- /.column column_left -->
+
+      <div class="column triptych_center">
+       <h2>Unidata
+        <div class="triptych_logos">
+          <a class="noicon" href="http://www.nsf.gov/"> <img alt="UCP" src="/images/logos/nsf_logo_transparent.png"/></a>
+        </div>
+        <div  class="triptych_logos" style="padding-right:1em;">
+          <a class="noicon" href="http://www.ucp.ucar.edu/"> <img alt="UCP" id="ucp_small" src="/images/logos/ucp-logo2_transparent.png"/></a>
+        </div></h2>
+        <ul class="tabular full" style="padding-right:0.5em;">
+          <li style="text-align: center;">
+            Unidata is s a member of the
+            <a href="http://www.ucp.ucar.edu/">UCAR Community Programs</a>,
+            managed by the
+            <a href="http://www.ucar.edu">University Corporation for Atmospheric Research</a>,
+            and funded by the
+            <a href="http://www.nsf.gov">National Science Foundation</a>.
+          </li>
+          <li style="text-align: center;">
+            Read Unidata's <a href="http://www.unidata.ucar.edu/legal/participation.html">Participation Policy</a>.
+          </li>
+          <li>
+            <table style="width:100%">
+              <tr>
+                <td style="width:33%;text-align:left;">&#169;
+                  <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                  </script> UCAR</td>
+                <td style="width:33%;text-align:center;"><a href="http://www2.ucar.edu/privacy-policy">Privacy Policy</a></td>
+                <td style="width:33%;text-align:right;"><a href="http://www2.ucar.edu/terms-of-use">Terms of Use</a></td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </div> <!-- /.column column_center -->
+
+      <div class="column triptych_right">
+       <h2>Contact Unidata</h2>
+        <ul class="tabular full">
+          <li>
+            For support: <b><a href="mailto:support@unidata.ucar.edu">support@unidata.ucar.edu</a></b>
+          </li>
+          <li>
+            By <b><a href="/about/index.html#visit">postal mail</a></b> or <b><a href="/about/index.html#visit">in person</a></b>
+          </li>
+          <li>
+            About this website: <b><a href="mailto:plaza@unidata.ucar.edu">plaza@unidata.ucar.edu</a></b>
+          </li>
+          <li>
+            By telephone: <b>303.497.8643</b>
+          </li>
+        </ul>
+      </div> <!-- /.column column_right -->
+
+      <a href="/about/tour/">
+       <div class="column column_extra" id="who_are_we">
+        <h2>Welcome to Unidata</h2>
+        <ul class="tabular full">
+          <li>
+            Learn more about who we are and what we do...
+          </li>
+        </ul>
+       </div> <!-- /.column column_extra -->
+      </a>
+
+      <span class="stretch"> </span>
+    </div> <!-- /#triptych-columns -->
+  </div> <!-- /#triptych-column-container -->
+ </footer>
+
+
+
+</body>
+</html>

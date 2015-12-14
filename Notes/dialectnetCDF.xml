@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cw:crosswalk xmlns:cw="http://www.hdfgroup.org/metadata/published/xsd">
+                <cw:dialect>
+                                <cw:title>netCDF (NcML)</cw:title>
+                                <cw:code>netCDF</cw:code>
+                </cw:dialect>
+                <cw:spiral>
+                                <cw:item name="Abstract">/nc:netcdf/nc:attribute[@nc:name='summary']/@nc:value</cw:item>
+                                <cw:description>A paragraph describing the resource.</cw:description>
+
+                                <cw:item name="Acknowledgement">/nc:netcdf/nc:attribute[@nc:name=acknowledgement]/@nc:value</cw:item>
+                                <cw:description>Provides a place to acknowledge various types of support for the project that produced the data.</cw:description>
+
+                                <cw:item name="Author">/nc:netcdf/nc:attribute[@nc:name=creator_name]/@nc:value</cw:item>
+                                <cw:description>Author of the cited resource</cw:description>
+
+                                <cw:item name="Author / Originator">/nc:netcdf/nc:attribute[@nc:name=creator_name]/@nc:value</cw:item>
+                                <cw:description>The principal author of the resource</cw:description>
+
+                                <cw:item name="Author / Originator Email Address">/nc:netcdf/nc:attribute[@nc:name=creator_email]/@nc:value</cw:item>
+                                <cw:description>The electronic mail address of the principal author of the resource</cw:description>
+
+                                <cw:item name="Author / Originator World Wide Web Address">/nc:netcdf/nc:attribute[@nc:name=creator_url]/@nc:value</cw:item>
+                                <cw:description>The World Wide Web mail address of the principal author of the cited resource</cw:description>
+
+                                <cw:item name="Common Data Model Datatype">/nc:netcdf/nc:attribute[@nc:name=cdm_data_type]/@nc:value</cw:item>
+                                <cw:description>The THREDDS data type for this resource.</cw:description>
+
+                                <cw:item name="Contributor Name">/nc:netcdf/nc:attribute[@nc:name=creator_name]/@nc:value</cw:item>
+                                <cw:description>Contributor to the resource</cw:description>
+
+                                <cw:item name="Contributor Name">/nc:netcdf/nc:attribute[@nc:name=contributor_name]/@nc:value</cw:item>
+                                <cw:description>Contributor to the resource</cw:description>
+
+                                <cw:item name="Contributor Role">/nc:netcdf/nc:attribute[@nc:name=contributor_role]/@nc:value</cw:item>
+                                <cw:description>The role of any individuals or institutions that contributed to the creation of the data.</cw:description>
+
+                                <cw:item name="Coverage Content Type">/nc:netcdf/nc:variable/nc:attribute[@nc:name=coverage_content_type]/@nc:value</cw:item>
+                                <cw:description>The coverage content type is an ISO codeList describing the general content type of the resource. The content types are: image, thematicClassification, physicalMeasurement, auxiliaryInformation, qualityInformation, referenceInformation, modelResult</cw:description>
+
+                                <cw:item name="Creation Date">/nc:netcdf/nc:attribute[@nc:name=date_created]/@nc:value</cw:item>
+                                <cw:description>Date of creation of the cited resource</cw:description>
+                                <cw:item name="Easternmost Longitude">/nc:netcdf/nc:attribute[@nc:name=geospatial_lon_max]/@nc:value</cw:item>
+                                <cw:item name="Easternmost Longitude">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lon_max]/@nc:value</cw:item>
+                                <cw:description>The easternmost longitude of the bounding rectangle.</cw:description>
+                                <cw:item name="End Time">/nc:netcdf/nc:attribute[@nc:name=time_coverage_end]/@nc:value</cw:item>
+                                <cw:item name="End Time">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=time_coverage_end]/@nc:value</cw:item>
+                                <cw:description>The end of the bounding time period</cw:description>
+
+                                <cw:item name="Issue Date">/nc:netcdf/nc:attribute[@nc:name=date_issued]/@nc:value</cw:item>
+                                <cw:description>The date the resource was issued</cw:description>
+
+                                <cw:item name="Keyword Vocabulary">/nc:netcdf/nc:attribute[@nc:name=keyword_vocabulary]/@nc:value</cw:item>
+                                <cw:description>If you are following a guideline or using a shared vocabulary for the words/phrases in your "keywords" attribute, put the name of that guideline here.</cw:description>
+
+                                <cw:item name="Latitude Dimension Length">/nc:netcdf/nc:dimension[@name=lat]/@length/@nc:value</cw:item>
+                                <cw:description>The number of divisions on the latitude axis</cw:description>
+
+                                <cw:item name="Latitude Resolution">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lat_resolution]/@nc:value</cw:item>
+                                <cw:description>The average distance between divisions on the latitude axis</cw:description>
+                                <cw:item name="Latitude Resolution">/nc:netcdf/nc:attribute[@nc:name=geospatial_lat_resolution]/@nc:value</cw:item>
+                                <cw:description>The average distance between divisions on the latitude axis</cw:description>
+                                <cw:item name="Lineage Statement">/nc:netcdf/nc:attribute[@nc:name=history]/@nc:value</cw:item>
+                                <cw:description>Information and references for sources and processes that were used to create the dataset and an audit trail for modifications to the original data.</cw:description>
+
+                                <cw:item name="Longitude Dimension Length">/nc:netcdf/nc:dimension[@name=longitude]/@length/@nc:value</cw:item>
+                                <cw:description>The number of divisions on the longitude axis</cw:description>
+
+                                <cw:item name="Longitude Resolution">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lon_resolution]/@nc:value</cw:item>
+                                <cw:description>The average distance between divisions on the longitude axis</cw:description>
+                                <cw:item name="Longitude Resolution">/nc:netcdf/nc:attribute[@nc:name=geospatial_lon_resolution]/@nc:value</cw:item>
+                                <cw:item name="Metadata Contact">/nc:netcdf/nc:attribute[@nc:name=creator_name]/@nc:value</cw:item>
+                                <cw:description>The organization or person currently responsible for the metadata.</cw:description>
+
+                                <cw:item name="Naming Authority">/nc:netcdf/nc:attribute[@nc:name=naming_authority]/@nc:value</cw:item>
+                                <cw:description>The organization responsible for the maintenance of the identifier (namespace)</cw:description>
+
+                                <cw:item name="Northernmost Latitude">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lat_max]/@nc:value</cw:item>
+                                <cw:description>The northernmost latitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Northernmost Latitude">/nc:netcdf/nc:attribute[@nc:name=geospatial_lat_max]/@nc:value</cw:item>
+                                <cw:description>The northernmost latitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Originating Organization">/nc:netcdf/nc:attribute[@nc:name=institution]/@nc:value</cw:item>
+                                <cw:description>The organization responsible for creating the resource</cw:description>
+
+                                <cw:item name="Parameter Definition">/nc:netcdf/nc:variable/nc:attribute[@nc:name='description']/@nc:value</cw:item>
+                                <cw:description>The definition/description of a parameter included in the resource.</cw:description>
+
+                                <cw:item name="Parameter Name">/nc:netcdf/nc:variable/@name</cw:item>
+                                <cw:description>The name of a parameter included in the resource. Intended to be used by applications accessing a variable in a file.</cw:description>
+
+                                <cw:item name="Parameter Name (Long)">/nc:netcdf/nc:variable/nc:attribute[@nc:name='long_name']/@nc:value</cw:item>
+                                <cw:description>The long name of a parameter included in the resource. Intended to be used as an axis lable in a plot.</cw:description>
+
+                                <cw:item name="Parameter Name (Standard)">/nc:netcdf/nc:variable/nc:attribute[@nc:name='standard_name']/@nc:value</cw:item>
+                                <cw:description>The name of a parameter included in the resource from a standard vocabulary.</cw:description>
+
+                                <cw:item name="Parameter Units">/nc:netcdf/nc:variable/nc:attribute[@nc:name='units']/@nc:value</cw:item>
+                                <cw:description>The units of a parameter included in the resource.</cw:description>
+
+                                <cw:item name="Processing Level">/nc:netcdf/nc:attribute[@nc:name=processing_level]/@nc:value</cw:item>
+                                <cw:description>A code that indicates the extent of processing done in the creation of a dataset.</cw:description>
+
+                                <cw:item name="Project Name">/nc:netcdf/nc:attribute[@nc:name=project]/@nc:value</cw:item>
+                                <cw:description>The name of the project that the resource was associated with.</cw:description>
+
+                                <cw:item name="Publisher">/nc:netcdf/nc:attribute[@nc:name=publisher_name]/@nc:value</cw:item>
+                                <cw:description>Publisher of the cited resource</cw:description>
+
+                                <cw:item name="Publisher E-Mail">/nc:netcdf/nc:attribute[@nc:name=publisher_email]/@nc:value</cw:item>
+                                <cw:description>Email associated with the publisher of the cited resource</cw:description>
+
+                                <cw:item name="Publisher URL">/nc:netcdf/nc:attribute[@nc:name=publisher_url]/@nc:value</cw:item>
+                                <cw:description>World Wide Web address associated with the publisher of the cited resource</cw:description>
+
+                                <cw:item name="Resource Access Constraints">/nc:netcdf/nc:variable/nc:attribute[@nc:name=license]/@nc:value</cw:item>
+                                <cw:description>Information about any constraints for accessing the data set. This includes any special restrictions, legal prerequisites, limitations and/or warnings on obtaining the data set. Some words that may be used in this field include: Public, In-house, Limited, Additional detailed instructions on how to access the data can be entered in this field.</cw:description>
+
+                                <cw:item name="Resource Contact">/nc:netcdf/nc:attribute[@nc:name=creator_name]/@nc:value</cw:item>
+                                <cw:description>The organization or person responsible for answering questions about the resource.</cw:description>
+
+                                <cw:item name="Resource Creation/Revision Date">/nc:netcdf/nc:attribute[@nc:name=date_created]/@nc:value</cw:item>
+                                <cw:description>The date the resource was created</cw:description>
+
+                                <cw:item name="Resource Identifier">/nc:netcdf/nc:attribute[@nc:name=id]/@nc:value</cw:item>
+                                <cw:description>Identifier for the resource described by the metadata</cw:description>
+
+                                <cw:item name="Resource Title">/nc:netcdf/nc:attribute[@nc:name=title]/@nc:value</cw:item>
+                                <cw:description>A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined.</cw:description>
+
+                                <cw:item name="Resource Use Constraints">/nc:netcdf/nc:variable/nc:attribute[@nc:name=license]/@nc:value</cw:item>
+                                <cw:description>Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data.</cw:description>
+
+                                <cw:item name="Southernmost Latitude">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lat_min]/@nc:value</cw:item>
+                                <cw:description>The southernmost latitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Southernmost Latitude">/nc:netcdf/nc:attribute[@nc:name=geospatial_lat_min]/@nc:value</cw:item>
+                                <cw:description>The southernmost latitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Standard Name Vocabulary">/nc:netcdf/nc:variable/attribute[@nc:name=standard_name_vocabulary]/@nc:value</cw:item>
+                                <cw:description>The name of the shared vocabulary from which variable standard names are taken.</cw:description>
+
+                                <cw:item name="Start Time">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=time_coverage_start]/@nc:value</cw:item>
+                                <cw:description>The start of the bounding time period</cw:description>
+                                <cw:item name="Start Time">/nc:netcdf/nc:attribute[@nc:name=time_coverage_start]/@nc:value</cw:item>
+                                <cw:description>The start of the bounding time period</cw:description>
+                                <cw:item name="Supplemental Information">/nc:netcdf/nc:attribute[@nc:name=comment]/@nc:value</cw:item>
+                                <cw:description>Miscellaneous information about the data.</cw:description>
+
+                                <cw:item name="Temporal Extent">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=time_coverage_duration]/@nc:value</cw:item>
+                                <cw:description>The temporal extent of the resource</cw:description>
+                                <cw:item name="Temporal Extent">/nc:netcdf/nc:attribute[@nc:name=time_coverage_duration]/@nc:value</cw:item>
+                                <cw:description>The temporal extent of the resource</cw:description>
+                                <cw:item name="Temporal Resolution">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=time_coverage_resolution]/@nc:value</cw:item>
+                                <cw:description>The smallest time step included in the resource.</cw:description>
+                                <cw:item name="Temporal Resolution">/nc:netcdf/nc:attribute[@nc:name=time_coverage_resolution]/@nc:value</cw:item>
+                                <cw:description>The smallest time step included in the resource.</cw:description>
+
+                                <cw:item name="Theme Keyword">/nc:netcdf/nc:attribute[@nc:name=keywords]/@nc:value</cw:item>
+                                <cw:description>A word or phrase that describes some aspect of a resource. Can be one of several types.</cw:description>
+
+                                <cw:item name="Units">metadata/variables/variable@units/@nc:value</cw:item>
+                                <cw:description>The units of the variables data values.</cw:description>
+
+                                <cw:item name="Vertical Dimension Length">/nc:netcdf/nc:dimension[@name=altitude]/@length/@nc:value</cw:item>
+                                <cw:description>The number of divisions on the vertical axis</cw:description>
+
+                                <cw:item name="Vertical Maximum">/nc:netcdf/nc:attribute[@nc:name=geospatial_vertical_max]/@nc:value</cw:item>
+                                <cw:description>The maximum height of the bounding rectangle</cw:description>
+
+                                <cw:item name="Vertical Minimum">/nc:netcdf/nc:attribute[@nc:name=geospatial_vertical_min]/@nc:value</cw:item>
+                                <cw:description>The minimum height of the bounding rectangle</cw:description>
+
+                                <cw:item name="Vertical Resolution">/nc:netcdf/nc:attribute[@nc:name=geospatial_vertical_resolution]/@nc:value</cw:item>
+                                <cw:description>The average distance between divisions on the vertical axis</cw:description>
+                                <cw:item name="Vertical Extent">/nc:netcdf/nc:attribute[@nc:name=geospatial_vertical_max]/@nc:value</cw:item>
+                                
+                                <cw:item name="Westernmost Longitude">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lon_min]/@nc:value</cw:item>
+                                <cw:description>The westernmost longitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Westernmost Longitude">/nc:netcdf/nc:attribute[@nc:name=geospatial_lon_min]/@nc:value</cw:item>
+                                <cw:description>The westernmost longitude of the bounding rectangle.</cw:description>
+                                <cw:item name="Modified Date">/nc:netcdf/nc:attribute[@nc:name=date_modified]/@value</cw:item>
+                                <cw:item name="Spatial Resolution">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lat_resolution]/@nc:value</cw:item>
+                                <cw:item name="Spatial Resolution">/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name=geospatial_lon_resolution]/@nc:value</cw:item>
+                                <cw:item name="Spatial Resolution">/nc:netcdf/nc:attribute[@nc:name=geospatial_lat_resolution]/@nc:value</cw:item>
+                                <cw:item name="Spatial Resolution">/nc:netcdf/nc:attribute[@nc:name=geospatial_lon_resolution]/@nc:value</cw:item>
+                                <cw:item name="Rights">/nc:netcdf/nc:attribute[@nc:name=license]/@nc:value</cw:item>
+                                <cw:item name="Bounding Box">/nc:netcdf/nc:attribute[@nc:name=geospatial_lat_max]</cw:item>
+                                <cw:item name="Spatial Extent">/nc:netcdf/nc:attribute[@nc:name=geospatial_lat_max]</cw:item>
+                </cw:spiral>
+</cw:crosswalk>

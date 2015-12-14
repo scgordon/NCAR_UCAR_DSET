@@ -4,8 +4,8 @@
 </xsl:text><xsl:text>
 "items" : [
 </xsl:text><xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2622" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2622)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2622" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2622)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2616" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2616)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2616" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2616)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -22,8 +22,8 @@
 <xsl:text>{
 </xsl:text><xsl:text>"name":"Resource Identifier Type",</xsl:text><xsl:text>"exists":"-1",</xsl:text><xsl:text>"count":"-1",</xsl:text><xsl:text>"description":"The type of identifier used to uniquely identify the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Author / Originator",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e3798" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:author)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e3798)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e3798" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:author)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e3798)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Author / Originator",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e3792" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:author)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e3792)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e3792" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:author)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e3792)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -46,8 +46,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Publisher",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2119" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:creator)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2119)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2119" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:creator)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2119)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Publisher",</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemExists.d1e2113" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:creator)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemExists.d1e2113)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Mandatory.itemCounts.d1e2113" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:creator)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Mandatory.itemCounts.d1e2113)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -95,8 +95,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.",</xsl:text><xsl:text>"description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Contributor Name",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e4444" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contributor)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e4444)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e4444" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contributor)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e4444)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Contributor Name",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e4438" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contributor)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e4438)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e4438" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contributor)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e4438)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -105,8 +105,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"Contributor to the resource"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Contributor Role",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e9406" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contributor/@sourceType)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e9406)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e9406" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contributor/@sourceType)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e9406)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Contributor Role",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e9400" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contributor/@sourceType)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e9400)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e9400" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contributor/@sourceType)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e9400)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -129,8 +129,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"The date the resource was created"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Type",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e5997" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contentMetadata/rda:dataType)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e5997)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e5997" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contentMetadata/rda:dataType)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e5997)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Type",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e5991" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contentMetadata/rda:dataType)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e5991)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e5991" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contentMetadata/rda:dataType)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e5991)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -139,8 +139,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Related Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e2698" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:relatedDOI | /rda:dsOverview/rda:relatedDataset/@ID)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e2698)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e2698" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:relatedDOI | /rda:dsOverview/rda:relatedDataset/@ID)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e2698)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Related Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e2692" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:relatedDOI | /rda:dsOverview/rda:relatedDataset/@ID)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e2692)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e2692" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:relatedDOI | /rda:dsOverview/rda:relatedDataset/@ID)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e2692)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -162,8 +162,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"note":"This concept is called Desciption in Catalog Services for the Web.",</xsl:text><xsl:text>"description":"A paragraph describing the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Spatial Extent",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e7366" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e7366)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e7366" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e7366)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Spatial Extent",</xsl:text><xsl:variable name="DataCite3.1Recommended.itemExists.d1e7360" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemExists.d1e7360)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Recommended.itemCounts.d1e7360" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contentMetadata/rda:geospatialCoverage)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Recommended.itemCounts.d1e7360)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -180,8 +180,8 @@
 </xsl:text><xsl:text>{
 </xsl:text><xsl:text>"name":"Resource Language",</xsl:text><xsl:text>"exists":"-1",</xsl:text><xsl:text>"count":"-1",</xsl:text><xsl:text>"description":"The language of the resource."</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e2622" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e2622)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e2622" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e2622)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Identifier",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e2616" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e2616)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e2616" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/@ID | /rda:dsOverview/@ID | /rda:dsOverview/rda:doi)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e2616)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -196,8 +196,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"Identifier for the resource described by the metadata"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Transfer Size",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e5076" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:relatedDataset/@ID)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e5076)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e5076" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:relatedDataset/@ID)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e5076)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Transfer Size",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e5070" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:relatedDataset/@ID)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e5070)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e5070" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:relatedDataset/@ID)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e5070)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -206,8 +206,8 @@
 </xsl:text><xsl:text>}</xsl:text><xsl:text>],
 </xsl:text><xsl:text>"description":"The size of the digital resource"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Resource Format",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e4507" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/contentMetadata/format)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e4507)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e4507" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/contentMetadata/format)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e4507)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Resource Format",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e4501" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/contentMetadata/format)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e4501)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e4501" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/contentMetadata/format)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e4501)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>
@@ -218,8 +218,8 @@
 <xsl:text>{
 </xsl:text><xsl:text>"name":"Resource Version",</xsl:text><xsl:text>"exists":"-1",</xsl:text><xsl:text>"count":"-1",</xsl:text><xsl:text>"description":"Version of the cited resource"</xsl:text><xsl:text>}</xsl:text>,
 <xsl:text>{
-</xsl:text><xsl:text>"name":"Rights",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e4610" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contentMetadata/rda:access | /rda:dsOverview/rda:contentMetadata/rda:usage)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e4610)"></xsl:value-of><xsl:text>",
-</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e4610" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contentMetadata/rda:access | /rda:dsOverview/rda:contentMetadata/rda:usage)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e4610)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:text>"name":"Rights",</xsl:text><xsl:variable name="DataCite3.1Optional.itemExists.d1e4604" as="xs:integer+"><xsl:sequence select="if(exists(/rda:dsOverview/rda:contentMetadata/rda:access | /rda:dsOverview/rda:contentMetadata/rda:usage)) then 1 else 0"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'exists'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemExists.d1e4604)"></xsl:value-of><xsl:text>",
+</xsl:text><xsl:variable name="DataCite3.1Optional.itemCounts.d1e4604" as="xs:integer+"><xsl:sequence select="count(/rda:dsOverview/rda:contentMetadata/rda:access | /rda:dsOverview/rda:contentMetadata/rda:usage)"></xsl:sequence></xsl:variable><xsl:text>"</xsl:text><xsl:value-of select="'count'"></xsl:value-of><xsl:text>":"</xsl:text><xsl:value-of select="sum($DataCite3.1Optional.itemCounts.d1e4604)"></xsl:value-of><xsl:text>",
 </xsl:text><xsl:text>
 "paths" : [
 </xsl:text><xsl:text>

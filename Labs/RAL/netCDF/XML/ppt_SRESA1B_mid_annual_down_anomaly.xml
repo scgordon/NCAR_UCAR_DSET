@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<netcdf xmlns:nc="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+<netcdf>
   <dimension name="lon" length="1405"/>
   <dimension name="nv" length="2"/>
   <dimension name="lat" length="621"/>

@@ -1,334 +1,276 @@
-{"records": [{
-    "spirals": [
-        {
-            "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory",
-            "code": "DataCite3.1Mandatory",
-            "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
-            "maximum": "8",
-            "existTotal": "0",
-            "countTotal": "0",
-            "items": [
-                {
-                    "name": "Resource Identifier",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/identifier",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Identifier for the resource described by the metadata"
-                },
-                {
-                    "name": "Resource Identifier Type",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/identifier/@identifierType",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The type of identifier used to uniquely identify the resource."
-                },
-                {
-                    "name": "Author / Originator",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [
-                        {
-                            "path": "/resource/creators/creator",
-                            "exists": "0",
-                            "count": "0"
-                        },
-                        {
-                            "path": "/resource/creators/creator/affiliation",
-                            "exists": "0",
-                            "count": "0"
-                        }
-                    ],
-                    "note": "In CSW this concept is called Creator",
-                    "description": "The principal author of the resource"
-                },
-                {
-                    "name": "Author / Originator Identifier",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/creators/creator/nameIdentifier/@nameIdentifierScheme",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "A unique identifier for a resource author or originator"
-                },
-                {
-                    "name": "Author / Originator Identifier Type",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/creators/creator/nameIdentifier/@schemeURI",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The type of unique identifier for a resource author or originator"
-                },
-                {
-                    "name": "Resource Title",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/titles/title",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."
-                },
-                {
-                    "name": "Publisher",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/publisher",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Publisher of the cited resource"
-                },
-                {
-                    "name": "Resource Creation/Revision Date",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/dates/date",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The date the resource was created"
-                }
-            ]
-        },
-        {
-            "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended",
-            "code": "DataCite3.1Recommended",
-            "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
-            "maximum": "11",
-            "existTotal": "0",
-            "countTotal": "0",
-            "items": [
-                {
-                    "name": "Theme Keyword",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/subjects/subject",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "note": "The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ",
-                    "description": "A word or phrase that describes some aspect of a resource. Can be one of several types."
-                },
-                {
-                    "name": "Keyword Vocabulary",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [
-                        {
-                            "path": "/resource/subjects/subject/@subjectScheme",
-                            "exists": "0",
-                            "count": "0"
-                        },
-                        {
-                            "path": "/resource/subjects/subject/@schemeURI",
-                            "exists": "0",
-                            "count": "0"
-                        }
-                    ],
-                    "note": "DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.",
-                    "description": "If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."
-                },
-                {
-                    "name": "Contributor Name",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/contributors/contributor/contributorName",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Contributor to the resource"
-                },
-                {
-                    "name": "Contributor Role",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/contributors/contributor/@contributorType",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The role of any individuals or institutions that contributed to the creation of the data."
-                },
-                {
-                    "name": "Responsible Party Identifier Type",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/creators/creator/nameIdentifier/@nameIdentifierScheme",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The type of a unique identifier for a person or an organization"
-                },
-                {
-                    "name": "Responsible Party Identifier",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/creators/creator/nameIdentifier",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "A unique identifier for a person or an organization"
-                },
-                {
-                    "name": "Resource Creation/Revision Date",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/dates/date",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The date the resource was created"
-                },
-                {
-                    "name": "Resource Type",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/resourceType",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."
-                },
-                {
-                    "name": "Related Resource Identifier",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/relatedIdentifiers/relatedIdentifier",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Identifier for a resource related to the resource being described."
-                },
-                {
-                    "name": "Abstract",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/descriptions/description",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "note": "This concept is called Desciption in Catalog Services for the Web.",
-                    "description": "A paragraph describing the resource."
-                },
-                {
-                    "name": "Spatial Extent",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/geoLocations/geoLocation",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The spatial extent of the resource."
-                }
-            ]
-        },
-        {
-            "title": "DataCite Metadata Schema for the Publication and Citation of Research Data - Optional",
-            "code": "DataCite3.1Optional",
-            "description": "The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.",
-            "maximum": "6",
-            "existTotal": "0",
-            "countTotal": "0",
-            "items": [
-                {
-                    "name": "Resource Language",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/language",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The language of the resource."
-                },
-                {
-                    "name": "Resource Identifier",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/identifier",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Identifier for the resource described by the metadata"
-                },
-                {
-                    "name": "Transfer Size",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/sizes/size",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The size of the digital resource"
-                },
-                {
-                    "name": "Resource Format",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/formats/format",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "The physical or digital manifestation of the resource"
-                },
-                {
-                    "name": "Resource Version",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/version",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Version of the cited resource"
-                },
-                {
-                    "name": "Rights",
-                    "exists": "0",
-                    "count": "0",
-                    "paths": [{
-                        "path": "/resource/rightsList/rights",
-                        "exists": "0",
-                        "count": "0"
-                    }],
-                    "description": "Information about rights held in and over the resource"
-                }
-            ]
-        }
-    ],
-    "Record": "file:/Users/scgordon/NCAR_UCAR_DSET/Labs/CISL/DCITE/XML/D6WD3XH5.xml",
-    "Date": "2015-12-10-07:00",
-    "rubricType": "DCITE",
-    "rubricVersion": "0.1",
-    "rubricMax": "25",
-    "rubricExists": "0",
-    "rubricCounts": "0"
+{"records": [{"spirals": [
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"5",
+"countTotal":"9",
+
+"items" : [
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:identifier","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Resource Identifier Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:identifier/@dcite:identifierType","exists":"0",
+"count":"0"
+}],
+"description":"The type of identifier used to uniquely identify the resource."},
+{
+"name":"Author / Originator","exists":"1",
+"count":"4",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:creators/dcite:creator","exists":"1",
+"count":"4"
+},
+{"path":"/dcite:resource/dcite:creators/dcite:creator/dcite:affiliation","exists":"0",
+"count":"0"
+}],
+"note":"In CSW this concept is called Creator","description":"The principal author of the resource"},
+{
+"name":"Author / Originator Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:creators/dcite:creator/dcite:nameIdentifier/@dcite:nameIdentifierScheme","exists":"0",
+"count":"0"
+}],
+"description":"A unique identifier for a resource author or originator"},
+{
+"name":"Author / Originator Identifier Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:creators/dcite:creator/dcite:nameIdentifier/@dcite:schemeURI","exists":"0",
+"count":"0"
+}],
+"description":"The type of unique identifier for a resource author or originator"},
+{
+"name":"Resource Title","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:titles/dcite:title","exists":"1",
+"count":"1"
+}],
+"description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
+{
+"name":"Publisher","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:publisher","exists":"1",
+"count":"1"
+}],
+"description":"Publisher of the cited resource"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:dates/dcite:date","exists":"1",
+"count":"2"
+}],
+"description":"The date the resource was created"}]
+},
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
+"countTotal":"12",
+
+"items" : [
+{
+"name":"Theme Keyword","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:subjects/dcite:subject","exists":"1",
+"count":"1"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Keyword Vocabulary","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:subjects/dcite:subject/@dcite:subjectScheme","exists":"0",
+"count":"0"
+},
+{"path":"/dcite:resource/dcite:subjects/dcite:subject/@dcite:@schemeURI","exists":"0",
+"count":"0"
+}],
+"note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
+{
+"name":"Contributor Name","exists":"1",
+"count":"7",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:contributors/dcite:contributor/dcite:contributorName","exists":"1",
+"count":"7"
+}],
+"description":"Contributor to the resource"},
+{
+"name":"Contributor Role","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:contributors/dcite:contributor/@dcite:contributorType","exists":"0",
+"count":"0"
+}],
+"description":"The role of any individuals or institutions that contributed to the creation of the data."},
+{
+"name":"Responsible Party Identifier Type","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:creators/dcite:creator/dcite:nameIdentifier/@dcite:nameIdentifierScheme","exists":"0",
+"count":"0"
+}],
+"description":"The type of a unique identifier for a person or an organization"},
+{
+"name":"Responsible Party Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:creators/dcite:creator/dcite:nameIdentifier","exists":"0",
+"count":"0"
+}],
+"description":"A unique identifier for a person or an organization"},
+{
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:dates/dcite:date","exists":"1",
+"count":"2"
+}],
+"description":"The date the resource was created"},
+{
+"name":"Resource Type","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:resourceType","exists":"1",
+"count":"1"
+}],
+"description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."},
+{
+"name":"Related Resource Identifier","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:relatedIdentifiers/dcite:relatedIdentifier","exists":"0",
+"count":"0"
+}],
+"description":"Identifier for a resource related to the resource being described."},
+{
+"name":"Abstract","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:descriptions/dcite:description","exists":"1",
+"count":"1"
+}],
+"note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
+{
+"name":"Spatial Extent","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:geoLocations/dcite:geoLocation","exists":"0",
+"count":"0"
+}],
+"description":"The spatial extent of the resource."}]
+},
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Optional","code":"DataCite3.1Optional","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"6","existTotal":"4",
+"countTotal":"4",
+
+"items" : [
+{
+"name":"Resource Language","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:language","exists":"1",
+"count":"1"
+}],
+"description":"The language of the resource."},
+{
+"name":"Resource Identifier","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:identifier","exists":"1",
+"count":"1"
+}],
+"description":"Identifier for the resource described by the metadata"},
+{
+"name":"Transfer Size","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:sizes/dcite:size","exists":"0",
+"count":"0"
+}],
+"description":"The size of the digital resource"},
+{
+"name":"Resource Format","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:formats/dcite:format","exists":"1",
+"count":"1"
+}],
+"description":"The physical or digital manifestation of the resource"},
+{
+"name":"Resource Version","exists":"1",
+"count":"1",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:version","exists":"1",
+"count":"1"
+}],
+"description":"Version of the cited resource"},
+{
+"name":"Rights","exists":"0",
+"count":"0",
+
+"paths" : [
+
+{"path":"/dcite:resource/dcite:rightsList/dcite:rights","exists":"0",
+"count":"0"
+}],
+"description":"Information about rights held in and over the resource"}]
+}],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/CISL/DCITE/XML/D6WD3XH5.xml",
+"Date":"2015-12-13-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"14",
+"rubricCounts":"25"
 }]}

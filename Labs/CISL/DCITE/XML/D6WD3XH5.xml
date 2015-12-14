@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<resource xmlns="http://datacite.org/schema/kernel-2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-2.2 http://schema.datacite.org/meta/kernel-2.2/metadata.xsd">
+<resource xmlns="http://datacite.org/schema/kernel-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-2.2 http://schema.datacite.org/meta/kernel-2.2/metadata.xsd">
     <identifier identifierType="DOI">10.5065/D6WD3XH5</identifier>
     <creators>
         <creator>
@@ -24,13 +24,27 @@
         <subject>Data analysis and visualization</subject>
     </subjects>
     <contributors>
-        <contributor contributorType="ContactPerson"><contributorName>Mary Haley, haley@ucar.edu</contributorName></contributor>
-        <contributor contributorType="ProjectMember"><contributorName>Shea, Dennis</contributorName></contributor>
-        <contributor contributorType="ProjectMember"><contributorName>Phillips, Adam</contributorName></contributor>
-        <contributor contributorType="Researcher"><contributorName>Bruyere, Cindy</contributorName></contributor>
-        <contributor contributorType="Researcher"><contributorName>Fredrick, Sherrie</contributorName></contributor>
-        <contributor contributorType="HostingInstitution"><contributorName>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Technology Development Division (TDD):Visualization and Enabling Technologies Section (VETS)</contributorName></contributor>
-        <contributor contributorType="HostingInstitution"><contributorName>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL)</contributorName></contributor>
+        <contributor contributorType="ContactPerson">
+            <contributorName>Mary Haley, haley@ucar.edu</contributorName>
+        </contributor>
+        <contributor contributorType="ProjectMember">
+            <contributorName>Shea, Dennis</contributorName>
+        </contributor>
+        <contributor contributorType="ProjectMember">
+            <contributorName>Phillips, Adam</contributorName>
+        </contributor>
+        <contributor contributorType="Researcher">
+            <contributorName>Bruyere, Cindy</contributorName>
+        </contributor>
+        <contributor contributorType="Researcher">
+            <contributorName>Fredrick, Sherrie</contributorName>
+        </contributor>
+        <contributor contributorType="HostingInstitution">
+            <contributorName>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Computational and Information Systems Laboratory (CISL):Technology Development Division (TDD):Visualization and Enabling Technologies Section (VETS)</contributorName>
+        </contributor>
+        <contributor contributorType="HostingInstitution">
+            <contributorName>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):NCAR Earth System Laboratory (NESL)</contributorName>
+        </contributor>
     </contributors>
     <dates>
         <date dateType="Created">1995</date>

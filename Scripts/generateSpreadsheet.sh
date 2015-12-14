@@ -1,5 +1,3 @@
 #!/bin/bash
-/mnt/data/bedi/scripts/generateSS.py `find /mnt/data/bedi/collections/NASA -name "*.json" | grep CSW` &&
-/mnt/data/bedi/scripts/generateSS.py `find /mnt/data/bedi/collections/NASA -name "*.json" | grep DCITE` &&
-/mnt/data/bedi/scripts/generateSS.py `find /mnt/data/bedi/collections/NASA -name "*.json" | grep ACDD` &&
-/mnt/data/bedi/scripts/generateSS.py `find /mnt/data/bedi/collections/NASA -name "*.json" | grep UMM`
+/Users/scgordon/NCAR_UCAR_DSET/Scripts/generateSS.py `find /Users/scgordon/NCAR_UCAR_DSET/Labs -name "*.json" | grep ISO-1` &&
+/Users/scgordon/NCAR_UCAR_DSET/Scripts/generateSS.py `find /Users/scgordon/NCAR_UCAR_DSET/Labs -name "*.json" | grep DCITE`

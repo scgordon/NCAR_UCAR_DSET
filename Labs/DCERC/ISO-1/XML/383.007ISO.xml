@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
+   xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+   xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0"
+   xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <mdb:metadataIdentifier>
+      <mcc:MD_Identifier>
+         <mcc:code>
+            <gco:CharacterString>383.007ISO.xml</gco:CharacterString>
+         </mcc:code>
+      </mcc:MD_Identifier>
+   </mdb:metadataIdentifier>
+   <mdb:defaultLocale>
+      <lan:PT_Locale>
+         <lan:language>
+            <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+         </lan:language>
+         <lan:characterEncoding gco:nilReason="unknown"/>
+      </lan:PT_Locale>
+   </mdb:defaultLocale>
+   <mdb:metadataScope>
+      <mdb:MD_MetadataScope>
+         <mdb:resourceScope>
+            <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="dataset">dataset</mcc:MD_ScopeCode>
+         </mdb:resourceScope>
+      </mdb:MD_MetadataScope>
+   </mdb:metadataScope>
+   <mdb:contact>
+      <cit:CI_Responsibility>
+         <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+         </cit:role>
+         <cit:party>
+            <cit:CI_Organisation>
+               <cit:name>
+                  <gco:CharacterString>Earth Observing Laboratory</gco:CharacterString>
+               </cit:name>
+               <cit:contactInfo>
+                  <cit:CI_Contact>
+                     <cit:address>
+                        <cit:CI_Address>
+                           <cit:electronicMailAddress>
+                              <gco:CharacterString>loehrer at ucar.edu</gco:CharacterString>
+                           </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                     </cit:address>
+                  </cit:CI_Contact>
+               </cit:contactInfo>
+               <cit:individual>
+                  <cit:CI_Individual>
+                     <cit:name>
+                        <gco:CharacterString>Scot Loehrer</gco:CharacterString>
+                     </cit:name>
+                  </cit:CI_Individual>
+               </cit:individual>
+            </cit:CI_Organisation>
+         </cit:party>
+      </cit:CI_Responsibility>
+   </mdb:contact>
+   <mdb:dateInfo>
+      <cit:CI_Date>
+         <cit:date>
+            <gco:DateTime>2014-07-13T00:00:00</gco:DateTime>
+         </cit:date>
+         <cit:dateType>
+            <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+         </cit:dateType>
+      </cit:CI_Date>
+   </mdb:dateInfo>
+   <mdb:metadataStandard>
+      <cit:CI_Citation>
+         <cit:title>
+            <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+         </cit:title>
+         <cit:edition>
+            <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+         </cit:edition>
+      </cit:CI_Citation>
+   </mdb:metadataStandard>
+   <mdb:identificationInfo>
+      <mri:MD_DataIdentification>
+         <mri:citation>
+            <cit:CI_Citation>
+               <cit:title>
+                  <gco:CharacterString>MTSAT-2 Satellite Data (AREA format)</gco:CharacterString>
+               </cit:title>
+               <cit:date>
+                  <cit:CI_Date>
+                     <cit:date/>
+                     <cit:dateType>
+                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                     </cit:dateType>
+                  </cit:CI_Date>
+               </cit:date>
+               <cit:identifier>
+                  <mcc:MD_Identifier>
+                     <mcc:code>
+                        <gco:CharacterString>http://dx.doi.org/10.5072/FK2XP6X73V</gco:CharacterString>
+                     </mcc:code>
+                  </mcc:MD_Identifier>
+               </cit:identifier>
+               <cit:citedResponsibleParty>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>Earth Observing Laboratory</gco:CharacterString>
+                           </cit:name>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </cit:citedResponsibleParty>
+               <cit:citedResponsibleParty>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>Earth Observing Laboratory</gco:CharacterString>
+                           </cit:name>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </cit:citedResponsibleParty>
+            </cit:CI_Citation>
+         </mri:citation>
+         <mri:abstract>
+            <gco:CharacterString>This data set contains data from the JMA MTSAT-2 satellite during the CONTRAST field phase. Data are included from both the northern hemisphere and full disk scans. The 4km data are included for all five channels as is the 1km data from the visible channel. The data are in McIDAS AREA file format and were made available by NOAA/NESDIS.</gco:CharacterString>
+         </mri:abstract>
+         <mri:status>
+            <mcc:MD_ProgressCode codeList="codeListLocation#MD_ProgressCode" codeListValue="completed">completed</mcc:MD_ProgressCode>
+         </mri:status>
+         <mri:pointOfContact>
+            <cit:CI_Responsibility>
+               <cit:role>
+                  <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+               </cit:role>
+               <cit:party>
+                  <cit:CI_Organisation>
+                     <cit:name>
+                        <gco:CharacterString>Earth Observing Laboratory</gco:CharacterString>
+                     </cit:name>
+                     <cit:contactInfo>
+                        <cit:CI_Contact>
+                           <cit:address>
+                              <cit:CI_Address>
+                                 <cit:electronicMailAddress>
+                                    <gco:CharacterString>codiac at ucar.edu</gco:CharacterString>
+                                 </cit:electronicMailAddress>
+                              </cit:CI_Address>
+                           </cit:address>
+                        </cit:CI_Contact>
+                     </cit:contactInfo>
+                  </cit:CI_Organisation>
+               </cit:party>
+            </cit:CI_Responsibility>
+         </mri:pointOfContact>
+         <mri:spatialRepresentationType>
+            <mcc:MD_SpatialRepresentationTypeCode codeList="codeListLocation#MD_SpatialRepresentationTypeCode" codeListValue="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_vector">http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode_vector</mcc:MD_SpatialRepresentationTypeCode>
+         </mri:spatialRepresentationType>
+         <mri:topicCategory>
+            <mri:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</mri:MD_TopicCategoryCode>
+         </mri:topicCategory>
+         <mri:extent>
+            <gex:EX_Extent>
+               <gex:geographicElement>
+                  <gex:EX_GeographicBoundingBox>
+                     <gex:westBoundLongitude>
+                        <gco:Decimal>80</gco:Decimal>
+                     </gex:westBoundLongitude>
+                     <gex:eastBoundLongitude>
+                        <gco:Decimal>-160</gco:Decimal>
+                     </gex:eastBoundLongitude>
+                     <gex:southBoundLatitude>
+                        <gco:Decimal>-90</gco:Decimal>
+                     </gex:southBoundLatitude>
+                     <gex:northBoundLatitude>
+                        <gco:Decimal>90</gco:Decimal>
+                     </gex:northBoundLatitude>
+                  </gex:EX_GeographicBoundingBox>
+               </gex:geographicElement>
+               <gex:temporalElement>
+                  <gex:EX_TemporalExtent>
+                     <gex:extent>
+                        <gml:TimePeriod gml:id="boundingTemporalExtent">
+                           <gml:beginPosition>2014-01-14</gml:beginPosition>
+                           <gml:endPosition>2014-03-04</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gex:extent>
+                  </gex:EX_TemporalExtent>
+               </gex:temporalElement>
+            </gex:EX_Extent>
+         </mri:extent>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>MTSAT-2</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</mri:MD_KeywordTypeCode>
+               </mri:type>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>Satellite</gco:CharacterString>
+               </mri:keyword>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString> "GOVERNMENT AGENCIES-U.S. FEDERAL AGENCIES"&amp;"NSF"&amp;""&amp;""&amp;"UCAR/NCAR/EOL"&amp;"Earth Observing Laboratory, National Center for Atmospheric Research, University Corporation for Atmospheric Research"&amp;"http://www.eol.ucar.edu/" </gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>NASA/GCMD Data Center Keywords</gco:CharacterString>
+                     </cit:title>
+                     <cit:date gco:nilReason="unknown"/>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:descriptiveKeywords>
+            <mri:MD_Keywords>
+               <mri:keyword>
+                  <gco:CharacterString>Earth Science&amp;Atmosphere&amp;Altitude&amp;Tropopause</gco:CharacterString>
+               </mri:keyword>
+               <mri:type>
+                  <mri:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+               </mri:type>
+               <mri:thesaurusName>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>NASA/GCMD Earth Science Keywords</gco:CharacterString>
+                     </cit:title>
+                     <cit:alternateTitle>
+                        <gco:CharacterString>Science Keywords</gco:CharacterString>
+                     </cit:alternateTitle>
+                     <cit:date>
+                        <cit:CI_Date>
+                           <cit:date/>
+                           <cit:dateType>
+                              <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
+                           </cit:dateType>
+                        </cit:CI_Date>
+                     </cit:date>
+                  </cit:CI_Citation>
+               </mri:thesaurusName>
+            </mri:MD_Keywords>
+         </mri:descriptiveKeywords>
+         <mri:resourceConstraints>
+            <mco:MD_LegalConstraints>
+               <mco:useLimitation>
+                  <gco:CharacterString>USE CONSTRAINTS: Please use the citation listed on the dataset page in any submitted publications using this dataset. Please refer to the UCAR Terms of Use at this address. https://www2.ucar.edu/terms-of-use Additional terms may apply. ACCESS CONSTRAINTS: None </gco:CharacterString>
+               </mco:useLimitation>
+            </mco:MD_LegalConstraints>
+         </mri:resourceConstraints>
+         <mri:associatedResource>
+            <mri:MD_AssociatedResource>
+               <mri:name>
+                  <cit:CI_Citation>
+                     <cit:title>
+                        <gco:CharacterString>CONTRAST, Convective Transport of Active Species in the Tropics</gco:CharacterString>
+                     </cit:title>
+                     <cit:date gco:nilReason="inapplicable"/>
+                     <cit:citedResponsibleParty/>
+                     <cit:otherCitationDetails>
+                        <gco:CharacterString>The Convective Transport of Active Species in the Tropics (CONTRAST) experiment is designed to measure the chemistry and transport of reactive chemical species into the tropical Tropopause Transition Layer (TTL) over the Western Pacific warm pool area. During the boreal winter season, tropospheric air masses are preferentially transported into the lower stratosphere in this region. Thus, the sources, chemistry, and transport of trace gases and their
+                           degradation products in the region can substantially impact the chemistry of the lower stratosphere. Considerable attention is being given to the role of tropical convection on the delivery of reactive gases to the TTL. For example, uncertainties in the abundance of reactive halogen species and the fate of short lived organic halogen compounds, particularly bromocarbons, in the tropical upper troposphere leads to significant uncertainties in the photochemistry of
+                           stratospheric ozone, especially in the lowermost stratosphere. The CONTRAST mission will provide new measurements in this data sparse region to determine the influence of convection on the reactive chemistry of the tropical upper troposphere, to evaluate the role of different transport pathways in shaping the chemical composition, and to define the chemical budgets for air entering the stratosphere in this region. The research proposed here is to measure a wide range
+                           of organic trace gases collected from the HAIS Advanced Whole Air Sampler (AWAS) on the NCAR GV aircraft. Up to 60 samples will be collected on each flight in either autonomous or on-command sampling mode. The trace gases to be targeted include a range of organic molecules, including a both short-lived and longlived halocarbon compounds, as well as non-methane hydrocarbons, organic nitrates, and selected sulfur species. The gases targeted for this study will provide
+                           information to diagnose halogen transformations and budget of the TTL, to estimate relative age of air in the UT/LS, and to distinguish air mass sources in the region. Trace organic gas data analysis will be coordinated with similar measurements from the TOGA and other instruments on the GV and with two collaborating research missions (ATTREX and CAST). The combined data will provide a unique characterization of tropical atmospheric chemical composition from the
+                           surface through the TTL and into the lower tropical stratosphere to 20 km altitude.</gco:CharacterString>
+                     </cit:otherCitationDetails>
+                     <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>https://www.eol.ucar.edu/field_projects/contrast</gco:CharacterString>
+                           </cit:linkage>
+                        </cit:CI_OnlineResource>
+                     </cit:onlineResource>
+                  </cit:CI_Citation>
+               </mri:name>
+               <mri:associationType>
+                  <mri:DS_AssociationTypeCode codeList="codeListLocation#DS_AssociationTypeCode" codeListValue="largerWorkCitation">largerWorkCitation</mri:DS_AssociationTypeCode>
+               </mri:associationType>
+               <mri:initiativeType>
+                  <mri:DS_InitiativeTypeCode codeList="codeListLocation#DS_InitiativeTypeCode" codeListValue="project">project</mri:DS_InitiativeTypeCode>
+               </mri:initiativeType>
+            </mri:MD_AssociatedResource>
+         </mri:associatedResource>
+         <mri:defaultLocale>
+            <lan:PT_Locale>
+               <lan:language>
+                  <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="English">English</lan:LanguageCode>
+               </lan:language>
+               <lan:characterEncoding gco:nilReason="unknown"/>
+            </lan:PT_Locale>
+         </mri:defaultLocale>
+      </mri:MD_DataIdentification>
+   </mdb:identificationInfo>
+   <mdb:distributionInfo>
+      <mrd:MD_Distribution>
+         <mrd:distributor>
+            <mrd:MD_Distributor>
+               <mrd:distributorContact>
+                  <cit:CI_Responsibility>
+                     <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="distributor">distributor</cit:CI_RoleCode>
+                     </cit:role>
+                     <cit:party>
+                        <cit:CI_Organisation>
+                           <cit:name>
+                              <gco:CharacterString>Earth Observing Laboratory</gco:CharacterString>
+                           </cit:name>
+                           <cit:contactInfo>
+                              <cit:CI_Contact>
+                                 <cit:address>
+                                    <cit:CI_Address>
+                                       <cit:electronicMailAddress>
+                                          <gco:CharacterString>datahelp at eol.ucar.edu</gco:CharacterString>
+                                       </cit:electronicMailAddress>
+                                    </cit:CI_Address>
+                                 </cit:address>
+                                 <cit:onlineResource>
+                                    <cit:CI_OnlineResource>
+                                       <cit:linkage>
+                                          <gco:CharacterString>http://data.eol.ucar.edu/codiac/</gco:CharacterString>
+                                       </cit:linkage>
+                                       <cit:protocol>
+                                          <gco:CharacterString>http</gco:CharacterString>
+                                       </cit:protocol>
+                                    </cit:CI_OnlineResource>
+                                 </cit:onlineResource>
+                              </cit:CI_Contact>
+                           </cit:contactInfo>
+                        </cit:CI_Organisation>
+                     </cit:party>
+                  </cit:CI_Responsibility>
+               </mrd:distributorContact>
+               <mrd:distributorTransferOptions>
+                  <mrd:MD_DigitalTransferOptions>
+                     <mrd:onLine>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>http://data.eol.ucar.edu/codiac/dss/id=383.007</gco:CharacterString>
+                           </cit:linkage>
+                           <cit:protocol>
+                              <gco:CharacterString>http</gco:CharacterString>
+                           </cit:protocol>
+                           <cit:name>
+                              <gco:CharacterString>MTSAT-2 Satellite Data (AREA format) Dataset Page</gco:CharacterString>
+                           </cit:name>
+                           <cit:description>
+                              <gco:CharacterString>This data set contains data from the JMA MTSAT-2 satellite during the CONTRAST field phase. Data are included from both the northern hemisphere and full disk scans. The 4km data are included for all five channels as is the 1km data from the visible channel. The data are in McIDAS AREA file format and were made available by NOAA/NESDIS.</gco:CharacterString>
+                           </cit:description>
+                        </cit:CI_OnlineResource>
+                     </mrd:onLine>
+                     <mrd:onLine>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>https://www.eol.ucar.edu/field_projects/CONTRAST</gco:CharacterString>
+                           </cit:linkage>
+                           <cit:protocol>
+                              <gco:CharacterString>http</gco:CharacterString>
+                           </cit:protocol>
+                           <cit:name>
+                              <gco:CharacterString>CONTRAST Project Page</gco:CharacterString>
+                           </cit:name>
+                           <cit:description>
+                              <gco:CharacterString>The Convective Transport of Active Species in the Tropics (CONTRAST) experiment is designed to measure the chemistry and transport of reactive chemical species into the tropical Tropopause Transition Layer (TTL) over the Western Pacific warm pool area. During the boreal winter season, tropospheric air masses are preferentially transported into the lower stratosphere in this region. Thus, the sources, chemistry, and transport of trace gases and
+                                 their degradation products in the region can substantially impact the chemistry of the lower stratosphere. Considerable attention is being given to the role of tropical convection on the delivery of reactive gases to the TTL. For example, uncertainties in the abundance of reactive halogen species and the fate of short lived organic halogen compounds, particularly bromocarbons, in the tropical upper troposphere leads to significant uncertainties in the
+                                 photochemistry of stratospheric ozone, especially in the lowermost stratosphere. The CONTRAST mission will provide new measurements in this data sparse region to determine the influence of convection on the reactive chemistry of the tropical upper troposphere, to evaluate the role of different transport pathways in shaping the chemical composition, and to define the chemical budgets for air entering the stratosphere in this region. The research proposed here is
+                                 to measure a wide range of organic trace gases collected from the HAIS Advanced Whole Air Sampler (AWAS) on the NCAR GV aircraft. Up to 60 samples will be collected on each flight in either autonomous or on-command sampling mode. The trace gases to be targeted include a range of organic molecules, including a both short-lived and longlived halocarbon compounds, as well as non-methane hydrocarbons, organic nitrates, and selected sulfur species. The gases targeted
+                                 for this study will provide information to diagnose halogen transformations and budget of the TTL, to estimate relative age of air in the UT/LS, and to distinguish air mass sources in the region. Trace organic gas data analysis will be coordinated with similar measurements from the TOGA and other instruments on the GV and with two collaborating research missions (ATTREX and CAST). The combined data will provide a unique characterization of tropical atmospheric
+                                 chemical composition from the surface through the TTL and into the lower tropical stratosphere to 20 km altitude.</gco:CharacterString>
+                           </cit:description>
+                        </cit:CI_OnlineResource>
+                     </mrd:onLine>
+                     <mrd:onLine>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>http://catalog.eol.ucar.edu/CONTRAST</gco:CharacterString>
+                           </cit:linkage>
+                           <cit:protocol>
+                              <gco:CharacterString>http</gco:CharacterString>
+                           </cit:protocol>
+                           <cit:name>
+                              <gco:CharacterString>CONTRAST Field Catalog</gco:CharacterString>
+                           </cit:name>
+                           <cit:description>
+                              <gco:CharacterString>This is a link to the project's Field Catalog. The Field Catalog is a rich resource providing a look at what went into the project. The Field catalog can include reports and discussions, operational products, model/ forecast products, data access, research products, missions, tools and relevant links.</gco:CharacterString>
+                           </cit:description>
+                        </cit:CI_OnlineResource>
+                     </mrd:onLine>
+                     <mrd:onLine>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>http://data.eol.ucar.edu/cgi-bin/codiac/fgr_form/id=383.007</gco:CharacterString>
+                           </cit:linkage>
+                           <cit:protocol>
+                              <gco:CharacterString>http</gco:CharacterString>
+                           </cit:protocol>
+                           <cit:name>
+                              <gco:CharacterString>MTSAT-2 Satellite Data (AREA format) Data File Order Form</gco:CharacterString>
+                           </cit:name>
+                           <cit:description>
+                              <gco:CharacterString>This is a direct link to the dataset's order form that will bundle the ordered files and send an FTP link to the email address entered in the order form.</gco:CharacterString>
+                           </cit:description>
+                        </cit:CI_OnlineResource>
+                     </mrd:onLine>
+                     <mrd:onLine>
+                        <cit:CI_OnlineResource>
+                           <cit:linkage>
+                              <gco:CharacterString>http://data.eol.ucar.edu/master_list/?project=CONTRAST</gco:CharacterString>
+                           </cit:linkage>
+                           <cit:protocol>
+                              <gco:CharacterString>http</gco:CharacterString>
+                           </cit:protocol>
+                           <cit:name>
+                              <gco:CharacterString>CONTRAST Data Sets</gco:CharacterString>
+                           </cit:name>
+                           <cit:description>
+                              <gco:CharacterString>This is a link to a list of the project's datasets. Other information about the individual dataset may include last revision and a Readme document link.</gco:CharacterString>
+                           </cit:description>
+                        </cit:CI_OnlineResource>
+                     </mrd:onLine>
+                  </mrd:MD_DigitalTransferOptions>
+               </mrd:distributorTransferOptions>
+            </mrd:MD_Distributor>
+         </mrd:distributor>
+      </mrd:MD_Distribution>
+   </mdb:distributionInfo>
+</mdb:MD_Metadata>
