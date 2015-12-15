@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.5"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <recordInfo>
+      <recordIdentifier source="CoBA">TECH-NOTE-000-000-000-381</recordIdentifier>
+      <recordCreationDate encoding="w3cdtf">2010-04-10</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2015-10-15</recordChangeDate>
+      <recordContentSource>NCAR Library and Archives</recordContentSource>
+      <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                framework.</recordOrigin>
+      <recordOrigin>This record was transformed using the following
+                files: osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                osm-report-to-mods.xsl.</recordOrigin>
+      <languageOfCataloging>
+         <languageTerm type="text">English</languageTerm>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <titleInfo>
+      <title>Workshop on Numerical Modeling and Physical Reality</title>
+   </titleInfo>
+   <name type="corporate">
+      <namePart>National Center for Atmospheric Research</namePart>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+   </name>
+   <name type="corporate">
+      <namePart>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR):Advanced Study Program (ASP)</namePart>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="marcgt">technical report</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
+      <dateCaptured encoding="w3cdtf">2003</dateCaptured>
+      <publisher>University Corporation for Atmospheric Research</publisher>
+   </originInfo>
+   <language>
+      <languageTerm type="code" authority="rfc5646">en</languageTerm>
+   </language>
+   <physicalDescription>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract lang="eng">This report contains speakers' abstracts as presented at the workshop on Numerical Modeling and Physical Reality held at the Mesa Laboratory of NCAR on September 3-5, 1997 and one in a series of workshops presented by the Geophysical Turbulence Program (GTP) of the Advanced Study Program which includes: Opening Remarks /Boon Chye Low Simulation Geophysical Fluid Phenomena /Jim McWilliams Reality and Numerical Simulations in Astrophysics /Annick Pouquet The Role of Statistical Thinking in Physical Modeling /Mark Berliner Issues in Fluid Mechanics and Meteorology /Roger Temam The Use (and Abuse) of Models in Data Assimilation /Ron Errico Model Validation: Regional Oxidant Model and Ozone Data /Doug Nychka Tropospheric Chemistry and Urban Air Quality /Sandy Sillman Turbulent Flows in Plant Canopies /John Finnigan Reality and Models in the Atmosphere and Climate /Robert Sadourny The Water Vapor Feedback /Richard Lindzen Strategy and Tactics of Engineering Turbulence / Peter Bradshaw Challenges in Bridging LES and Physical Reality/Charles Meneveau</abstract>
+   <subject authority="osm-keyword">
+      <topic>Geophysical turbulence</topic>
+   </subject>
+   <extension>
+      <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">Non-refereed</osm:classification>
+   </extension>
+   <extension>
+      <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">technotes</osm:collectionKey>
+   </extension>
+   <relatedItem type="series">
+      <titleInfo>
+         <title>NCAR Technical Note</title>
+      </titleInfo>
+      <part>
+         <detail type="report">
+            <number>NCAR/TN-438+PROC</number>
+         </detail>
+      </part>
+   </relatedItem>
+   <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/TECH-NOTE-000-000-000-381</identifier>
+   <identifier type="uri" displayLabel="Persistent URI">http://dx.doi.org/10.5065/D6TH8JNQ</identifier>
+   <identifier type="doi">10.5065/D6TH8JNQ</identifier>
+   <location>
+      <shelfLocator>03543</shelfLocator>
+   </location>
+   <accessCondition type="use and reproduction">Copyright Author(s). This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</accessCondition>
+</mods>

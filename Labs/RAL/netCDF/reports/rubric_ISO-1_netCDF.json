@@ -1,56 +1,56 @@
 {"records": [{"spirals": [
-{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
-"name":"Resource Title","exists":"0",
-"count":"0",
+"name":"Resource Title","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='title']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='title']/@value","exists":"1",
+"count":"1"
 }],
 "description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
 {
-"name":"Abstract","exists":"0",
-"count":"0",
+"name":"Abstract","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='summary']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='summary']/@value","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Modified Date","exists":"0",
-"count":"0",
+"name":"Modified Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_modified']/@value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_modified']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
 {
-"name":"Metadata Contact","exists":"0",
-"count":"0",
+"name":"Metadata Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person currently responsible for the metadata."},
 {
-"name":"Bounding Box","exists":"0",
-"count":"0",
+"name":"Bounding Box","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_lat_max']","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='geospatial_lat_max']","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
 {
@@ -65,50 +65,50 @@
 {
 "name":"Resource Type","exists":"-1","count":"-1","description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
 },
-{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
 "name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
 {
-"name":"Theme Keyword","exists":"0",
-"count":"0",
+"name":"Theme Keyword","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='keywords']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='keywords']/@value","exists":"1",
+"count":"1"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Resource Creation/Revision Date","exists":"0",
-"count":"0",
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_created']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_created']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The date the resource was created"},
 {
-"name":"Resource Identifier","exists":"0",
-"count":"0",
+"name":"Resource Identifier","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='id']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='id']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Identifier for the resource described by the metadata"},
 {
-"name":"Resource Contact","exists":"0",
-"count":"0",
+"name":"Resource Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person responsible for answering questions about the resource."},
 {
@@ -117,21 +117,21 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='geospatial_lat_resolution']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='geospatial_lat_resolution']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The nominal scale and/or spatial resolution of the resource."},
 {
-"name":"Temporal Extent","exists":"0",
-"count":"0",
+"name":"Temporal Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='time_coverage_duration']/@value","exists":"0",
 "count":"0"
 },
-{"path":"/nc:netcdf/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='time_coverage_duration']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The temporal extent of the resource"},
 {
@@ -140,7 +140,7 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_vertical_max']/@nc:value","exists":"0",
+{"path":"/netcdf/attribute[@name='geospatial_vertical_max']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The vertical extent of the resource"},
@@ -151,62 +151,62 @@
 {
 "name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/RAL/netCDF/XML/ppt_SRESA1B_mid_annual_down.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"0",
-"rubricCounts":"0"
+"Date":"2015-12-15-07:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"10"
 },{"spirals": [
-{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
-"name":"Resource Title","exists":"0",
-"count":"0",
+"name":"Resource Title","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='title']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='title']/@value","exists":"1",
+"count":"1"
 }],
 "description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
 {
-"name":"Abstract","exists":"0",
-"count":"0",
+"name":"Abstract","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='summary']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='summary']/@value","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Modified Date","exists":"0",
-"count":"0",
+"name":"Modified Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_modified']/@value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_modified']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
 {
-"name":"Metadata Contact","exists":"0",
-"count":"0",
+"name":"Metadata Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person currently responsible for the metadata."},
 {
-"name":"Bounding Box","exists":"0",
-"count":"0",
+"name":"Bounding Box","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_lat_max']","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='geospatial_lat_max']","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
 {
@@ -221,50 +221,50 @@
 {
 "name":"Resource Type","exists":"-1","count":"-1","description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
 },
-{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
 "name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
 {
-"name":"Theme Keyword","exists":"0",
-"count":"0",
+"name":"Theme Keyword","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='keywords']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='keywords']/@value","exists":"1",
+"count":"1"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Resource Creation/Revision Date","exists":"0",
-"count":"0",
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_created']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_created']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The date the resource was created"},
 {
-"name":"Resource Identifier","exists":"0",
-"count":"0",
+"name":"Resource Identifier","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='id']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='id']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Identifier for the resource described by the metadata"},
 {
-"name":"Resource Contact","exists":"0",
-"count":"0",
+"name":"Resource Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person responsible for answering questions about the resource."},
 {
@@ -273,21 +273,21 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='geospatial_lat_resolution']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='geospatial_lat_resolution']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The nominal scale and/or spatial resolution of the resource."},
 {
-"name":"Temporal Extent","exists":"0",
-"count":"0",
+"name":"Temporal Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='time_coverage_duration']/@value","exists":"0",
 "count":"0"
 },
-{"path":"/nc:netcdf/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='time_coverage_duration']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The temporal extent of the resource"},
 {
@@ -296,7 +296,7 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_vertical_max']/@nc:value","exists":"0",
+{"path":"/netcdf/attribute[@name='geospatial_vertical_max']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The vertical extent of the resource"},
@@ -307,62 +307,62 @@
 {
 "name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/RAL/netCDF/XML/ppt_SRESA1B_mid_annual_down_anomaly.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"0",
-"rubricCounts":"0"
+"Date":"2015-12-15-07:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"10"
 },{"spirals": [
-{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
-"name":"Resource Title","exists":"0",
-"count":"0",
+"name":"Resource Title","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='title']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='title']/@value","exists":"1",
+"count":"1"
 }],
 "description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
 {
-"name":"Abstract","exists":"0",
-"count":"0",
+"name":"Abstract","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='summary']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='summary']/@value","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Modified Date","exists":"0",
-"count":"0",
+"name":"Modified Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_modified']/@value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_modified']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
 {
-"name":"Metadata Contact","exists":"0",
-"count":"0",
+"name":"Metadata Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person currently responsible for the metadata."},
 {
-"name":"Bounding Box","exists":"0",
-"count":"0",
+"name":"Bounding Box","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_lat_max']","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='geospatial_lat_max']","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
 {
@@ -377,50 +377,50 @@
 {
 "name":"Resource Type","exists":"-1","count":"-1","description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
 },
-{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
 "name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
 {
-"name":"Theme Keyword","exists":"0",
-"count":"0",
+"name":"Theme Keyword","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='keywords']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='keywords']/@value","exists":"1",
+"count":"1"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Resource Creation/Revision Date","exists":"0",
-"count":"0",
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_created']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_created']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The date the resource was created"},
 {
-"name":"Resource Identifier","exists":"0",
-"count":"0",
+"name":"Resource Identifier","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='id']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='id']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Identifier for the resource described by the metadata"},
 {
-"name":"Resource Contact","exists":"0",
-"count":"0",
+"name":"Resource Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person responsible for answering questions about the resource."},
 {
@@ -429,21 +429,21 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='geospatial_lat_resolution']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='geospatial_lat_resolution']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The nominal scale and/or spatial resolution of the resource."},
 {
-"name":"Temporal Extent","exists":"0",
-"count":"0",
+"name":"Temporal Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='time_coverage_duration']/@value","exists":"0",
 "count":"0"
 },
-{"path":"/nc:netcdf/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='time_coverage_duration']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The temporal extent of the resource"},
 {
@@ -452,7 +452,7 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_vertical_max']/@nc:value","exists":"0",
+{"path":"/netcdf/attribute[@name='geospatial_vertical_max']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The vertical extent of the resource"},
@@ -463,62 +463,62 @@
 {
 "name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/RAL/netCDF/XML/ppt_SRESA1B_near_annual.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"0",
-"rubricCounts":"0"
+"Date":"2015-12-15-07:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"10"
 },{"spirals": [
-{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Mandatory","code":"ISO-1_Discovery-Mandatory","description":"This spiral includes mandatory ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"6","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
-"name":"Resource Title","exists":"0",
-"count":"0",
+"name":"Resource Title","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='title']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='title']/@value","exists":"1",
+"count":"1"
 }],
 "description":"A short description of the resource. The title should be descriptive enough so that when a user is presented with a list of titles the general content of the data set can be determined."},
 {
-"name":"Abstract","exists":"0",
-"count":"0",
+"name":"Abstract","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='summary']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='summary']/@value","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Modified Date","exists":"0",
-"count":"0",
+"name":"Modified Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_modified']/@value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_modified']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Date on which the metadata record (not the resource) was created or updated within the catalogue."},
 {
-"name":"Metadata Contact","exists":"0",
-"count":"0",
+"name":"Metadata Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person currently responsible for the metadata."},
 {
-"name":"Bounding Box","exists":"0",
-"count":"0",
+"name":"Bounding Box","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_lat_max']","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='geospatial_lat_max']","exists":"1",
+"count":"1"
 }],
 "note":"This concept is called Coverage in the CSW Specification","description":"A bounding box for identifying a geographic area of interest"},
 {
@@ -533,50 +533,50 @@
 {
 "name":"Resource Type","exists":"-1","count":"-1","description":"A resource code identifying the type of resource; e.g. dataset, a collection, an application (See MD_ScopeCode) for which the metadata describes."}]
 },
-{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"0",
-"countTotal":"0",
+{"title":"ISO-1 for Data Discovery - Optional","code":"ISO-1_Discovery-Optional","description":"This spiral includes optional ISO 19115-1 attributes for data discovery. This list of attributes was obtained from table F.1 of the ISO 19115-1 Specification.","maximum":"11","existTotal":"5",
+"countTotal":"5",
 
 "items" : [
 {
 "name":"Metadata Identifier","exists":"-1","count":"-1","description":"A phrase or string which uniquely identifies the metadata file/record."},
 {
-"name":"Theme Keyword","exists":"0",
-"count":"0",
+"name":"Theme Keyword","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='keywords']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='keywords']/@value","exists":"1",
+"count":"1"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Resource Creation/Revision Date","exists":"0",
-"count":"0",
+"name":"Resource Creation/Revision Date","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='date_created']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='date_created']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The date the resource was created"},
 {
-"name":"Resource Identifier","exists":"0",
-"count":"0",
+"name":"Resource Identifier","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='id']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='id']/@value","exists":"1",
+"count":"1"
 }],
 "description":"Identifier for the resource described by the metadata"},
 {
-"name":"Resource Contact","exists":"0",
-"count":"0",
+"name":"Resource Contact","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='creator_name']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='creator_name']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The organization or person responsible for answering questions about the resource."},
 {
@@ -585,21 +585,21 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='geospatial_lat_resolution']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='geospatial_lat_resolution']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The nominal scale and/or spatial resolution of the resource."},
 {
-"name":"Temporal Extent","exists":"0",
-"count":"0",
+"name":"Temporal Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:CFMetadata/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
+{"path":"/netcdf/CFMetadata/attribute[@name='time_coverage_duration']/@value","exists":"0",
 "count":"0"
 },
-{"path":"/nc:netcdf/nc:attribute[@nc:name='time_coverage_duration']/@nc:value","exists":"0",
-"count":"0"
+{"path":"/netcdf/attribute[@name='time_coverage_duration']/@value","exists":"1",
+"count":"1"
 }],
 "description":"The temporal extent of the resource"},
 {
@@ -608,7 +608,7 @@
 
 "paths" : [
 
-{"path":"/nc:netcdf/nc:attribute[@nc:name='geospatial_vertical_max']/@nc:value","exists":"0",
+{"path":"/netcdf/attribute[@name='geospatial_vertical_max']/@value","exists":"0",
 "count":"0"
 }],
 "description":"The vertical extent of the resource"},
@@ -619,7 +619,7 @@
 {
 "name":"Metadata Use Constraints","exists":"-1","count":"-1","description":"Information about how the data may or may not be used after access is granted to assure the protection of privacy or intellectual property. This includes any special restrictions, legal prerequisites, terms and conditions, and/or limitations on using the data set. Data providers may request acknowledgement of the data from users and claim no responsibility for quality and completeness of data."}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/RAL/netCDF/XML/ppt_SRESA1B_near_monthly_anomaly.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"0",
-"rubricCounts":"0"
+"Date":"2015-12-15-07:00",
+"rubricType":"ISO-1","rubricVersion":"0.1","rubricMax":"19","rubricExists":"10",
+"rubricCounts":"10"
 }]}

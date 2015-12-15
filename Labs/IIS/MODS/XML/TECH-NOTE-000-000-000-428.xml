@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      version="3.5"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+   <recordInfo>
+      <recordIdentifier source="CoBA">TECH-NOTE-000-000-000-428</recordIdentifier>
+      <recordCreationDate encoding="w3cdtf">2010-04-10</recordCreationDate>
+      <recordChangeDate encoding="w3cdtf">2015-10-15</recordChangeDate>
+      <recordContentSource>NCAR Library and Archives</recordContentSource>
+      <recordOrigin>Human prepared. Transformed from a record in the OpenSky metadata
+                framework.</recordOrigin>
+      <recordOrigin>This record was transformed using the following
+                files: osm-main-to-mods.xsl, osm-common-to-mods.xsl, and
+                osm-report-to-mods.xsl.</recordOrigin>
+      <languageOfCataloging>
+         <languageTerm type="text">English</languageTerm>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+      </languageOfCataloging>
+   </recordInfo>
+   <titleInfo>
+      <title>Measurements inside Oklahoma thunderstorms during Project SESAME</title>
+   </titleInfo>
+   <name type="personal"
+         valueURI="1868"
+         authorityURI="https://people.ucar.edu"
+         authority="UCAR People Database"
+         usage="primary">
+      <namePart type="given">Andrew</namePart>
+      <namePart type="given">J.</namePart>
+      <namePart type="family">Heymsfield</namePart>
+      <displayForm>Andrew J. Heymsfield</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</affiliation>
+   </name>
+   <name type="personal"
+         valueURI="14811"
+         authorityURI="https://people.ucar.edu"
+         authority="UCAR People Database">
+      <namePart type="given">Mark</namePart>
+      <namePart type="family">Hjelmfelt</namePart>
+      <displayForm>Mark Hjelmfelt</displayForm>
+      <role>
+         <roleTerm type="text" authority="marcrelator">author</roleTerm>
+         <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+      </role>
+      <affiliation>University Corporation For Atmospheric Research (UCAR):National Center for Atmospheric Research (NCAR)</affiliation>
+   </name>
+   <name type="corporate">
+      <namePart>Convective Storms Division</namePart>
+      <role>
+         <roleTerm type="text" authority="marcrelator">contributor</roleTerm>
+         <roleTerm type="code" authority="marcrelator">ctb</roleTerm>
+      </role>
+   </name>
+   <typeOfResource>text</typeOfResource>
+   <genre authority="marcgt">technical report</genre>
+   <originInfo>
+      <dateIssued encoding="w3cdtf" keyDate="yes">1984</dateIssued>
+      <dateCaptured encoding="w3cdtf">2003</dateCaptured>
+      <publisher>University Corporation for Atmospheric Research</publisher>
+   </originInfo>
+   <language>
+      <languageTerm type="code" authority="rfc5646">en</languageTerm>
+   </language>
+   <physicalDescription>
+      <internetMediaType>application/pdf</internetMediaType>
+   </physicalDescription>
+   <abstract lang="eng">This report presents the state parameter and hydrometeor measurements obtained with the South Dakota School of Mines and Technology (SDSMT) T-28 aircraft within Oklahoma convective clouds during the Severe Environmental Storms and Mesocale Experiment (SESAME) field season in 1979. In the sections which follow, complete sets of hydrometeor and state parameter data are presented for six cases which were identified as the most interesting of those sampled by the T-28 during SESAME. Techniques which were used to reduce the data are described in detail. Formats by which researchers can access these data on magnetic tapes are given. For a detailed summary of the T-28 flight operations and equipment status during Project SESAME, the reader is referred to the SESAME 1979 data users' guide edited by Barnes (1981). A report presenting some of the measurements obtained during the experiment is under preparation by personnel at SDSMT. A description of the equipment on board the aircraft is given in Johnson and Smith (1980) and in Heymsfield and Parrish (1979).</abstract>
+   <subject authority="osm-keyword">
+      <topic>Project SESAME</topic>
+   </subject>
+   <subject authority="osm-keyword">
+      <topic>Thunderstorms--Oklahoma</topic>
+   </subject>
+   <extension>
+      <osm:classification xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">Non-refereed</osm:classification>
+   </extension>
+   <extension>
+      <osm:collaboration xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">UCAR only</osm:collaboration>
+   </extension>
+   <extension>
+      <osm:collectionKey xmlns:osm="http://nldr.library.ucar.edu/metadata/osm">technotes</osm:collectionKey>
+   </extension>
+   <relatedItem type="series">
+      <titleInfo>
+         <title>NCAR Technical Note</title>
+      </titleInfo>
+      <part>
+         <detail type="report">
+            <number>NCAR/TN-230+STR</number>
+         </detail>
+      </part>
+   </relatedItem>
+   <identifier type="uri" displayLabel="Legacy citable URL">http://nldr.library.ucar.edu/repository/collections/TECH-NOTE-000-000-000-428</identifier>
+   <identifier type="uri" displayLabel="Persistent URI">http://dx.doi.org/10.5065/D6PZ56SG</identifier>
+   <identifier type="doi">10.5065/D6PZ56SG</identifier>
+   <location>
+      <shelfLocator>03126</shelfLocator>
+   </location>
+   <accessCondition type="use and reproduction">Copyright Author(s). This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</accessCondition>
+</mods>
