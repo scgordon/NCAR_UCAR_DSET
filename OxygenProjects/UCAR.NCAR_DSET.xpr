@@ -15,7 +15,7 @@
     </meta>
     <projectTree name="UCAR.NCAR_DSET.xpr">
         <folder name="Labs">
-            <folder path="../Labs/CISL/RDA-CISL/xml/"/>
+            <folder path="../Labs/EOL/ISO/XML/"/>
         </folder>
     </projectTree>
 </project>
