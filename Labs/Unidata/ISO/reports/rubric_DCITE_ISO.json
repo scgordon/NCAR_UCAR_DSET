@@ -81,38 +81,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"7",
-"countTotal":"15",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"9",
+"countTotal":"21",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"2",
+"count":"3",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"2"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"3"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
 "name":"Keyword Vocabulary","exists":"1",
-"count":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"1",
-"count":"1"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"3",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"3"
 }],
 "description":"Contributor to the resource"},
 {
@@ -121,7 +121,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"3"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -206,13 +206,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -284,9 +284,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/Level3_FTG_N0Q_20151211_1638.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
-"rubricCounts":"29"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"17",
+"rubricCounts":"35"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -370,38 +370,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"16",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"25",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"4",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"4"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"5"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -410,7 +410,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -495,13 +495,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -573,9 +573,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TP.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"31"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"40"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -659,38 +659,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"19",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"28",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"7",
+"count":"8",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"7"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"8"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -699,7 +699,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -784,13 +784,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -862,9 +862,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(1).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"34"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"43"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -948,38 +948,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"14",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"23",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"3"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Keyword Vocabulary","exists":"1",
 "count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
 "count":"2"
-}],
-"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
-{
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
-
-"paths" : [
-
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -988,7 +988,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -1073,13 +1073,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -1151,9 +1151,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(10).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"29"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"38"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -1237,38 +1237,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"14",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"23",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
+"count":"3",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"3"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Keyword Vocabulary","exists":"1",
 "count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
 "count":"2"
-}],
-"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
-{
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
-
-"paths" : [
-
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -1277,7 +1277,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -1362,13 +1362,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -1440,9 +1440,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(11).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"29"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"38"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -1526,38 +1526,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"18",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"27",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"6",
+"count":"7",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"6"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"7"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -1566,7 +1566,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -1651,13 +1651,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -1729,9 +1729,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(2).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"33"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"42"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -1815,38 +1815,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"22",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"31",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"10",
+"count":"11",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"10"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"11"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -1855,7 +1855,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -1940,13 +1940,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -2018,9 +2018,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(3).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"37"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"46"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -2104,38 +2104,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"22",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"31",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"10",
+"count":"11",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"10"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"11"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -2144,7 +2144,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -2229,13 +2229,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -2307,9 +2307,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(4).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"37"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"46"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -2393,38 +2393,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"16",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"27",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"4",
+"count":"6",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"4"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"6"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"3",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"3"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -2433,7 +2433,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -2518,13 +2518,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -2596,9 +2596,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(5).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"31"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"42"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -2682,38 +2682,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"18",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"27",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"6",
+"count":"7",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"6"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"7"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -2722,7 +2722,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -2807,13 +2807,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -2885,9 +2885,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(6).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"33"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"42"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -2971,38 +2971,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"17",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"26",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
+"count":"6",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"6"
+}],
+"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
+{
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
+
+"paths" : [
+
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
+}],
+"note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
+{
+"name":"Contributor Name","exists":"1",
 "count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
-}],
-"note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
-{
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
-
-"paths" : [
-
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
-}],
-"note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
-{
-"name":"Contributor Name","exists":"0",
-"count":"0",
-
-"paths" : [
-
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
 }],
 "description":"Contributor to the resource"},
 {
@@ -3011,7 +3011,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -3096,13 +3096,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -3174,9 +3174,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(7).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"32"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"41"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -3260,38 +3260,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"18",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"27",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"6",
+"count":"7",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"6"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"7"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -3300,7 +3300,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -3385,13 +3385,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -3463,9 +3463,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(8).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"33"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"42"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -3549,38 +3549,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"18",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"27",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"6",
+"count":"7",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"6"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"7"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -3589,7 +3589,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -3674,13 +3674,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -3752,9 +3752,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD%20(9).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"33"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"42"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -3838,38 +3838,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"22",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"31",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"10",
+"count":"11",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"10"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"11"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -3878,7 +3878,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -3963,13 +3963,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -4041,9 +4041,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD(2).xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"37"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"46"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"4",
 "countTotal":"12",
@@ -4127,38 +4127,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"16",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"8",
+"countTotal":"25",
 
 "items" : [
 {
 "name":"Theme Keyword","exists":"1",
-"count":"4",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"1",
-"count":"4"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"5"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"2",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"2"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"5",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"5"
 }],
 "description":"Contributor to the resource"},
 {
@@ -4167,7 +4167,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"5"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -4252,13 +4252,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -4330,9 +4330,9 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/TwoD.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"12",
-"rubricCounts":"31"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"15",
+"rubricCounts":"40"
 },{"spirals": [
 {"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Mandatory","code":"DataCite3.1Mandatory","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"8","existTotal":"5",
 "countTotal":"20",
@@ -4416,38 +4416,38 @@
 }],
 "description":"The date the resource was created"}]
 },
-{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"5",
-"countTotal":"21",
+{"title":"DataCite Metadata Schema for the Publication and Citation of Research Data - Recommended","code":"DataCite3.1Recommended","description":"The DataCite Metadata Schema is a list of core metadata properties chosen for the accurate and consistent identification of a resource for citation and retrieval purposes, along with recommended use instructions. The resource that is being identified can be of any kind, but it is typically a dataset. We use the term 'dataset' in its broadest sense. We mean it to include not only numerical data, but any other research data outputs.","maximum":"11","existTotal":"9",
+"countTotal":"30",
 
 "items" : [
 {
-"name":"Theme Keyword","exists":"0",
-"count":"0",
+"name":"Theme Keyword","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:keyword/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:keyword","exists":"1",
+"count":"1"
 }],
 "note":"The general identification keywords usually have a type of theme and are refered to as theme keywords. Other types and vocabularies are used for other information. Service Entry Resource Format (SERF) requires a Science and a Service GCMD Keyword. This concept is called Subject in the CSW Specification. ","description":"A word or phrase that describes some aspect of a resource. Can be one of several types."},
 {
-"name":"Keyword Vocabulary","exists":"0",
-"count":"0",
+"name":"Keyword Vocabulary","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords[normalize-space(gmd:type/gmd:MD_KeywordTypeCode)='theme']/gmd:thesaurusName/gmd:CI_Citation/gmd:title/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName","exists":"1",
+"count":"1"
 }],
 "note":"DIF, ECHO and ECS require that theme keywords come from the Global Change Master Directory list.","description":"If you are following a guideline or using a shared vocabulary for the words/phrases in your 'keywords' attribute, put the name of that guideline here."},
 {
-"name":"Contributor Name","exists":"0",
-"count":"0",
+"name":"Contributor Name","exists":"1",
+"count":"6",
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)='manyOptions']/gmd:CI_Individual/gmd:name/gco:CharacterString","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
+"count":"6"
 }],
 "description":"Contributor to the resource"},
 {
@@ -4456,7 +4456,7 @@
 
 "paths" : [
 
-{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode","exists":"1",
+{"path":"/*/gmd:identificationInfo/*/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty[normalize-space(gmd:role/gmd:CI_RoleCode)!='author']","exists":"1",
 "count":"6"
 }],
 "description":"The role of any individuals or institutions that contributed to the creation of the data."},
@@ -4541,13 +4541,13 @@
 }],
 "note":"This concept is called Desciption in Catalog Services for the Web.","description":"A paragraph describing the resource."},
 {
-"name":"Spatial Extent","exists":"0",
-"count":"0",
+"name":"Spatial Extent","exists":"1",
+"count":"1",
 
 "paths" : [
 
-{"path":"/*/mri:MD_DataIdentification/mri:extent/gex:EX_Extent/gex:geographicElement//*","exists":"0",
-"count":"0"
+{"path":"/*/gmd:identificationInfo/*/gmd:extent/gmd:EX_Extent/gmd:geographicElement","exists":"1",
+"count":"1"
 }],
 "description":"The spatial extent of the resource."}]
 },
@@ -4619,7 +4619,7 @@
 }],
 "description":"Information about rights held in and over the resource"}]
 }],"Record":"file:/Users/scgordon/NCAR_UCAR_DSET/Labs/Unidata/ISO/XML/WEST-CONUS_1km_VIS_20151208_1630.xml",
-"Date":"2015-12-13-07:00",
-"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"13",
-"rubricCounts":"44"
+"Date":"2016-01-05-07:00",
+"rubricType":"DCITE","rubricVersion":"0.1","rubricMax":"25","rubricExists":"17",
+"rubricCounts":"53"
 }]}
